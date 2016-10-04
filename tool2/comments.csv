@@ -1,0 +1,1510 @@
+": 21, 0: Found indentation with tabs instead of spaces (mixed-indentation) C: 21, 0: Exactly one space required around assignment                     z[j][i]=' '             ^ (bad-whitespace) C: 22, 0: Trailing whitespace (trailing-whitespace) W: 23, 0: Found indentation with tabs instead of spaces (mixed-indentation) C: 23, 0: Unnecessary parens after 'if' keyword (superfluous-parens) W: 24, 0: Found indentation with tabs instead of spaces (mixed-indentation) C: 24, 0: Unnecessary parens after 'if' keyword (superfluous-parens)Nothing to previewNothing to preview",Github
+"' if name == ""main"": ' needed, so that game won't immediately start when imported as a module.Nothing to previewNothing to preview",Github
+'mandar' not a good variable. Can't understand what it is. Nothing to previewNothing to preview,Github
+"""super-init-not-called"" warning generated. This is generated when the ancestor class method has an init method which is not called by the derived class.Nothing to previewPEP8 standards violated. 2 blank lines should be left between class name and first methodNothing to previewPEP8 standards violated. Found indentation with tabs instead of spaces.Nothing to previewNothing to preview",Github
+(pylint): Too many arguments (8/5) (too-many-arguments)Nothing to previewNothing to preview,Github
+@codejoydo Thanks for the clarification.Nothing to preview,Github
+1-Bad White space.  2-Too many loops (Code Smells)Nothing to previewNothing to preview,Github
+"2 kinds of jump functions should be there,but only one is written.Nothing to preview",Github
+2 lines should be left blank between Class and first method. PEP8 standards violated.Nothing to preview,Github
+2 lines should be left blank between Class and first method. PEP8 standards violated.Nothing to previewcode smell: long classNothing to previewNothing to preview,Github
+2 lines should be left blank between Class and first method. PEP8 standards violated.Nothing to previewNothing to preview,Github
+A newline is expected after the end of the file.Nothing to previewNothing to preview,Github
+A player  can climb up a broken ladder.Nothing to preview,Github
+Absence of data abstraction : Class data members not divided into private and protected.Nothing to preview,Github
+Access to a protected member _posx of a client class (protected-access)Nothing to previewNothing to preview,Github
+Access to protected members in client class in several places.Nothing to preview,Github
+Access to self._onLadder before its definition at line 167.Nothing to previewNothing to preview,Github
+"According to PEP-8, max length of a line is 79 characters; violated at some places.Nothing to preview",Github
+"Actually, game doesn't meet any of the basic requirementsNothing to preview",Github
+Add more details to readme. Better add per-requisites required to run your game . Like installing pygame module in your case. You may also add details like for what the a particular module is written etc   Nothing to previewNothing to preview,Github
+Advantage of using classes is not taken into consideration .Nothing to previewPlayer movement not properly constrained. Jump consists only three stages.Nothing to previewBug in player's initializing position after loosing a life.Nothing to previewlevel upgradation not implemented.Nothing to previewWhen in backward motion player is not collecting coins.Nothing to previewwe have to change values at many positions to make even a small change.Nothing to previewNothing to preview,Github
+"After gaining a single coin,the score increases by 20 and not 5 as per the required specificationsNothing to preview",Github
+After getting in the cage game does not respond at all.Nothing to preview,Github
+"After hitting fireball ,player is not going to starting position.Nothing to preview",Github
+"After saving the princess game does not reset.For example the score should be zero but it is not , and the coins now should be reset to new random position but they are same as in the previous game.Nothing to preview",Github
+"After winning the game i.e after taking queen, game ends automatically.Nothing to preview",Github
+"All basic functionality implemented like moving , jumping , loosing life when hit by a fireball etc.Nothing to preview",Github
+"All necessary functions implemented. (except checkWall, since player can move through the walls)Nothing to preview",Github
+"All OOP principles implemented (Inheritance, Polymorphism, Encapsulation, Modularity)Nothing to preview",Github
+"All the functions of have an argument grid which has a fixed value. Shouldn't be an argument.Nothing to previewPEP8 - Missing white space after "",""Nothing to previewNothing to preview",Github
+All this code ( 160 - 252 ) belongs to movement of player . so it must be implemented as a method in Players class . So that it can be checked and maintained  better.Nothing to previewNothing to preview,Github
+Anomalous-backslash-in-stringNothing to previewNothing to preview,Github
+any of the OOP concepts not implemented. Nothing to preview,Github
+"As random.randint() is used, coins might get overlapped but with a lesser probability.Nothing to previewNothing to preview",Github
+As your code is not contained in a class or function implies  variables to be constants and as such they should be uppercase this violates PEP 8 conventions.Nothing to previewNothing to preview,Github
+"Ascii art,cool idea! It is highly recommended that hard-coded/ named constants are externalized into separate resource files/scripts.Nothing to previewNothing to preview",Github
+Atleast two spaces must be given before inline comment and a space must be given after #.Nothing to previewNothing to preview,Github
+"Attributes should be defined inside  init. 'wall', 'dt' , 'height', 'size' are defined outside.Nothing to previewNothing to preview",Github
+avoid white space immediately inside parentheses  Nothing to previewNothing to preview,Github
+"Bad code smell - ""No Self Use""Nothing to previewNothing to preview",Github
+Bad Code smell :  Alternative Classes with Different Interfaces. They can be modified to share a common interface.Nothing to previewNothing to preview,Github
+Bad code smell : Declaring the colors and other variables again and again in the different files does not make sense. Use a separate file which contains all the declared constant variable and import the file everywhere.Nothing to previewNothing to preview,Github
+Bad Code Smell : Excessively short identifiers The method name does not give any hint about what the method do.Nothing to previewNothing to preview,Github
+Bad code smell : Reimported random.Nothing to previewNothing to preview,Github
+Bad code smell : Uncommunicative names. Nothing to previewNothing to preview,Github
+"Bad code smell .. https://en.wikipedia.org/wiki/Code_smellExcessive use of literals:these should be coded as named constants, to improve readability and to avoid programming errors. Additionally, literals can and should be externalized into resource files/scripts where possible, to facilitate localization of software if it is intended to be deployed in different regions.Nothing to previewNothing to preview",Github
+"Bad code smell .Give argument more meaningful names so that the code becomes readable and reader understands . Also separate them by comma in definition of a method or a function http://blog.codinghorror.com/code-smells/Uncommunicative Name Does the name of the method succinctly describe what that method does? Could you read the method's name to another developer and have them explain to you what it does? If not, rename it or rewrite it.Nothing to previewNothing to preview",Github
+"Bad Code smell Instead of hard code values like 80, 30, etc keep those limits as variables (name constants) in the class so it ll be readable and can be easily modified  https://en.wikipedia.org/wiki/Code_smellExcessive use of literals: these should be coded as named constants, to improve readability and to avoid programming errors. Additionally, literals can and should be externalized into resource files/scripts where possible, to facilitate localization of software if it is intended to be deployed in different regions.Nothing to previewNothing to preview",Github
+"Bad Code Smell Lazy Class No methods for classes.. Better include some methods for each classes so that it actually becomes useful and meaningful  http://blog.codinghorror.com/code-smells/Lazy Class Classes should pull their weight. Every additional class increases the complexity of a project. If you have a class that isn't doing enough to pay for itself, can it be collapsed or combined into another class?Nothing to previewNothing to preview",Github
+Bad code smell- method could be a function. (no self use)Nothing to previewNothing to preview,Github
+Bad code smell:    Too few public methods (0/2)Nothing to previewNothing to preview,Github
+Bad code smell:    too few public methodsNothing to previewNothing to preview,Github
+Bad code smell:    Too many branchesNothing to previewBad code smell- too many branchesNothing to previewNothing to preview,Github
+"Bad code smell:    Too many statements (59 present,50 is the standard limit)Nothing to previewBad code smell:   Too many local variables (24 present,15 is standard) Nothing to previewNothing to preview",Github
+Bad code smell:   Method could be a function (no-self-use)-method doesn't use its bound instanceNothing to previewNothing to preview,Github
+Bad code smell:   Too few public methods (0/2) Nothing to previewNothing to preview,Github
+Bad code smell:   Too few public methods (0/2)Nothing to previewNothing to preview,Github
+Bad code smell:   Too few public methods (0/2)Nothing to previewNothing to preview,Github
+"Bad code smell:   Too many branches 12 is the standard limit, 13 presentNothing to previewNothing to preview",Github
+Bad code smell:   Too many instance attributes 7 is the limit 9 present Nothing to previewNothing to preview,Github
+Bad code smell:   Too many statements (79 present/50 is the standard limit)Nothing to previewBad code smell:   Too many branches (34 present /12 is the standard limit) Nothing to previewNothing to preview,Github
+Bad code smell:  Too few public methods (0/2)Nothing to previewNothing to preview,Github
+Bad code smell:  Too few public methods (1/2)Nothing to previewNothing to preview,Github
+Bad code smell:  Too many statements(55/50)Nothing to previewNothing to preview,Github
+Bad code smell: Too few public methods (1/2)Nothing to previewNothing to preview,Github
+Bad code smell: Too many if conditions can slow down the programShould be avoided (and in place if some elif can be used to speedUp the program)Nothing to previewNothing to preview,Github
+Bad code smell. Code can be defined as a function and can be called http://blog.codinghorror.com/code-smells/Combinitorial Explosion You have lots of code that does almost the same thing.. but with tiny variations in data or behavior. This can be difficult to refactor-- perhaps using generics or an interpreter?Nothing to previewNothing to preview,Github
+Bad code smell.Hard coded values.Nothing to previewNothing to preview,Github
+"Bad Functionality: When player jumps from the corner then it starts from bottom of the floor (should be implemented properly), fire balls are not implemented which is a major game requirement.Nothing to preview",Github
+"Bad Funtionality: Not implemented game functionalities, Too many glitches when playing the game (should be refactored for better code understanding and functionality)Nothing to preview",Github
+bad indentation  : PEP 8 convention violates found 12 spaces but expected 8.Nothing to preview,Github
+Bad Indentation in many lines. use a better code editor not vim :PNothing to previewNothing to preview,Github
+Bad indentation on too many lines. Don't use vim again :PNothing to previewNothing to preview,Github
+"Bad Indentation, used tabs instead of spaces, PEP8 not followedNothing to previewGod Class: Bad code smell.Nothing to previewNothing to preview",Github
+"Bad Indentation: Expected 8 spaces,found 12Nothing to previewNothing to preview",Github
+"Bad indentation. Found 12 spaces, expected 8 Nothing to previewNothing to preview",Github
+Bad indentation. Used 3 spaces instead of 4 according to pylint! (PEP-8 standards)Nothing to preview,Github
+bad indentationNothing to previewNothing to preview,Github
+"Bad name, not PEP8Nothing to previewExcessive short identifierNothing to previewNothing to preview",Github
+Bad NamesNothing to previewNothing to preview,Github
+Bad Practice . Its generally good to write functions on the top of the code after import statements .Nothing to previewNothing to preview,Github
+"Bad UI, the grid gets printed twice,Modularity not implementedNothing to previewNothing to preview",Github
+"BAD UI, the grid gets printed twice.  Bug- In the jump feature, there is no provision for the player to jump backwards. The case should be that the player should be able to jump in the direction in which he last moved. The grid 1 printed above is one step behind the second one. Nothing to preview",Github
+"Bad user experience, should have specified that we need to press enter after every command. Nothing to preview",Github
+"Bad user experience, user does not know what to do when game starts, functions should be specified in the game beginningNothing to preview",Github
+Bad white-space.  User a space after comma.Nothing to previewNothing to preview,Github
+Bad white-spaces at many places. (PEP-8 standards)Nothing to preview,Github
+Bad white-spaces. (PEP-8 standards violated at many places.)Nothing to preview,Github
+Bad whitespace errorNothing to previewNothing to preview,Github
+bad whitespaceNothing to previewmixed indentation.Nothing to previewNothing to preview,Github
+Bad whitespaceNothing to previewNothing to preview,Github
+Bad Whitespaces after each comma. PEP8 standards not followedNothing to previewNothing to preview,Github
+Bad whitespaces. (PEP-8 standards)Nothing to preview,Github
+Bad WhitespacesNothing to previewNothing to preview,Github
+Bad whitespacesNothing to previewNothing to preview,Github
+Bad WhitespacesNothing to previewNothing to preview,Github
+Bad WhitespacesNothing to previewNothing to preview,Github
+bad-whitespace invalid-name trailing-whitespace missing-docstring line-too-long global-variable-undefined global-variable-not-assigned too-many-statements too-many-branches superfluous-parens unused-variable unused-argument too-many-locals super-init-not-called old-style-class duplicate-code too-many-arguments redefined-outer-name multiple-statements        Many such instancesNothing to previewNothing to preview,Github
+"Basic functionality is not implemented, such asNothing to preview",Github
+basic functionality required is not implemented.Nothing to preview,Github
+better avoid hard coding for a good game.Nothing to previewNothing to preview,Github
+Better to split this function into multiple functions and refactor them . Like drawing all onto the screen can be a function etc .Nothing to previewNothing to preview,Github
+beyond 323 : all the lines have already been repeated in nonliving.py. repetition of lines across modules. bad practice.Nothing to previewNothing to preview,Github
+Blank line must be present after the function definitionNothing to previewNothing to preview,Github
+Blank lines left PEP8 standards violatedNothing to previewBUG : When the player is at the bottom of the ladder and we press the down control he is coming to the lower levelNothing to previewNothing to preview,Github
+Blank space left PEP8 standards violatedNothing to previewNothing to preview,Github
+Block comments must start with # and a single space.Nothing to previewNothing to preview,Github
+Block comments must start with # and a single space.Nothing to previewNothing to preview,Github
+Board Generation code should be placed in separate file.Nothing to previewNothing to preview,Github
+Board is not generated randomlyNothing to previewNothing to preview,Github
+Board is not generated randomlyNothing to previewtoo many statements- (bad code smell)Nothing to previewNothing to preview,Github
+"board width and height hardcoded,changing any of these will create problems.Nothing to previewNothing to preview",Github
+Both global and local variables have been declared as global variables. Variables declared in functions should not be global. Many variables have been redeclared. Nothing to preview,Github
+broken ladders is not implemented.Nothing to preview,Github
+Broken ladders not implemented.Nothing to preview,Github
+Broken Ladders not implementedNothing to preview,Github
+Broken stairs unimplemented.Nothing to previewNothing to preview,Github
+Bug ; fireballs follow a fixed path not random.Nothing to previewNothing to preview,Github
+Bug :  Player sometimes jumps twice even on pressing the space bar once which makes the irritates the user. Nothing to preview,Github
+"Bug : According to the problem statement, the game should exit when 'q' is pressed. This feature is absent in the game.Nothing to preview",Github
+BUG : After hitting by fireball coins does not reset.Nothing to preview,Github
+BUG : Board not generated randomlyNothing to previewNothing to preview,Github
+"BUG : coins aren't random, player can't get them and only one fireball and has no effect on fireball.Nothing to preview",Github
+Bug : Donkey does not throw fireballs.Nothing to previewNothing to preview,Github
+Bug : Excessive system utilization : The game becomes slow when the player resets after a death .Nothing to preview,Github
+BUG : Fireballs don't dissapear after reaching Bottom Left cornerNothing to preview,Github
+Bug : Fireballs show buggy behavior post level 9 .Nothing to preview,Github
+Bug : Game is buggy and causes the player to get stuck Inside a floor block.Nothing to preview,Github
+Bug : Game slows down after playing over 5 times because the lists get over populated and are not emptied.Nothing to preview,Github
+bug : if the player reach the position on f(3rd floor in level 1)floor beneath which a broken ladder is present then he will down even if he doesn't press the down arrow keyNothing to previewThat is a feature I wanted to implement. I am sorry it was misleading and made you think it was a bug but I intended to show it as though the player falls off a broken ladder when he goes over it. Thanks for pointing out the misunderstanding though.Nothing to previewI pointed it out  because its not the part of game (atleast the one which i played earlier)Nothing to previewNothing to preview,Github
+"Bug : Issue in Gravity, player may fall down and literally ""Enter one of the floor blocks"" .Nothing to preview",Github
+Bug : Jumping bug. Steps to re-create : 1. Go to corner of the screen with the player. 2. Jump. 3. Hold the arrow key in the direction of the wall .Expected result : Player falls down. Actual result : Player remains stuck in the air.Nothing to preview,Github
+Bug : Must have printed score at the end of each life and at the end of game . Very bad. User gets disappointed if he cant view his score at the end of game.Nothing to preview,Github
+Bug : No Broken Ladders.Nothing to preview,Github
+Bug : No private variables or Methods. Abstraction not implemented .Nothing to preview,Github
+BUG : Not falling down the platform instead  locked the moves when it is near the edge of a platform.Nothing to preview,Github
+Bug : Player and fireball can be present on the ladder at the same time without causing any damage. This is a major bug in the game.Nothing to preview,Github
+BUG : Player and fireball is locked to move out of the platform instead it should fall from platform when tries to move out.Nothing to preview,Github
+Bug : Player can jump up Broken ladders.Nothing to preview,Github
+Bug : Player can jump up on broken ladders. This is against the proposed problem statement.Nothing to preview,Github
+BUG : Player can move beyond the gameboard.Nothing to preview,Github
+Bug : Player can not jump.Nothing to previewBug: Player can float in plane from ladder. It can leave the ladder while climbing up the ladder. And then remains on the same level.Nothing to previewBug : Player does not die on collision with donkey.Nothing to previewScreen does no show score and lifes.Nothing to previewNothing to preview,Github
+BUG : Player falls from the second platform.Nothing to preview,Github
+BUG : player is passing through the plateform not collecting coins and when hit by a fireball it does not loss any life or blood or something.Nothing to preview,Github
+"BUG : Sometimes , the player gets stuck on the ladder .Nothing to preview",Github
+BUG : The fireball move only when the player moves.Nothing to preview,Github
+BUG : The fireballs move only when the Player moves.Nothing to preview,Github
+"Bug : The functions that are have to be present in the code compulsorily, such as : 1. getPosition() 2. checkWall() 3. checkCollision() 4. collectCoin()  are absent .Nothing to preview",Github
+Bug : The quit function on pressing Q can sometimes cause the game to stall and crash. Nothing to preview,Github
+"Bug : The score of the game should never of negative, but after user dies the score goes into negative.Nothing to preview",Github
+BUG : The transition of Fireball moving in a ladder is not shown properlyNothing to preview,Github
+BUG : when jump again and again on the platform first thing is the player is in air and after some jumps the game stops with an error Attribute Error: 'Point' object has no attribute 'permChar'.Nothing to preview,Github
+BUG : When the fireball is about to fall from the edge of the platform and player is just below it then player dies even before the fireball fall down  because falling down of fireball is not smooth.Nothing to preview,Github
+Bug found : Fireballs don't fall from the ladder.Nothing to preview,Github
+BUG found : fireballs not falling down the stairs and also from plateforms instead going in air.Nothing to preview,Github
+"BUG found : player is climbing when there are no stairs in path,when the position of player is above just above the stairs.Nothing to preview",Github
+"Bug found : Player jumps on pressing ''w"" key.Nothing to preview",Github
+BUG Found: The ladder dissappears when Player climbs on it. Nothing to preview,Github
+BUG Found: When Player hits fireball sometimes the fireball is not detroyed and remains at position of collision.Nothing to preview,Github
+bug in ascending stair cases .Nothing to preview,Github
+bug in coin collection.player is not collecting coins while moving backwards.Nothing to preview,Github
+"bug in juump functinality.jump functionality should involve 4 stages but tthere are only 3 stages. Attach files by dragging & dropping, jump function should involve 4 stages but tthere are only 3 stages.Nothing to preview",Github
+bug in stair case functionality.Nothing to preview,Github
+"Bug- when you try to move towards right or left in between the ladder, the game abruptly stops and it shows an list index over flow error.Nothing to preview",Github
+BUG:  q -> quit not implemented when user presses q the program does not exitNothing to preview,Github
+"BUG: Do not remove the player when a person finishes. Thus, there are more than 1 player in further levelsNothing to previewNothing to preview",Github
+"BUG: Donkey does not kills the players, sometimesNothing to previewNothing to preview",Github
+"Bug: Fireball falls down instantaneously down the ladder, too fast for the player on the ladder to avoid the fireball.Nothing to preview",Github
+Bug: fireballs move only when a key to move the player is pressed.Nothing to previewNothing to preview,Github
+Bug: Game does not exit on pressing key 'q'. Nothing to previewNothing to preview,Github
+Bug: Game slows down when first loads.Nothing to previewNothing to preview,Github
+Bug: Getting up a ladder functionality is not proper.Nothing to preview,Github
+"BUG: Gives error, when player collides with stairs while jumpingNothing to previewNothing to preview",Github
+BUG: gravity is disabled while the player is on the ladder. So if the player is on the broken ladder he doesn't fall down instead he stands in air.Nothing to previewNothing to preview,Github
+bug: if player falls into a gap on the floor he is landing at wrong position i.e somewards backwards than required.Nothing to preview,Github
+Bug: Jumping vertically upward not implemented(i.e pressing spacebar alone) instead spacebar + (a or d) needs to be pressed for executing a projectile jump in the direction pressed.Nothing to preview,Github
+Bug: Levels have not been implemented.Nothing to preview,Github
+Bug: Multiple levels not implemented.Nothing to preview,Github
+"Bug: On winning the first level, the player is stuck in the cage with the queen.Doesn't come back to player spawn position.Nor is he able to move.Nothing to preview",Github
+Bug: Player can not jump upward. Jump directly towards.Nothing to previewPlayer jump twice the key pressed.Nothing to previewNothing to preview,Github
+"BUG: Player does not die when Donkey collides with it, only dies when Player collides with DonkeyNothing to previewNothing to preview",Github
+"Bug: Player doesn't die on touch with fireball.Nothing to previewGame does not over, when player reaches to princess.Nothing to previewNothing to preview",Github
+BUG: Player go through the wall floor on which princess is there . so checkWall function not implemented correctly Nothing to preview,Github
+BUG: player goes out of game windowNothing to preview,Github
+Bug: Player keep on climbing the stair even after end of stair.Nothing to preview,Github
+Bug: Player keep on playing even after strike with donkeyNothing to preview,Github
+Bug: Player moves behind the ladder. (It should be in front of the ladder)Nothing to preview,Github
+Bug: Player unable to jump from the edge of a platform.Nothing to preview,Github
+BUG: Pressing 'q' does not quit the game.Nothing to preview,Github
+BUG: the 'H' of the ladder gets broken and gets attached on the platformNothing to preview,Github
+Bug: The coins are intersecting with the walls at a lot of places which makes them unattainable.Nothing to preview,Github
+BUG: The fireball are falling from broken ladder also.Nothing to preview,Github
+Bug: The game does not quit on pressing 'q' as was required.Nothing to preview,Github
+Bug: The player falls down a ladder when it walks over it. It should have been done using the key 's'.Nothing to preview,Github
+BUG: The player jumps when 'w' is pressed.Nothing to preview,Github
+"BUG: The player loses it's life on the bottom most platform, if it moves to the right extreme.Nothing to preview",Github
+Bug: The speed of the player is very slow as compared to the speed of the fireball.Nothing to preview,Github
+"Bug: When the game over or level up message is displayed,there's a sleep function being called, so if the user hits q to quit or p to play again, it won't work until the sleep completesNothing to preview",Github
+"Bug: When the Player is adjacent to the Donkey, and the Donkey steps on the ladder, ladder gets eaten.Nothing to preview",Github
+bug:after hitting the fireball player will not start from the beginning.Nothing to preview,Github
+Bug:Donkey is not falling to down level as you move in next to edge Nothing to previewNothing to preview,Github
+bug:game is giving jerks.it may irritate user.Nothing to preview,Github
+"bug:if coin is just above the ladder, player will not collect the coin after climbing the ladder.Nothing to preview",Github
+bug:jump is not implemented correctly.Nothing to preview,Github
+bug:pixel arrangement is also bad.player cannot coincide with ladder.Nothing to preview,Github
+bug:player cannot jump while running.Nothing to preview,Github
+bug:player is going into the floor and giving index error.Nothing to preview,Github
+bug:player is not able to move down through broken ladders.Nothing to preview,Github
+BUG:Position of coins is hard coded which causes the coins to be in air and embedded in the walls because of which some coins cannot be collected no matter what.Nothing to previewNothing to preview,Github
+bug:q will not quit the gameNothing to preview,Github
+Bugs -:Nothing to preview,Github
+Bugs :- Nothing to preview,Github
+Bugs :- Nothing to preview,Github
+Bugs related to broken ladder: 1. The player and fireball can fall down from the broken ladders. 2. The player cannot pass through the broken ladder rather it collides.Nothing to preview,Github
+BUGS: On quitting game pygame.error: display Surface quitNothing to previewNothing to preview,Github
+"By importing everything from the modules, many imports are unused, not recommended by PyLint.Nothing to previewNothing to preview",Github
+Can use loop to make table and Exactly one space required after commaBad code smell for code understanding and readabilityNothing to previewNothing to preview,Github
+Can't jump in the backward direction.Nothing to preview,Github
+Cant cross left to right with the ladder below.Have to jump to do soNothing to preview,Github
+"Causes the score to go into negative, which should not happen.Nothing to previewNothing to preview",Github
+Class and the first function should be separated by 2 blank lines.Nothing to previewNothing to preview,Github
+Class Board not implemented.Nothing to preview,Github
+Class docstring missing for all classes defined. Nothing to preview,Github
+Class docstring missing for all classes defined. Nothing to preview,Github
+Class docstring missing for all classes defined. Nothing to preview,Github
+class doesn't have an init function and doesn't have any methods. could have used a dictionary instead.Nothing to previewNothing to preview,Github
+Class Donkey not implemented.Nothing to preview,Github
+Class has no 'init' method.Nothing to previewNothing to preview,Github
+Class has no method descriptors.Nothing to previewNothing to preview,Github
+Class names should normally use the CapWords convention. PEP8 standards violated.Nothing to preview,Github
+Class names should normally use the CapWords convention. PEP8 standards violated.Nothing to previewNothing to preview,Github
+"class Person is not implemented as per requirements. Instead class Donkey inherits from class Player which is not what is specified.Nothing to previewMethods getPosition(), checkWall(), checkCollision(), collectCoin() not implemented.Nothing to previewNothing to preview",Github
+class set_screen used. class Board not used. Too much of hardcoding which restricts portability of the code.Nothing to previewNothing to preview,Github
+Class's methods donot have docstrings. It is a good practice to add them.Nothing to previewClass name has to be in camel case conventions. PEP8 violation.Nothing to previewNothing to preview,Github
+Class's methods donot have docstrings. It is a good practice to add them.Nothing to previewNothing to preview,Github
+Class's methods donot have docstrings. It is a good practice to add them.Nothing to previewNothing to preview,Github
+Classes and modules don't have docstring .Nothing to previewNothing to preview,Github
+Classes not implemented.Nothing to previewNothing to preview,Github
+"classes,inheritance,encapsulation not used.Nothing to preview",Github
+"Climb up the ladder and keep the up key pressed , the user never comes down and remains stuck to the wall unless the key is released.Nothing to preview",Github
+"clock.tick(20) limits the frame rate, faster computers won't be able to take advantage of higher processing power.Nothing to previewNothing to preview",Github
+Close button(X) doesn't work in the game(not q)Nothing to preview,Github
+code : Contrived complexity : should have used a simple method and call it with different parameters instead of just hard coding the method many times.Nothing to previewNothing to preview,Github
+Code for Windows present uncommented in code for Unix. Failed to import msvcrt (which is only for Windows) error.Nothing to previewNothing to preview,Github
+code is hard coded.it displays same game board no matter how many times the game is played.same stair case positions.Nothing to preview,Github
+Code nicely arranged into modules and directories.Nothing to preview,Github
+Code not working correctlyNothing to preview,Github
+Code Smell - Line too longNothing to previewNothing to preview,Github
+code smell - Line too longNothing to previewNothing to preview,Github
+Code smell - line too longNothing to previewNothing to preview,Github
+Code Smell - Line too longNothing to previewNothing to preview,Github
+Code Smell :  Large Class (God Object)Nothing to previewPEP8 standards violated. Found indentation with tabs instead of spaces.Nothing to previewLife is not decreasing when gets in contact with a fireballNothing to previewfireballs are going down only when floor is ended.they should go along stair cases also.Nothing to previewNothing to preview,Github
+"Code Smell : Application Level : Duplicated code  The function is simply copy a copy of checkwall.py . Both file could have been replaced by a single file.Nothing to previewBad code smell:   Too many arguments (6 given,5 is the standard limit) Nothing to previewNothing to preview",Github
+Code smell : Bad white spaces.Nothing to previewCoordinates should be declared as Variable name.Nothing to previewNothing to preview,Github
+"code smell : Combinatorial explosion. All the if conditions have almost same functionality but at different positions on the display, so the positions can be sent as arguments to the function and decrease code redundancy.Nothing to previewNothing to preview",Github
+Code Smell : Constant classNothing to previewPEP-8 Violation:  Missing module docstringNothing to previewNothing to preview,Github
+code smell : Contrived complexity :  a simple function can be used instead of the adding all elements differently.Nothing to previewNothing to preview,Github
+Code smell : Contrived complexity : instead of using two different function for jump right and left could have used a single function with different parameters.Nothing to previewNothing to preview,Github
+Code smell : Cyclomatic complexity  : too many branches.Nothing to previewNothing to preview,Github
+"Code Smell : Cyclomatic Complexity  Too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.Nothing to previewNothing to preview",Github
+Code Smell : Cyclomatic Complexity  Too many nested loops and conditions .Nothing to previewNothing to preview,Github
+Code smell : Cyclomatic complexity : too many if and else condition.Nothing to previewNothing to preview,Github
+"Code Smell : Cyclomatic Complexity Too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.Nothing to previewNothing to preview",Github
+"Code Smell : Cyclomatic Complexity Too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.Nothing to previewNothing to preview",Github
+"Code Smell : Cyclomatic complexity: too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification. The terms such as ""PLAYER"",""COIN"",""LEFT_LADDER"", etc could be put into a list and then iterated over a using a simple iterator . A lot of redundant code is present over here.Nothing to previewNothing to preview",Github
+Code Smell : Cyclomatic complexity: too many branches or loops.Nothing to previewNothing to preview,Github
+"Code Smell : Cyclomatic complexity: Too many branches. Could have been broken down into simpler functions.Nothing to previewCode Smell : Long method: a method, function, or procedure that has grown too large.Nothing to previewNothing to preview",Github
+"Code Smell : Cyclomatic complexity: Way too many dependencies, you could rather nest them to make them more readable.Nothing to previewNothing to preview",Github
+Code Smell : Duplicated Code Could have used a function or a loop.Nothing to previewNothing to preview,Github
+Code Smell : Duplicated Code Could have used a loop to generate the given requirements.Nothing to previewNothing to preview,Github
+Code Smell : Duplicated Code Line 130-152 Could have defined a function and used it multiple times.Nothing to previewNothing to preview,Github
+Code Smell : Duplicated code. Nothing to previewNothing to preview,Github
+Code Smell : Excessively long identifiers.Nothing to previewNothing to preview,Github
+"Code Smell : God ClassNothing to previewCode Smell: Classes with too much code, can be refactored by making new classes.Nothing to previewNothing to preview",Github
+"Code Smell : In this function there are Too many parameters: a long list of parameters is hard to read, and makes calling and testing the function complicated.  A single list could be passed that consolidated all the parameters. Hence, we could reduce the number of parameters from 5 to 2. Nothing to previewtoo many Unnecessary comments. Can refactor the code, so don't have to use comments. you're writing comments for people, not machines.Nothing to previewNothing to preview",Github
+Code Smell : Inappropriate intimacy.Nothing to previewNothing to preview,Github
+Code Smell : Large Class ( God Object )Nothing to previewNothing to preview,Github
+Code Smell : Large Class (God Object)Nothing to previewNothing to preview,Github
+Code Smell : Large class: This class has way too many functions in it and has grown too big.Nothing to previewNothing to preview,Github
+Code Smell : Large ClassNothing to previewNothing to preview,Github
+Code Smell : Large Function Can be broken down into small functions.Nothing to previewModularity not implemented.Nothing to previewNothing to preview,Github
+Code Smell : Large Function It can be broken down into smaller functionsNothing to previewNothing to preview,Github
+"Code Smell : Lazy class .  The class  has very less functionalities , more functionalities should be added to it and all of it's child classes should override them wherever necessaryNothing to previewNothing to preview",Github
+code smell : lazy class this class has only initialization which also can be in the other class itself. Nothing to previewNothing to preview,Github
+Code Smell : Lazy Class.Nothing to previewNothing to preview,Github
+Code Smell : Lazy ClassNothing to previewNothing to preview,Github
+Code Smell : Long methodNothing to previewNothing to preview,Github
+Code Smell : Method Level Smell : Excessively long identifier : checkTrailCollisionNothing to previewNothing to preview,Github
+Code Smell : Method Level Smell : Excessively long identifier applyGroundForceNothing to previewNothing to preview,Github
+Code Smell : Method Level Smell : Excessively long identifier: reachPaulineWinNothing to previewNothing to preview,Github
+"Code Smell : Method Level Smell : Too many parameters to printLayoutNothing to previewBad code smell:   Method could be a function Nothing to previewBad code smell:   Too many arguments (9 given, 5 is the standard limit) Nothing to previewPEP-8 standards violation:   Exactly one space required after commaNothing to previewPEP-8 standards violation:   Line too long-118 characters,80 is the standard limit Nothing to previewNothing to preview",Github
+Code Smell : Orphan Variable/Constant Class contains collection of constants that are used elsewhereNothing to previewNothing to preview,Github
+Code Smell : Orphan Variable/Constant Class contains collection of constants that are used elsewhereNothing to previewNothing to preview,Github
+"Code Smell : The following errors were detected in the code below : 1. Excessive use of literals: these should be coded as named constants, to improve readability and to avoid programming . A simple for loop could be used to generate the patternNothing to previewToo much hard code.Nothing to previewNothing to preview",Github
+Code Smell : The following errors were detected in this module : 1. Lazy class / Freeloader: a class that does too little.Nothing to previewClass has no init() methodNothing to previewNothing to preview,Github
+Code Smell : The following lazy classes could be integrated into one single Board class.Nothing to previewThe classes below have almost minimalistic functionality. Nothing to previewNothing to preview,Github
+Code Smell : The while loop has a high Cyclomatic complexity.Nothing to previewNothing to preview,Github
+"Code Smell : There are the following issues in this class : 1. Excessive use of literals: these should be coded as named constants, to improve readability and to avoid programming errors .Nothing to previewNothing to preview",Github
+Code Smell : There is an issue with this return function :  Excessive return of data: a function or method that returns more than what each of its callers needs.Nothing to previewToo many parameters.Nothing to previewNothing to preview,Github
+Code smell : Too many blank lines. PEP8 Standard not followed. Nothing to previewNothing to preview,Github
+Code Smell : too many nested if conditions Nothing to preview,Github
+"Code Smell : Too many parameters: a long list of parameters is hard to read, and makes calling and testing the function complicated. Nothing to previewNothing to preview",Github
+Code Smell : Too many parameters: a long list of parameters.Nothing to previewNothing to preview,Github
+code smell : Unused variable 'pos'. Nothing to previewBug: Fireballs float in the same plane.Nothing to previewNothing to preview,Github
+Code smell : Very large classNothing to preview,Github
+Code smell : very large funtionsNothing to preview,Github
+Code smell : very long methodsNothing to previewCode smell : Bad indentation . PEP8 standard voilated.Nothing to previewNothing to preview,Github
+"Code Smell :Method-Level Smell :  Long method The method is very long , should break up the method into more funtionalitiesNothing to previewNothing to preview",Github
+Code smell line too longNothing to previewNothing to preview,Github
+"Code Smell:  Cyclomatic complexity, Unnecessary nested if-condition (code length increases)Nothing to previewNothing to preview",Github
+Code Smell: Class Donkey is a lazy class (freeloader).Nothing to previewNothing to preview,Github
+Code Smell: class Donkey is a Lazy classNothing to previewNothing to preview,Github
+Code Smell: class Fireball is a Feature Envy class ( too much use of methods of class Board). Nothing to previewNothing to preview,Github
+Code Smell: class Player is Large classNothing to previewCode Smell : class Player is a Feature envy class (too much use of methods of class Fireball).Nothing to previewGod object : player class.Nothing to previewNothing to preview,Github
+Code Smell: Class Player is too large (God class).Nothing to previewInappropriate intimacy; class Person depends on class Board.Nothing to previewcode smell: class Player is a feature envy classNothing to previewCode Smell: Downcasting: Person depending on Board  is a type cast which breaks the abstraction model.Nothing to previewNothing to preview,Github
+"Code Smell: Class with too many Functions, can be refactored to balance the class load.Nothing to previewNothing to preview",Github
+Code Smell: Classes with too many instance variablesNothing to previewNothing to preview,Github
+"Code Smell: Classes with too much code, can be refactoredNothing to previewCode Smell: Classes with too many instance variables, can be refactored by using inheritanceNothing to previewNothing to preview",Github
+"Code Smell: Classes with too much code, too many methods in same classs (should be refactored to distribute function load)Nothing to previewNothing to preview",Github
+Code Smell: Classes with too much codeNothing to previewNothing to preview,Github
+code smell: Contrived complexity in function jumpleftNothing to previewcode smell: function jumpleft is a long methodNothing to previewNothing to preview,Github
+code smell: Contrived complexity in function jumprightNothing to previewcode smell: function jumpright is a long methodNothing to previewcode smell: duplicated code(similar code with function jumpleft)Nothing to previewNothing to preview,Github
+"Code Smell: Cyclomatic compelxity, since too many conditional statements are used.Nothing to previewNothing to preview",Github
+code smell: Cyclomatic complexity in this elif blockNothing to previewNothing to preview,Github
+code smell: Cyclomatic complexity in this else blockNothing to previewNothing to preview,Github
+code smell: cyclomatic complexity in this else blockNothing to previewNothing to preview,Github
+code smell: cyclomatic complexity in this if blockNothing to previewNothing to preview,Github
+code smell: cyclomatic complexity inside this for loopNothing to previewNothing to preview,Github
+"Code Smell: Cyclomatic complexity, Too many if-conditions slows down the program, can be refactored to if-elif conditions to make code fastNothing to previewNothing to preview",Github
+"Code Smell: Cyclomatic complexity, Unnecessary nested if-conditions (can be made into one if instead to optimize code size).Nothing to previewNothing to preview",Github
+"Code Smell: Cyclomatic complexity, Unnecessary nested if-conditions (can be made into one if instead to optimize code size).Nothing to previewNothing to preview",Github
+code smell: cyclomatic complexityNothing to previewNothing to preview,Github
+code smell: cyclomatic complexityNothing to previewNothing to preview,Github
+code smell: cyclomatic complexityNothing to previewNothing to preview,Github
+code smell: duplicated code (similar code with function moveleft)Nothing to previewcode smell: moveright is a long methodNothing to previewNothing to preview,Github
+code smell: duplicated code used in getCoins methodNothing to previewHard coded and a long method : code smellNothing to previewNothing to preview,Github
+code smell: duplicated code with function __go_lefts()Nothing to previewNothing to preview,Github
+"Code Smell: Duplicated code, Should be avoided (maybe by using method a new method)Nothing to previewNothing to preview",Github
+"Code Smell: Duplicated code: identical  code exists in more than one location. Bananas instead of coins, great idea!!!Nothing to previewNothing to preview",Github
+code smell: duplicated code(similar code with function moveup)Nothing to previewNothing to preview,Github
+Code Smell: Excessive use of literals. These should be coded as named constants and should be externalized into separate resource files/scripts.Nothing to previewNothing to preview,Github
+Code Smell: Excessive use of literals.Nothing to previewcode smell: Contrived complexity in this if blockNothing to previewNothing to preview,Github
+"Code Smell: Excessive use of literalsNothing to previewNo literals used, invalid commentNothing to previewNothing to preview",Github
+Code Smell: Excessively long identifiersNothing to previewNothing to preview,Github
+code smell: Feature envy class (extensive use of methods of another class)Nothing to previewNothing to preview,Github
+code smell: function move is a long methodNothing to previewNothing to preview,Github
+"Code Smell: God Class, classes with too much code, can be refactoredNothing to previewNothing to preview",Github
+Code Smell: God object: main() could have been modularized. It knows too much and does too much.. Nothing to previewNothing to preview,Github
+Code Smell: Hardcoded valuesNothing to preview,Github
+Code Smell: Inappropriate intimacy. Class Fireball depends on board.Nothing to previewBug: Fireballs are not falling down at the end of a floor instead they are floating mid-air.Nothing to previewNothing to preview,Github
+Code smell: large class.Nothing to previewNothing to preview,Github
+Code Smell: Large ClassNothing to preview2 lines should be left blank between Class and first method. PEP8 standards violated.Nothing to previewInappropriate intimacy : player class depends on the board class.Nothing to previewNothing to preview,Github
+code smell: lazy classNothing to previewBad code smell:   Too few public methods (0/2) Nothing to previewNothing to preview,Github
+code smell: lazy classNothing to previewBad code smell:  Too few public methods(0/2)Nothing to previewNothing to preview,Github
+code smell: lazy classNothing to previewNothing to preview,Github
+Code Smell: Lazy classNothing to previewNothing to preview,Github
+code smell: long classNothing to previewNothing to preview,Github
+code smell: long classNothing to previewNothing to preview,Github
+code smell: long classNothing to previewNothing to preview,Github
+Code Smell: main is a long method.Nothing to previewNothing to preview,Github
+Code Smell: No duplication should exist for each movementNothing to previewNothing to preview,Github
+Code Smell: the class has grown too large{LARGE CLASS}Nothing to previewNothing to preview,Github
+Code Smell: The class is too long and does too much work{GOD CLASS}Nothing to previewPEP8 violation: Missing method docstrings.Nothing to previewNothing to preview,Github
+Code Smell: Too many if else statements together.Nothing to previewNothing to preview,Github
+Code smell: Too many if else statements. Loop has very high cyclomatic complexity.Nothing to previewNothing to preview,Github
+"Code Smell: Too many if-conditions, can be written in lesser statements. Should be avoided lesser code length.Nothing to previewNothing to preview",Github
+"Code Smell: too many methods in one class{GOD CLASS}Nothing to previewMissing method docstringsNothing to previewBug: Player can move anywhere in the air.Nothing to previewBug: Player can not jump.Nothing to previewBug: Life times is not implementedNothing to previewCouId create a different class for same functions of player and Donkey.Nothing to previewIndecent Exposure. Every item has made public. Not specified,  public , private or protected. Encapsulation Concept not used.Nothing to previewNothing to preview",Github
+Code Smell: Too much hardcoding (Bad practice)Nothing to previewNothing to preview,Github
+Code Smell: Too much Hardcoding (should be avoided for code uniformity)Nothing to preview,Github
+Code Smell: unnecessary nested if-condition increases code length(can be done in only one if statement)Nothing to previewPEP-8 Violation: Bad indentation practiceNothing to previewNothing to preview,Github
+Code smell: Unused import Player Nothing to previewNothing to preview,Github
+Code smell: Unused variable 'bb'.Nothing to previewNothing to preview,Github
+Code smell: Unused variable 'k'Nothing to previewNothing to preview,Github
+Code smell: Unused variable 'W'.Nothing to previewNothing to preview,Github
+Code smell: Unused variable clockNothing to previewNothing to preview,Github
+Code smell: Unused variable prevNothing to previewNothing to preview,Github
+Code smell: Unused variable speed.Nothing to previewNothing to preview,Github
+Code smell: very few public methodsNothing to previewNothing to preview,Github
+Code Smell: Very High Cyclomatic complexity. Too many if else statements.Nothing to previewNothing to preview,Github
+Code Smell: Very similar code in the conditional statements.Nothing to previewNothing to preview,Github
+Code Smell:Multiple Imports of modulesNothing to preview,Github
+Code Smell(Cyclomatic complexity) : Too many branches.(pylint)Nothing to previewNothing to preview,Github
+code smells: long functionNothing to previewNothing to preview,Github
+"code smells: speculative generality. It can be used for now,But for feature need we need do change values at so many places it is very difficult.Nothing to preview",Github
+code smells:duplicated codeNothing to previewNothing to preview,Github
+Code uses concept of modularity very well .Nothing to preview,Github
+"codesmells,no actual purpose of classesNothing to previewNothing to preview",Github
+Coin randomly generated on the board results in the coin overlapping problem.Nothing to preview,Github
+coin should not be on the wall.Nothing to preview,Github
+Coins are also generated in airNothing to preview,Github
+Coins are appearing anywhere in the air.Nothing to previewNothing to preview,Github
+Coins at the rightmost place are coinciding with thee wall and the ladder Nothing to preview,Github
+Coins placed   where user can't reach themNothing to previewNothing to preview,Github
+Colored output is implementedNothing to preview,Github
+Comments are not adequate!Nothing to preview,Github
+"Comments missing, difficult to understand codeNothing to preview",Github
+Comparisons with True are not necessary and may not work as expectedNothing to previewNothing to preview,Github
+compile and run not working for the code.Nothing to preview,Github
+Conditional Complexity :  Too many if-elif  conditions.  could use alternative OOP like decorate etc.Nothing to previewNothing to preview,Github
+Conditional Complexity. Used too many if - elif conditions. Could use alternate OOP concept like decorate etc.Nothing to previewNothing to preview,Github
+Constants should have been declared outside the class.Nothing to previewNothing to preview,Github
+Cool Game! Enjoyed playing it :)Nothing to preview,Github
+"Could have implemented the same via for loops, or it would have been even better if layout were randomised.Nothing to previewNothing to preview",Github
+Creation of fireballs and coins and setting there position not in there respective classes in there respective methodsNothing to previewNothing to previewNothing to preview,Github
+"Cryptic code possibly to get colored output. Could've made it neater using a separate print function taking color as the argument, to improve readability and debug easily.Nothing to previewNothing to preview",Github
+cyclomatic complexity : bad code smell : too many if and else. Nothing to previewNothing to preview,Github
+"Cyclomatic complexity : too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification. The following snippet has a lot of redundant code that can be reduced.Nothing to previewToo many branches and redundant code.Nothing to previewNothing to preview",Github
+Cyclomatic complexity: Bad code smell.Nothing to previewNothing to preview,Github
+Dead code should be removed for your code -> code smellNothing to previewNothing to preview,Github
+"Dead Code, not used onceNothing to previewNothing to preview",Github
+"Dead part of code, should be removed. Keeping this here is pointless.Nothing to previewNothing to preview",Github
+"Debug function left in the code, should've been removed.Nothing to previewNothing to preview",Github
+Define only the colours used.Nothing to previewNothing to preview,Github
+"Didn't implement modularity,inheritance,polymorphism,classes.Nothing to preview",Github
+Different components of code should be kept in separate files to make it easier to read.Nothing to previewNothing to preview,Github
+Different levels are not implemented. Nothing to preview,Github
+Different levels are not implemented.Nothing to preview,Github
+Different number of spaces. Wrong indentationNothing to previewNothing to preview,Github
+Direction of jump depends on the previous key pressed if it is left it jumps to left otherwise it jumps to right.Nothing to preview,Github
+Directions of movement of fireballs is fixed. So player can wait for the fireball to pass and then move accordingly with jumpingNothing to previewPEP-8 standards violation:   Missing method docstring Nothing to previewNothing to preview,Github
+Divergent change code smell because of hard coding the screen layoutNothing to previewNothing to preview,Github
+"Do not use alphabets as variables , code cannot be understood easily .Nothing to previewNothing to preview",Github
+Do not use wild card imports . Its a bad coding practice . better import what you need Nothing to previewNothing to preview,Github
+Do not write if statement and corresponding code in a single line . Split them . it increases readabilityNothing to previewNothing to preview,Github
+"Doc strings are not present for the classes, methods, etc. A few constants, variables names are invalid.  PEP 8 standards are not followed.Nothing to preview",Github
+Doc strings should be written for both classes and its methods.Nothing to previewNothing to preview,Github
+docstring for methods are missingNothing to preview,Github
+docstring missing for all ClassesNothing to preview,Github
+Docstrings missing.Nothing to preview,Github
+Docstrings not used.Nothing to preview,Github
+Documentation not provided. (Player move with 'W-S-A-D' instead of 'w-s-a-d'; should have been made clear at the start of the game)Nothing to preview,Github
+Does not clears the screen when starts the gameNothing to previewImport Error Unable to import 'Person'. (Fatal Error)Nothing to previewNothing to preview,Github
+Does not even show scores because it clears the screenNothing to previewNothing to preview,Github
+"Does not follow PEP-8 standard Invalid variable name ""sc"", ""P"", ""ch"".Nothing to previewNothing to preview",Github
+"Doesn't quit on pressing ""Q""  Nothing to preview",Github
+Don't use 'l' as a variable name instead use 'L' in your code.Nothing to previewNothing to preview,Github
+Donkey class has not been implemented.Nothing to preview,Github
+Donkey class is not implemented.Nothing to preview,Github
+Donkey class should be inherited from person class.Nothing to previewNothing to preview,Github
+Donkey doesn't move.Nothing to preview,Github
+Donkey doesn't throw fireballsNothing to preview,Github
+Donkey is not throwing fireballs.Nothing to previewNothing to preview,Github
+Donkey teleports instead of moving.Nothing to preview,Github
+"Donkey, Person, Player and Board classes not implemented.Nothing to preview",Github
+"Donkey's position is buggy. After some time ,  the donkey is moving  in air.Nothing to preview",Github
+DonkeyKong class should be inherited from Person classNothing to previewNothing to preview,Github
+Dont use global variables bad PracticeNothing to previewNothing to preview,Github
+"Downcasting, code smellNothing to previewNothing to preview",Github
+Duplicate code : Similar function present in other classes.Nothing to previewNothing to preview,Github
+Duplicate code : Similar function present in other classes.Nothing to previewNothing to preview,Github
+Duplicate code : Similar function present in other classes.Nothing to previewNothing to preview,Github
+Duplicate code : Similar function present in other classes.Nothing to previewNothing to preview,Github
+Duplicate code : Similar function present in other classes.Nothing to previewNothing to preview,Github
+"Duplicated code, instead of adding coin1....coin6 separately, a list of coins[] could be made and the ""mlist.add()"" could have been called once under a for loop iterating over the list.Nothing to previewfireball is not moving.Nothing to previewNothing to preview",Github
+"Duplicated code, since surface, fireball, ladder, ladder2, princess and player call convert, all of them could be added to a list and then iterated over and call the convert(), hence making the code more readable and understandable.Nothing to previewNothing to preview",Github
+"Duplicated code, the code from lines 34-42 and 45-43 are similar, only one block with more conditions could be used to avoid duplicated code.Nothing to previewNothing to preview",Github
+"Duplicated code, the code of the following method is very very similar to the code in the above method ""def __jump_rights()"". Maybe only one method could be defined and could be called with a parameter indicating the direction of the movement and a variable which changes the player's position could be negated accordingly and added to the current player's position.Long method, the method is too long, it could be broken down for better readability and understandability of its functionality. Nothing to previewNothing to preview",Github
+"Duplicated code, The following 7 lines could be replaced with a list and a for loop for better readability and understandability of the code. Nothing to previewNothing to preview",Github
+"Duplicated code, the lines of code in the following two for loops could have been method, which explains the functionality, and called by both the loops.Nothing to previewNothing to preview",Github
+During climbing of ladders the hero is moving instantaneously to the top.Nothing to previewNothing to preview,Github
+Each and every functionality is implementedNothing to preview,Github
+"Encapsulatio done only for text. The important attributes like velocity,state,coins,life are publicNothing to previewNothing to preview",Github
+"Encapsulation also not implemented. Class Donkey missing. When the user presses the quit option 'Q', the game doesn't show the final score. Nothing to preview",Github
+Encapsulation and Polymorphism not properly implementedNothing to preview,Github
+Encapsulation done nicelyNothing to preview,Github
+Encapsulation implemented nicely.Nothing to preview,Github
+Encapsulation lost due to use of Global VariablesNothing to previewNothing to preview,Github
+Encapsulation not implemented.Nothing to preview,Github
+"Encapsulation,polymorphism is absentNothing to preview",Github
+Encapsulation(private variables) not implemented.Nothing to preview,Github
+"Encapsulation(private,protected  variables) not implemented.Nothing to preview",Github
+Error - Instance of 'Fireball' has no 'pposx' and 'pposy' member.Nothing to previewNothing to preview,Github
+Error Coin_layout not found.Nothing to previewNothing to preview,Github
+Error comments should be deleted.Nothing to previewNothing to preview,Github
+Error randomlayout not found. Maybe you changed files name later but not updated in files.Nothing to preview@manipalsingh013 the files uploaded in github have a different name. ALL the files needed are presentNothing to previewNothing to preview,Github
+Error:     Use of super on an old style class Nothing to previewNothing to preview,Github
+Error:   Use of super builtin on an old style classNothing to previewNothing to preview,Github
+Error:   Use of super on an old style classNothing to previewNothing to preview,Github
+Error:   Use of super on an old style classNothing to previewNothing to preview,Github
+Error:   Use of super on an old style classNothing to previewNothing to preview,Github
+"ERROR: after reaching queen ,queen doesn't disappear and player's position also doesn't change.Also lives are not shownNothing to preview",Github
+Error: Levels not implementedNothing to preview,Github
+Error: Lives are not shownNothing to preview,Github
+"Error:Modules are not written,instead the code is written in 1 single fileNothing to preview",Github
+Error:Too many positional arguments for lambda callNothing to previewNothing to preview,Github
+ERROR/BUG: player cannot jump if he goes beyond  the floors in airNothing to preview,Github
+"ERROR/BUG:Fireballs are not working,cant climb the ladder near queenNothing to preview",Github
+Exactly one space after comma and no space before comma. PEP8 standards violated.Nothing to preview,Github
+Exactly one space after comma and no space before comma. PEP8 standards violated.Nothing to preview,Github
+"Exactly one space required after a comma, ""......(self.image, (w, h))""Nothing to previewNothing to preview",Github
+Exactly one space required after assignmentNothing to previewNothing to preview,Github
+Exactly one space required after comma. Nothing to previewNothing to preview,Github
+Exactly one space required after comma. PEP8 standards violated.Nothing to preview,Github
+Exactly one space required after comma.Nothing to previewNothing to preview,Github
+Exactly one space required after commaNothing to previewNothing to preview,Github
+Exactly one space required around assignment. not according to PEP-8 standards. Same thing repeated in many such lines beyond.Nothing to previewNothing to preview,Github
+Exactly one space required around assignment. PEP8 standards violated.Nothing to preview,Github
+Exactly one space required around assignment. PEP8 standards violated.Nothing to preview,Github
+Exactly one space required around assignment. PEP8 standards violated.Nothing to preview,Github
+Exactly one space should be provided after comma. PEP 8 standards violatedNothing to previewNothing to preview,Github
+"Excess Use of literals in this class in many methods .. Bad code smell https://en.wikipedia.org/wiki/Code_smellExcessive use of literals: these should be coded as named constants, to improve readability and to avoid programming errors. Additionally, literals can and should be externalized into resource files/scripts where possible, to facilitate localization of software if it is intended to be deployed in different regions.Nothing to previewNothing to preview",Github
+Excessive randomization  results in coin overlapping problem.Nothing to preview,Github
+Excessive randomization results in ladder overlapping .Nothing to preview,Github
+Excessive return of data: This returns way too many data values .Nothing to previewApplication-Level Smell : Duplicated code The code is similar level01() class in level01.pyNothing to previewSo many parameters passed. Could use an object instead of those.Nothing to previewInvalid name. Should use communicative names.Nothing to previewNothing to preview,Github
+"Excessive use of literals in the following lines of code, named constant could be declared for better readability easy modification of the code. eg. 960 could be stored in a named constant.Nothing to previewNothing to preview",Github
+"Excessive use of literals in the following methods, more named constants could have been declared and used apart form ""SC_WIDTH"" and ""SC_HEIGHT"". Would have been easy to modify the code or positions of the text blit on the screen if there were constants defined.Nothing to previewNothing to preview",Github
+"Excessive use of literals in the method. Named constants could have been defined to make the ""pygame.draw.rec()"" more readable and understandable. Declaring constants would make the method easily modifiable if needed.Nothing to previewNothing to preview",Github
+"Excessive use of literals, (255,0,0) could have been a named constant, also 10 could be a named constant. This would improve the readability and understandability of the code. Nothing to previewNothing to preview",Github
+"Excessive use of literals, could use named constants for better readability and understandability.Nothing to previewNothing to preview",Github
+"Excessive use of literals, in the following loop, named constants could have been declared for better readability and understanding. eg. since 2 is always the value of the step in ""random.randrange()"", it could have been stored in a named constant so that the modification of the code becomes easier.Nothing to previewNothing to preview",Github
+"Excessive use of literals, named constants could be declared for better readability and easier modification later.Nothing to previewNothing to preview",Github
+"Excessive use of literals, named constants could have been used for better readability. Also modifying their position would have been easier if named constants were used. eg, heart_width = 30, heart_height = 30 , and then call the ""pygame.transform.scale()"" function.Nothing to previewNothing to preview",Github
+"Excessive use of literals, values hard coded, would have have been easier to read and modify if variables were declared and used.Nothing to previewNothing to preview",Github
+"Excessive use of literals, values have been hard coded, would have been easier to read and modify if variables were declared. eg, 3 could have been stored in a variable and used while calling player.move() and player.jump()Nothing to previewNothing to preview",Github
+"Excessive use of literals, variable could have been declared and used for better readability and easier modification of the code. eg, the value 20 and 0 could have been stored in a variable and then used to call the function ""self.rect.move()""Nothing to previewNothing to preview",Github
+"Excessive use of literals,named constants could be used for better readability and easier modification of the code. Could have not been hard coded.Nothing to previewNothing to preview",Github
+Excessive use of literals.Nothing to previewHard coded board.It should be created dynamically.Nothing to previewNothing to preview,Github
+Excessive use of literalsNothing to previewNothing to preview,Github
+Excessively redundant code. The same could be easy implemented with the help of a map or a list that iterates over the given data and generates the given requirements.Nothing to previewNothing to preview,Github
+"Excessively short identifiers, hard to understand the functionality of some variables.Nothing to preview",Github
+"Excessively short identifiers: the name of a variable should reflect its function unless the function is obvious. The variables w, h, x, and y are not self explanatory and hence their functioning is ambiguous.Nothing to previewToo many parameters: a long list of parameters is hard to read, and makes calling and testing the function complicated. It may indicate that the purpose of the function is ill-conceived and that the code should be re factored so responsibility is assigned in a more clean-cut way.Nothing to previewNothing to preview",Github
+"Excessively short variable, could be more longer for better readability of the understandability of the code.Nothing to previewNothing to preview",Github
+"Excessively small variable names, could have been bigger and more explanatory for better readability and better understanding of the functionality. Nothing to previewNothing to preview",Github
+"Exit on q not implemented, fireballs does not go random when fell down stair, map is not random, Nothing to previewNothing to preview",Github
+Extra Bad LinesNothing to previewNothing to preview,Github
+Extra blank lines should be used sparingly.Nothing to previewNothing to preview,Github
+"Extremely long, un-readable code.Nothing to preview",Github
+Extremely redundant code. Duplicated code = code smellNothing to previewNothing to preview,Github
+files do not run properly.Nothing to preview,Github
+fire balls always follow a fixed path it would be better if it was not like that.Nothing to preview,Github
+Fireball class has not been implemented.Nothing to preview,Github
+Fireball class not implemented. Nothing to preview,Github
+Fireball class not implemented.Nothing to preview,Github
+Fireball does not fall down from the wall they fall from ladder only Nothing to preview,Github
+Fireball not working and jump feature not implementedNothing to preview,Github
+Fireballs and donkey keeps moving even when player loses all its livesNothing to preview,Github
+Fireballs are moving only when player is moving.Nothing to preview,Github
+Fireballs are not emanating from the donkey. (Unimplemented feature)Nothing to preview,Github
+Fireballs are not present.Nothing to preview,Github
+Fireballs do not fall from floor and fall only from ladders-Not according to specificationsNothing to preview,Github
+Fireballs do not fall.Nothing to preview,Github
+Fireballs hardcodedNothing to previewNothing to preview,Github
+Fireballs not generated and moving randomly.Nothing to preview,Github
+"Fireballs not implemented, the donkey doesn't move. Nothing to preview",Github
+fireballs not implemented. Game not working. Nothing to preview,Github
+Fireballs not implemented. Player does not dies even when hit by donkey. The player wins just by reaching at the level of queen. Modularity not implemented.Nothing to preview,Github
+Fireballs not implemented.Nothing to preview,Github
+Fireballs not Implemented.Nothing to previewNothing to preview,Github
+FLOOR TILE BUG : 1. A player can take a coin from a floor which is just above his current floor. This is a bug as player's collision with floor tiles should not be allowed. 2. While jumping the player crosses the floor tile's lower end which shouldn't be allowed.Nothing to preview,Github
+"Folder structure improper. Trying to run gave me errors, x.jpeg, princess.jpeg should me moved to 2014* folder. Also, game got stuck in the second last platform.Nothing to preview",Github
+"Follow PEP  Standards whie writing package names and module names https://www.python.org/dev/peps/pep-0008/#package-and-module-namesPackage and Module Names Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability. Nothing to previewPEP8 - Multiple imports in one lineNothing to previewNothing to preview",Github
+"Follow PEP standards for naming Methods https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variablesUse the function naming rules: lowercase with words separated by underscores as necessary to improve readability. https://www.python.org/dev/peps/pep-0008/#function-namesFunction NamesFunction names should be lowercase, with words separated by underscores as necessary to improve readability.mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility. Nothing to previewNothing to preview",Github
+Follow PEP Standards while writing function names and method names https://www.python.org/dev/peps/pep-0008/#function-namesNothing to previewNothing to preview,Github
+"Fonts not shipped with the game, Comic Sans is a Windows specific font, running through a debugger gives segfault in the pygame font module binaries.Nothing to previewNothing to preview",Github
+"For inside a for,While inside while  more time taking to load gameNothing to previewNothing to preview",Github
+Found a God object! StateLevelOne() knows too much and does too much. Nothing to previewNothing to preview,Github
+Found indentation with Tabs instead of spaces which results in MixedIndentationError  as in some places indenatation by space is used.Nothing to previewNothing to preview,Github
+Found indentation with tabs instead of spaces. PEP 8 standards violatedNothing to previewNothing to preview,Github
+Found indentation with tabs instead of spaces. PEP-8 standards violated.Nothing to previewNothing to preview,Github
+"Frame rate is so high,game becomes slow after some time.Nothing to preview",Github
+Frame rate is too high. Not preferred.Nothing to previewNothing to preview,Github
+From this line onwards -  Error - Instance of 'Fireball' has no 'arr' member and yet 'arr' used many times.Nothing to previewMaximum length of a line should be 79 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+Function checkcollsion and checkwall are mostly the same  with difference of only an argument in the pygame.sprite.spritecollide() functionNothing to previewMany invalid names of functions and arguments-PEP 8 standards violationNothing to previewNothing to preview,Github
+"Function checkWall not required, could use function checkCollisionNothing to previewPEP-8 standards violation:   Line too long (93 characters present /80 allowed)Nothing to previewNothing to preview",Github
+function is written but not used anywhere.Nothing to previewNothing to preview,Github
+"Function names should be lowercase, with words separated by underscores as necessary to improve readability.  PEP8 standards violated.Nothing to previewcode smell: long methodNothing to previewNothing to preview",Github
+functionality is good.Nothing to preview,Github
+Functions collectcoin and getposition not implementedNothing to preview,Github
+"Functions should have been written in classes i.e jump, check_wall should have been written in player classNothing to previewNothing to preview",Github
+game board is hard coded.always displays same  gameboard.no matter how many times game is played.Nothing to preview,Github
+Game doesn't end even after hitting the donkeyNothing to preview,Github
+Game doesn't end with QNothing to preview,Github
+Game doesn't quit on pressing 'Q'Nothing to preview,Github
+Game doesn't work. The movement happens with the arrow keys but in wrong directionsNothing to preview,Github
+Game doesn't work.Nothing to preview,Github
+Game doesn't work.Nothing to previewNothing to preview,Github
+game seems to be stuck when player is just besides the donkey sometimes.donkey is unable to kill player.Nothing to preview,Github
+Game.py is very large . It can be broken down into smaller modules.Nothing to preview,Github
+"getPosition(), checkWall(), checkCollision() and collectCoin() function not present.Nothing to preview",Github
+"getPosition(), checkWall(), checkCollision() and collectCoin() function not present.Nothing to preview",Github
+"getPosition(), checkWall(), checkCollision() and collectCoin() function not present.Nothing to preview",Github
+"getPosition(), checkWall(), checkCollision(), collectCoin() not implemented.Nothing to previewNothing to preview",Github
+Give a white space after '#' in comments.not following pep8 standards.Nothing to previewNothing to preview,Github
+give atleast one white space after '#'.not following pep8 standards.Nothing to previewNothing to preview,Github
+give meaningful variables not random since code becomes unreadable  Nothing to previewNothing to preview,Github
+Give variables appropriate names so that reader can understand the codeNothing to previewNothing to preview,Github
+"Global constants could have been imported from a single module, and not initialized in every file Nothing to preview",Github
+global jj is not defined. It returns errorNothing to preview,Github
+"Global variable 'p' , 'r', 'b', 'd'  undefined at the module levelNothing to previewNothing to preview",Github
+Global variables should be avoided.Nothing to preview,Github
+Global variables undefined at module level.Nothing to previewNothing to preview,Github
+"Global variables used, leads to loss of encapsulation.Nothing to previewNothing to preview",Github
+Good implementation of all the required functionalities of the gameNothing to previewNothing to preview,Github
+good layout of the game.Nothing to preview,Github
+Good level implementation.Nothing to preview,Github
+Good names given to modules. They reflect module's functionality .  Also followed pep8 standards in most of the cases Also you included font required in the files itself. Thats good practiceNothing to preview,Github
+good practice to keep images attatched to class itselfNothing to previewNothing to preview,Github
+Good splitting of linesNothing to previewNothing to preview,Github
+Hard code of dimensions directly..Its better to remove them and use limits as variables and use them here . It improves re-usability of code so that it can be extended to any dimensions.Nothing to previewNothing to preview,Github
+"Hard coded levels, difficult to debug.Nothing to previewNo function present to create the level dynamically. Hard coding fixed the level. So no further levels implemented.Nothing to previewNothing to preview",Github
+Hard coding is not a good option.Multi resolution support may not be possibleNothing to previewNothing to preview,Github
+hard coding must be voided.It should have been implemented  by using loops.Nothing to previewNothing to preview,Github
+Hard coding y co-ordinate of the player according to the plaform in the layoutNothing to previewAccording to problem statement player should be given three lives. Found : one. Nothing to previewNothing to preview,Github
+"Hard-coding Y co-ordinates make it hard to port to different screen resolutions. Also, configuration based code should be separated from game logic.Nothing to previewNothing to preview",Github
+Hardcoded data should be kept in separated fileNothing to previewNothing to preview,Github
+"Hardcoded layout should be kept in separate file, to make code easier to read and debug.Nothing to previewNothing to preview",Github
+"Hardcoded map, could've been moved to another text file or something to improve code readability.Nothing to previewNothing to preview",Github
+Hardcoded positionNothing to previewNothing to preview,Github
+"Hardcoded values like 79 and 78 should be replaced with variables so that, in the future, if the values are changed, they only have to be changed in one place.Nothing to previewNothing to preview",Github
+"Hardcoded values make it hard to port to different screen resolutions. Also, configuration based code should be separated from game logic.Nothing to previewNothing to preview",Github
+Hardcoded values should be placed in a different file and separated from game logicNothing to previewNothing to preview,Github
+"Hardcoded values should be replaced with variables so that if the values are changed, they only have to be changed in one place.Nothing to previewNothing to preview",Github
+"Hardcoded values, will make it very hard to port the game for different resolutions.Nothing to previewNothing to preview",Github
+Hardcoded. Must have done something elseNothing to previewNothing to preview,Github
+"Hardcodes, hardcodes everywhere here.Nothing to previewNothing to preview",Github
+"Hardcodes, might lead the game to crash in certain dimensional displays. Nothing to previewNothing to preview",Github
+"Hardcodes, which fails for change in dimensions.Nothing to previewNothing to preview",Github
+"Have to press enter to move, really slows the game and its experience. Nothing to previewNothing to preview",Github
+Height of jump is not according to the mentioned standardsNothing to preview,Github
+High Cyclomatic complexityNothing to previewNothing to preview,Github
+If __ name__ == '__ main__' needs to be mentioned in main. Prevents from running on imports.Nothing to preview,Github
+"If __ name__ == ""__ main__"" not written in main.py. Needed in order to prevent it from running when imported.Nothing to preview",Github
+"If player,queen,DonkeyKong meet the game stops for sometime.Nothing to preview",Github
+if we want to change the the game slightly also we have to change the values at so many places.it is bad practice to hardcode.Nothing to preview,Github
+"IMAGE SIZE BUG :  1. The player inside the sprite sheet is not appropriate . It covers a lot of space which results in collision even when the player is far above the drum(""Fireball""). Nothing to preview",Github
+import 'choice' not required as it is not usedNothing to previewNothing to preview,Github
+Import not at the top of the fileNothing to previewNothing to preview,Github
+Imported time twice.Nothing to previewNothing to preview,Github
+Imports should be on different lines. (PEP 8)Nothing to previewsys module imported unnecessarily not used anywhere in the file.Nothing to previewNothing to preview,Github
+Imports should usually be on separate lines. PEP8 standards violated.Nothing to previewNothing to preview,Github
+Imports should usually be on separate lines. PEP8 standards violated.Nothing to previewNothing to preview,Github
+Imports should usually be on separate lines. PEP8 standards violated.Nothing to previewNothing to preview,Github
+improper imports : Should import the file as from directoryName.FileName import FlieClass  Did like : from FileName import FileClassNothing to previewNothing to preview,Github
+"Improper inheritance, inherited things not requiredNothing to previewGod classNothing to previewNothing to preview",Github
+"Improper inheritance, super init not calledNothing to previewNothing to preview",Github
+Improper white spaces at many places.Nothing to preview,Github
+In barrel.py - Code smell : too many branches Nothing to preview,Github
+In barrel.py - python standards : docstring missing Nothing to preview,Github
+In donkey.py - syntax error : wrong indentation (line 18)Nothing to preview,Github
+In donkeykong.py - error : undefined variable name 'boss'Nothing to preview,Github
+"In main.py - python standards : import pygame, sys (bad practice)Nothing to preview",Github
+"In main.py - syntax error : background.blit(text, (360, 10)) Nothing to preview",Github
+In platform.py - syntax error : while i < segments):Nothing to preview,Github
+In platfrm.py - syntax error : while p < len(self.platforms)):Nothing to preview,Github
+"In player.py - syntax error : self.jump(platforms, plt_height)Nothing to preview",Github
+In Readme its better if you also include details like pre-requisites required to run the game it will be better. For example installing pygame in this case Nothing to preview,Github
+"In the following code found indentation with tabs instead of spaces. Python interprets tabs and spaces differently, so consistent indentation is critical to the correct interpretation of blocks in Python syntax.Nothing to previewMultiple imports in one lineNothing to previewNothing to preview",Github
+"In the following code found indentation with tabs instead of spaces. Python interprets tabs and spaces differently, so consistent indentation is critical to the correct interpretation of blocks in Python syntax.Nothing to previewNothing to preview",Github
+"In the following lines x and y are unused variables. Also x and y are excessively short identifiers, hence their functionality is not understandable.Nothing to previewNothing to preview",Github
+"In the game, coins are not generated randomly.Nothing to preview",Github
+Inappropriate Intimacy : Bad code smell.  Should have used different classes for Player and Donkey. Nothing to previewNothing to preview,Github
+Inappropriate intimacy: class Player depends on class Board.Nothing to previewNothing to preview,Github
+Inavalid names of methods according PEP-8.Nothing to previewNothing to preview,Github
+Inconsistent names. Can use standard terminology and stick to it throughout your methodsNothing to previewNothing to preview,Github
+Inconsistent names.Nothing to previewNothing to preview,Github
+Indentation contains mixed spaces and tabsNothing to previewMissing whitespace around the operatorNothing to previewNothing to preview,Github
+Indentation contains tabs in multiple places throughout code- Doesnt comply with PEP8 Nothing to previewNothing to preview,Github
+Indentation not perfect.Nothing to previewNothing to preview,Github
+Index out of range error if the player tries to go up a broken ladderNothing to preview,Github
+IndexError is there if player tries to move either left or right while on ladderNothing to preview,Github
+Ineffective code. Used == instead of =.Nothing to previewNothing to preview,Github
+"Inheritance Implemented, incorrect comment.Nothing to previewModularity Implemented, incorrect comment.Nothing to previewCode not duplicated, requires multiple imports, incorrect comment.Nothing to previewNothing to preview",Github
+"inheritance, polymorphism,modularity are not implemented.Nothing to preview",Github
+init function has too many arguments. there was no need of adding arguments that were not used in the function.Nothing to previewNothing to preview,Github
+init method from base class 'Player' is not called (super-init-not-called) warning.Nothing to previewNothing to preview,Github
+Initial fireballs not thrown by the Donkey.Nothing to previewNothing to preview,Github
+Instance of 'movable' has no member 'dj' Looks like j = self.j + dj intendedNothing to previewNothing to preview,Github
+Instance of 'Player' has no 'love' member.Nothing to previewNothing to preview,Github
+Instance of 'Player' has no 'myfont' member (no-member) [ Should have been __myfont??]Nothing to previewNothing to preview,Github
+"Instance of int has no members - checkCollision(), killDonkey(), donkeyWalk()Nothing to previewNothing to preview",Github
+"Instead of a coin_collect class, it should have been written as a method of the class player or class person.Nothing to previewNothing to preview",Github
+Instead of loading this image here . Can keep a variable for this image in class and use it here. Its more efficient Same for every draw type of function present hereNothing to previewNothing to preview,Github
+Instead of separate MoveLeft and MoveRight for player and a separate MoveDonkey. A simple MoveHorizontal in Person class could have been implemented and used by both player and donkey.Nothing to preview,Github
+Instead of using fixed values like 79 32 etc define them as variables in class and use those variables as limits so that the code becomes maintainable. Nothing to previewNothing to preview,Github
+Instead of using values like 200 and 100 .. define some variables as limits and use them . Then code becomes readable and maintainableNothing to previewNothing to preview,Github
+"Invalid argument name ""x""Nothing to previewRedefining built-in 'next' (redefined-builtin)Nothing to previewNothing to preview",Github
+"Invalid constant name 'clock'. Constant name should follow the regular expression "" (([A-Z_][A-Z0-9_])|(__.__)) "".  A constant name could have been "" CLOCK "" . Nothing to previewNothing to preview",Github
+Invalid name 'a'. Uncommunicative. Nothing to previewNothing to preview,Github
+"Invalid name x and yNothing to preview@darkcoderrises x , y are valid names. http://pygame.org/project-Rect+Collision+Response-1061-.htmlNothing to previewPylint showed this errorNothing to previewNothing to preview",Github
+Invalid NameNothing to previewNothing to preview,Github
+Invalid namesNothing to previewNothing to preview,Github
+invalid variable name 'x'Nothing to previewNothing to preview,Github
+invalid variable name 'y'Nothing to previewNothing to preview,Github
+"Invalid variable name "" fl "". A variable should be of the regular expression form "" [a-z_][a-z0-9_]{2,30} "", therefore according to the regular expression "" fl "" is too short . Nothing to previewNothing to preview",Github
+"Invalid variable name pr,d1,ch,fi etc-violates PEP-8  standardsNothing to previewNothing to preview",Github
+"Invalid variables name x,y,s,etc...Nothing to preview",Github
+Issue : Use of global variables.Nothing to previewNothing to preview,Github
+"It is important that function is in a Class, which it isn't.Nothing to previewCode Smell : Long Method.Nothing to previewNothing to preview",Github
+"it's  good way to write functionatlies using diff functions,instead of writing them under same function.Nothing to previewNothing to preview",Github
+Its better to write a readme . Because the player dont even know what file to run inorder to launch the file. Nothing to preview,Github
+Jump and other functions not implemented.Nothing to preview,Github
+Jump feature according to floor(left/right) is implemented.Also jumping from a floor to another is also implementedNothing to preview,Github
+Jump feature is not implemented.Nothing to preview,Github
+Jump feature not implemented. Fireballs also not implemented. There is no way in which the player can die The player wins the game just by reaching at the level of queen.  The donkey doesn't move.Nothing to preview,Github
+Jump function for player not implemented.Nothing to preview,Github
+Jump functionality is fluid !!Nothing to preview,Github
+"Jump is not properly implemented, on ladder player stucks.Nothing to preview",Github
+"Jump not implemented properly, player does not jump straight up and towards leftNothing to preview",Github
+Jump not implemented.Nothing to preview,Github
+jump not implementedNothing to previewNothing to preview,Github
+Jumping too high on a ladder.Nothing to preview,Github
+"Jumps in the last direction moved in, which was not in the questionNothing to previewNothing to preview",Github
+K_a not mapped. Bug. Nothing to previewNothing to preview,Github
+"Keep module names more appropriate . I mean its better if they reflect the functionality of the module. Then it ll be more easy for someone to understand the relationship between modules. Bad code smell  http://blog.codinghorror.com/code-smells/Uncommunicative Name Does the name of the method succinctly describe what that method does? Could you read the method's name to another developer and have them explain to you what it does? If not, rename it or rewrite it.Same can be applied to classes and modules as wellNothing to previewNothing to preview",Github
+ladders are just printed on the output but they are useless in the game.Nothing to previewNothing to preview,Github
+"Ladders though not broken, appears to be unusable in certain platform levels.Nothing to preview",Github
+Large class = code smellNothing to preview,Github
+"Large Class, code smellNothing to previewNothing to preview",Github
+Large class. could break in smaller classes.Nothing to previewNothing to preview,Github
+"Large code , should have been broken down into smaller functions.Nothing to preview",Github
+"Layout is hard coded, hard to debug. Nothing to previewLayout is fixed instead it should dynamically be created randomly.Nothing to previewNothing to preview",Github
+"Lazy Class - The functionality of the class is too little. More methods like getPositon(), UpdatePosition(), etc could have been included in this class.Nothing to previewNothing to preview",Github
+lazy class : try using a dictionary as the class is only storing values. nothing else.Nothing to previewcould have used an init function atleastNothing to previewNothing to preview,Github
+Lazy class / Freeloader: print_board() is not necessary. It does too little. Could have been a part of the  bard classNothing to previewNothing to preview,Github
+lazy class: The class does very little work. Use a tupple or a dictionary instead.Nothing to previewNothing to preview,Github
+lazy class: The class does very little work. Use a tupple or a dictionary instead.Nothing to previewNothing to preview,Github
+"Lazy classes, no functionality of the class queen and coins.Nothing to previewNothing to preview",Github
+"left and right movements are not implemented with a,d.Nothing to preview",Github
+Level has been hardcoded and could generated otherwise.Nothing to previewNothing to preview,Github
+"Level implemented, yet no indication of level in Game UI.Nothing to previewNothing to preview",Github
+Levels are not implementedNothing to preview,Github
+Levels not implemented.Nothing to preview,Github
+Levels not implementedNothing to preview,Github
+Levels not implementedNothing to preview,Github
+"Line 105-140 Hardcoded values should be replaced with variables so that if the values are changed, they only have to be changed in one place.Nothing to previewNothing to preview",Github
+Line 142-151 Code Smell : Duplicated Code Could have used a loop to generate the given requirements.Nothing to previewNothing to preview,Github
+"Line 146-219 Hard-coded values make it hard to port to different screen resolutions. Also, configuration based code should be separated from game logic.Nothing to previewLine 146-219 :  Duplicated Code. Code Smell.Nothing to previewNothing to preview",Github
+"Line 178, 179, 183, 184, 189, 193 : length = 85 characters Maximum length of a line should be 79 characters. PEP8 standards violatedNothing to previewNothing to preview",Github
+line 229-238: too many statements and long lines(greater than 50 characters)Nothing to previewNothing to preview,Github
+Line 314-316 : Maximum length of a line should be 79 characters. PEP8 standards violated.Nothing to previewNothing to preview,Github
+Line 37-41 45-50 53-58 Code Smell : Duplicated Code The same could be easily implemented with the help of a list that iterates over the given data and generates the given requirements.Nothing to previewNothing to preview,Github
+Line 69-77  Code Smell : Duplicated Code Could have used a loop to generate the given requirements.Nothing to previewNothing to preview,Github
+Line 79-88 Code Smell : Duplicated Code Could have used a loop to generate the given requirements.Nothing to previewNothing to preview,Github
+Line 8-47 Using Global variables should be avoided. Bad coding Practice.Nothing to previewNothing to preview,Github
+"line 9-15, Indentation via tabs,use space instead Not according to PEP8 standardNothing to previewNothing to preview",Github
+Line 90-98 Code Smell : Duplicated Code Could have used a loop to generate the given requirements.Nothing to previewNothing to preview,Github
+Line is too longNothing to previewNothing to preview,Github
+Line length : 102 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+Line length : 103 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+Line length : 104 PEP8 standards violated.Nothing to previewNothing to preview,Github
+Line length : 84 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+"Line length : 85 characters. PEP8 standards violatedNothing to previewCode Smell : Excessively long identifiers: in particular, the use of naming conventions to provide disambiguation that should be implicit in the software architecture. ( brokenladders_hit)Nothing to previewNothing to preview",Github
+Line length : 85 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+Line length : 85 characters. PEP8 standards violatedNothing to previewNothing to preview,Github
+Line length violated PEP 8 Standards https://www.python.org/dev/peps/pep-0008/#maximum-line-length Not only here many time .. Must try to split them using '\' Nothing to previewNothing to preview,Github
+line must not contain more than 79 charactersNothing to previewNothing to preview,Github
+"Line too long , more than 79 characters. PEP-8 standards violated.Nothing to previewNothing to preview",Github
+Line too long : bad code smell. (PEP8 Standard)Nothing to previewLong method : Bad code smell.Nothing to previewNothing to preview,Github
+Line too long . PEP8 standard not followedNothing to previewNothing to preview,Github
+"Line too long, complicated condition, not easily readable. Should have been broken down into simple conditions, could also have made it a method if it contained many conditions.Nothing to previewNothing to preview",Github
+"Line too long, try having code lines less than 80 charactersNothing to previewNothing to preview",Github
+"Line too long,greater than 79 characters. PEP 8 standards violatedNothing to previewNothing to preview",Github
+"Line too long. Should have done the calculation in a separate line.Nothing to previewLesser than 80 characters, line is not long, also, the calculations don't need to be split.Nothing to previewNothing to preview",Github
+Line too long. Should have entered a new line after each comma.Nothing to previewNothing to preview,Github
+line too long.Nothing to previewToo many parameters.Nothing to previewNothing to preview,Github
+line too longNothing to previewNothing to preview,Github
+line too longNothing to previewNothing to preview,Github
+line too longNothing to previewNothing to preview,Github
+line261-271 : too many statements and long statements(more than 50 characters long)Nothing to previewNothing to preview,Github
+"lines 228-285 : too many conditional statements, very much branching than usual. bad code smellNothing to previewNothing to preview",Github
+"lines 65-90 : [BUG] Numbers have been directly used for loading images. There are no image size variables being used for reference [bad code practice]. If the user tries to make change in the window size, then the program may malfunction.Nothing to previewNothing to preview",Github
+lines too long.Nothing to previewNothing to preview,Github
+Lives of a player are not displayed which was a essential feature.Nothing to preview,Github
+Lives of player never decreases.Nothing to preview,Github
+Local variable (fi) not usedNothing to previewNothing to preview,Github
+Local variables used in the function are too short and not so descriptive.Nothing to previewNothing to preview,Github
+Long Function It can be broken down into smaller functions.Nothing to previewNothing to preview,Github
+"Long Line, does not follow PEP8 standardNothing to previewNothing to preview",Github
+Long LineNothing to previewNothing to preview,Github
+"Long method , It could have been split into couple of more methods for better readability and understanding of the functionality.Nothing to previewNothing to preview",Github
+Long method code smellNothing to previewNothing to preview,Github
+"Long method, a method, function, or procedure that has grown too large.Nothing to previewNothing to preview",Github
+"Long parameter list. Bad code smellNothing to previewPEP8-Missing white space after "",""Nothing to previewCode Smell - Line too longNothing to previewOld-style class defined. (old-style-class)Nothing to previewNothing to preview",Github
+"Lots of Global variables used, bad practice.Nothing to previewNothing to preview",Github
+"Main game flow should be in a class of it's own, in a different file.Nothing to previewNothing to preview",Github
+MAJOR BUG: The collision of donkey and the player is not checked.Nothing to preview,Github
+Many coins get generated in airNothing to preview,Github
+Many coins gets accumulated at same position.Nothing to preview,Github
+Many hard-coded values used.Nothing to preview,Github
+Many invalid names of functions and arguments-PEP 8 standards violationNothing to previewNothing to preview,Github
+Many irrelevant functions written in Parent class. Many of these functions are not required for Donkey class . So better to write them in Players class . Also many unnecessary variables are defined in parent class. These are not required for Donkey class. So better to remove them here  and include them in Players class Nothing to previewNothing to preview,Github
+many nested loops codesmellNothing to previewNothing to preview,Github
+many occurrences of invalid names.Nothing to preview,Github
+Many of the functions must be implemented in the classes as it was the main objective of the assignmentNothing to preview,Github
+Many of the values are tested using hard coded. like if i change the dimensions you pass to constructor to Board class. your code gives me an error. Instead of using integers like that use named cosntants and use them every where  or add them as variables in your board classNothing to preview,Github
+"many unused imports  from random like shuffle,random,randrange,choice,getstate etcNothing to previewNothing to preview",Github
+Many unused imports. (eg. sys)Nothing to preview,Github
+"Many unused variables results in excessive hard-coding. Like GREEN,WHITE, FIREVALUE etc.Nothing to previewNothing to preview",Github
+many unused-wildcard-import.Nothing to previewNothing to preview,Github
+Many variables are unused. (Total 6)Nothing to preview,Github
+Many whitespace and indentation errors throughout the moduleNothing to previewNothing to preview,Github
+mario  and donkey-kong functions in same class and code is unreadable  Nothing to previewBad whitespaces .  PEP8 standart not followed.Nothing to previewno class and even no comments .Difficult to understand Nothing to previewNothing to preview,Github
+Maximum Line length exceeded PEP8 standards violated  https://www.python.org/dev/peps/pep-0008/#maximum-line-lengthMaximum Line LengthLimit all lines to a maximum of 79 characters. Nothing to previewNothing to preview,Github
+Method could be a function (no-self-use)Nothing to previewNothing to preview,Github
+Method definitions inside a class are surrounded by a single blank line.  PEP8 standards violated.Nothing to previewNothing to preview,Github
+Method definitions inside a class are surrounded by a single blank line.  PEP8 standards violated.Nothing to previewNothing to preview,Github
+"Method docstrings, missing..Nothing to previewNothing to preview",Github
+Methods defined do not have docstring with themNothing to preview,Github
+missing class docstringNothing to previewModule pygame has no init memberNothing to previewNothing to preview,Github
+missing class docstringNothing to previewNothing to preview,Github
+Missing class docstringNothing to previewNothing to preview,Github
+Missing doc-strings. (PEP-8 standards)Nothing to preview,Github
+Missing docstring module.Nothing to previewNothing to preview,Github
+missing docstrings for methods.Nothing to previewNothing to preview,Github
+"Missing DocstringsNothing to previewImproper inheritance, super init not calledNothing to previewNothing to preview",Github
+Missing DoctringNothing to previewNothing to preview,Github
+Missing DoctringNothing to previewNothing to preview,Github
+Missing end of line at the end of the fileNothing to previewNothing to preview,Github
+"Missing end of line character at the end of the codeNothing to previewCode Smell : FeatureEnvy Class .  The class uses features of the sprite class excessively . The class Sprite in spriteloader.py uses features of the sprite class excessively. Therefore it's not necessary to make it a separate class , we can just use sprite for removing redundancy.Nothing to previewNothing to preview",Github
+missing method docstring (missing-docstring).Nothing to previewNothing to preview,Github
+Missing method docstring.Nothing to previewNothing to preview,Github
+Missing module docstring.Nothing to previewNothing to preview,Github
+Missing module docstring.Nothing to previewNothing to preview,Github
+Missing module docstring.Nothing to previewNothing to preview,Github
+Missing module docstringNothing to previewNothing to preview,Github
+missing module docstringNothing to previewNothing to preview,Github
+Missing module docstringNothing to previewNothing to preview,Github
+Missing Module docstringNothing to previewNothing to preview,Github
+Missing module docstringNothing to previewUnused import choice from wildcard import.Nothing to previewNothing to preview,Github
+"Missing white space after "",""Nothing to previewNothing to preview",Github
+"Missing whitespace after "",""Nothing to previewmultiple imports in one lineNothing to previewNothing to preview",Github
+"Missing whitespace after "",""Nothing to previewNothing to preview",Github
+"Mixed indentaion, not PEP8 standardsNothing to previewNothing to preview",Github
+Mixed indentation .. Do not use it . Follow PEP standards to indent https://www.python.org/dev/peps/pep-0008/#indentationNothing to previewNothing to preview,Github
+Mixed indentation according to pylint! (PEP-8 standards violated)Nothing to preview,Github
+Mixed indentation and bad whitespaces problems.Nothing to previewNothing to preview,Github
+Mixed indentation identified. Better use a good text editor from next time  like sublime etc not vim :PNothing to previewNothing to preview,Github
+"Mixed indentation, bad-whitespaces and trailing whitespaces nearly in whole code.Nothing to previewNothing to preview",Github
+Mixed Indentation.Nothing to previewNothing to preview,Github
+Mixed Indentation.Nothing to previewNothing to preview,Github
+Mixed Indentation.Nothing to previewNothing to preview,Github
+Mixed indentation.Nothing to previewNothing to preview,Github
+"Modularity  , Polymorphism , Encapsulation  are not implemented.Nothing to previewNothing to preview",Github
+"Modularity , Inheritance , Polymorphism , Encapsulation not implemented.Nothing to preview",Github
+Modularity has not been implemented in the code. All the classed have been stacked into one module.Nothing to previewPEP8 standard violation: Mixed indentation used everywhere.{tabs + spaces}Nothing to previewPEP8 standard violation: trailing whitespacesNothing to previewunecessary parenthesis used after if-else blocks.Nothing to previewPEP8 Error: Expected one space before and after assignment statementNothing to previewUnused Imports: A lot of unused-wildcard-imports.It increases the processing time and slows down the programNothing to previewCODE SMELL: Too few public method(0/2). Use a tuple or a dictionary instead to define variables.Nothing to previewPEP8 standards: invalid method names.Method names should not be CamelCase or surlyCase. two words should be separated by underscore.Nothing to previewFunctionality Errors: Jump not implemented.Nothing to previewFunctionality Errors: Fireball not implementedNothing to previewNothing to preview,Github
+Modularity missing. Too many classes in game.pyNothing to preview,Github
+Modularity not implemented at allNothing to preview,Github
+"Modularity not implemented. No comments given, code very difficult to understandNothing to preview",Github
+Modularity not implemented.Nothing to preview,Github
+Modulation is absentNothing to preview,Github
+"Modulation not implemented, good for better understanding of codeNothing to preview",Github
+module pygame has no init memberNothing to previewNothing to preview,Github
+Modules could have been implemented betterNothing to preview,Github
+more colors not even used in code  only two colors used Nothing to previewNothing to preview,Github
+More than one statement in a single line. Not according to PEP - 8.Nothing to previewNothing to preview,Github
+Movement of fireballs is hardcode. No random movement of fireballsNothing to preview,Github
+"Movement should be with W,S,A,D keys.Nothing to preview",Github
+Much code is repeated like adding brick into the array.It can be done once.Nothing to previewNothing to preview,Github
+Much dead code present.Nothing to previewNothing to preview,Github
+"Muliple classes in one file. Modularity not implemented.Nothing to previewUnused Imports: unused import 're' unused import 'sys' unused import 'os' unused import color from wildcard importNothing to previewMissing docstringsNothing to previewundefined variable ""FULLSCREEN""Nothing to previewInvalid class names: All class names should be in CamelCase.Nothing to previewlazy class: The class does very little work. Use a tupple or a dictionary instead.Nothing to previewNothing to preview",Github
+Multilevel not implementedNothing to preview,Github
+Multiple bad white spacesNothing to previewNothing to preview,Github
+Multiple coins at same positionNothing to preview,Github
+Multiple imports in one lineNothing to previewNothing to preview,Github
+Multiple imports on one lineNothing to previewNothing to preview,Github
+multiple instances of anomalous backslash in string.Nothing to preview,Github
+Multiple levels not implemented.Nothing to preview,Github
+Must have written in multiple lines . Enhances readability of codeNothing to previewThe number of arguments inside the add function of listOfWalls class is too much.Nothing to previewToo much hard coding of positions.The program would not display the contents properly on different systems with different resolution. Correct way : import sys and extract the correct dimensions of the game board.Nothing to previewCode Smell : Too many parameters: a long list of parameters is hard to read.Nothing to previewNothing to preview,Github
+name of variable does not reflect any meaning.Nothing to previewNothing to preview,Github
+Naming of variables and classes is not according to PEP-8 standards.Nothing to preview,Github
+Nice use of random levels and random turning of donkey.Nothing to preview,Github
+no actual implementation of inheritance and polymorphism.Nothing to preview,Github
+No boundary implemented which covers the game window. Example : Level 1 and Floor1. This results in player moving up in the air if we keep hold the right moving key while transitioning through the game window.Nothing to preview,Github
+No broken ladder are shown as there should be as per the problem statement.Nothing to preview,Github
+No class is required here . Better to remove it .Nothing to previewNothing to preview,Github
+No classes implemented.Nothing to preview,Github
+"No classes used, all of this should go into constructor.Nothing to previewNothing to preview",Github
+"No classes, no modularity implemented, no encapsulation of data.Nothing to preview",Github
+No comments and documentation used in the above code . Use comments to mention about variablesNothing to previewGame does not over on collision of player with Donkey or pressing 'q'. Nothing to previewModularity not used . Code can be divided into different smaller files.Nothing to previewNothing to preview,Github
+No comments in entire code.Nothing to preview,Github
+No comments in entire codeNothing to preview,Github
+No comments in the code.Nothing to preview,Github
+No comments providedNothing to preview,Github
+No comments that can explain what is happening there.It is better to write comments such that any user can understand easily.Nothing to preview,Github
+No comments written for the code to be understoodNothing to preview,Github
+No docstring found for the function. The chances that you will remember what each part of your code does is slim. Using docstrings will save you time and troubleshooting.Nothing to previewNothing to preview,Github
+No docstringNothing to previewunused import PersonNothing to previewNothing to preview,Github
+No docstrings present for any of the methods defined. The methods would have been easy to understand and would save time while trouble shooting.Nothing to previewNothing to preview,Github
+No docstrings!Nothing to preview,Github
+No DocstringsNothing to previewNothing to preview,Github
+No doctringNothing to previewNothing to preview,Github
+"No encapsulation implemented. Nothing to previewunused imports: os,re,math are unusedNothing to previewNothing to preview",Github
+"No encapsulation. The position of the player ,scores and life should have been private attributesNothing to previewNothing to preview",Github
+"No FireballsNothing to previewUnable to compile, Error randomlayout not foundNothing to previewNothing to preview",Github
+"No ladders,No coins are implementedNothing to preview",Github
+No levels implementedNothing to preview,Github
+No line is left inside the function . Not following PEP8 standards.Nothing to previewNothing to preview,Github
+No method descriptors of class.Nothing to previewNothing to preview,Github
+"No modularity, No OOP structure implemented.Nothing to preview",Github
+"No modularity,Inheritance etc not used.Nothing to previewNothing to preview",Github
+No modularity.Nothing to preview,Github
+"No new line againNothing to previewThere are many mixed-indentation, bad-whitespace, line-too-long, bad-continuation, missing-docstrings, invalid-name, unused-wildcard-import, bad-indentations, unused-wildcard-import.Nothing to previewNothing to preview",Github
+No new line at the end of fileNothing to previewNothing to preview,Github
+No new line at the end of the fileNothing to previewmixed-indentation Nothing to previewunused-variablesNothing to previewNothing to preview,Github
+No new line at the end of the fileNothing to previewNothing to preview,Github
+No new lineNothing to previewNo new line at the end of file.Nothing to previewNothing to preview,Github
+No new lines at the end Nothing to previewNo newline at the end of fileNothing to previewNothing to preview,Github
+"No OOP implemented ( Modularity, Abstraction etc )Nothing to preview",Github
+No OOPS concept applied. Mostly hardcodedNothing to preview,Github
+No output is produced after running the file.Nothing to preview,Github
+no perfect modularity is implemented in this gameNothing to previewNothing to preview,Github
+"No player,No fireball,No donkey in the gameNothing to preview",Github
+"No polymorphism,encapsulation in the code.Nothing to preview",Github
+No presence of coins in the gameNothing to previewNothing to preview,Github
+"No space allowed around keyword argument assignment     def init(self,rect = None):                         ^ (bad-whitespace)Nothing to previewNothing to preview",Github
+No use of modules.Nothing to preview,Github
+"No-instructions for the user whether to use arrow keys or a,s,w,d.Nothing to preview",Github
+No. of characters in a  line should not exceed 79 . Not following PEP8 standards.Nothing to previewlline too long.Nothing to previewNothing to preview,Github
+No. of characters in a line should not exceed 79 . Not following PEP8 standards.Nothing to previewNothing to preview,Github
+"None of the functions asked are present The functions getPosition(), checkWall(), checkCollision() and collectCoin() not present.Nothing to preview",Github
+Normal and broken stairs not much distinguishable.Nothing to preview,Github
+"Not implemented correctly. We had to implement 4 steps in the jump. In this version, you can change direction whenever you want and there are many steps in the jumpNothing to preview@darkcoderrises Sorry! :D Nothing to previewNothing to preview",Github
+"not readable , not well commented.Nothing to preview",Github
+not used in the game at all and no white spaces around the operator.Nothing to previewNothing to preview,Github
+Nothing to previewNothing to preview,Github
+Number of lives are not displayed on the game window.Nothing to preview,Github
+Old style class definedNothing to previewNothing to preview,Github
+"On changing screen height, queen might come out of cage. Value should be relative with respect to screen height.Nothing to previewNothing to preview",Github
+On terminating the game the terminal turns blue.. Control to the terminal is not returned properly. Nothing to previewNothing to preview,Github
+Only 1 level implemented Same map is used everytimeNothing to previewNothing to preview,Github
+"Only one level, hardcoded maps, no donkey, no fireballsNothing to previewMissing module docstring (missing-docstring)Nothing to previewNothing to preview",Github
+"OOP concept, Polymorphism, has not been implementedNothing to preview",Github
+"OOP principles not implemented at all. ( Modularity, Abstraction, Encapsulation etc. )Nothing to preview",Github
+"OOP principles, Inheritance, Abstraction, Polymorphism not implemented, Donkey and Player(named person in the above code) classes had to be inherited from Person class. Functions getPosition(), checkWall(), checkCollision(), collectCoin() are not present.Nothing to preview",Github
+"OOP principles, such as Encapsulation, Modularity, Inheritance and Abstraction are not implemented.Nothing to preview",Github
+"OOP's concept of Encapsulation, polymorphism not implemented.Nothing to preview",Github
+"PEP 8 : Invalid method name ""collectCoin"".Nothing to previewNothing to preview",Github
+PEP 8 : invalid name for constants.Nothing to previewNothing to preview,Github
+PEP 8 standard well followed in import statements and constantsNothing to preview,Github
+PEP 8 Standards . Maximum line length exceeded Nothing to previewNothing to preview,Github
+PEP 8 standards violated. Maximum line length exceeded .https://www.python.org/dev/peps/pep-0008/#maximum-line-length Read about PEP8 standards try to follow them :PNothing to previewNothing to preview,Github
+PEP 8 violated Invalid variable name flNothing to previewNothing to preview,Github
+"PEP 8 violates : invalid method name ""collectCoin"".Nothing to previewNothing to preview",Github
+PEP 8 violation: Mixed indentation( spaces and tabs).Nothing to previewNothing to preview,Github
+"PEP standards violated . Don't write big sentences. Split them using backslash('\') .  Follow PEP Standards  https://www.python.org/dev/peps/pep-0008/#maximum-line-lengthMaximum Line LengthLimit all lines to a maximum of 79 characters. For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters. Nothing to previewNothing to preview",Github
+PEP standards violated in naming methods . 1. https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variables 2. https://www.python.org/dev/peps/pep-0008/#function-namesMethod Names and Instance Variables Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability. Use one leading underscore only for non-public methods and instance variables. Nothing to previewNothing to preview,Github
+"PEP-8 Standard Violation Exactly one space required around assignmentNothing to previewExcessively short identifiers, cope smellNothing to previewNothing to preview",Github
+"PEP-8 Standard Violation Invalid class name ""fireballs""Nothing to previewNothing to preview",Github
+"PEP-8 standard violation:   Invalid constant name ""fireballImage""Nothing to previewNothing to preview",Github
+PEP-8 standard violation:  Exactly one space required after commaNothing to previewNothing to preview,Github
+"PEP-8 standards violation  Invalid variable name ""a"" throughout the moduleNothing to previewNothing to preview",Github
+PEP-8 standards violation invalid method name getScoreNothing to previewNothing to preview,Github
+PEP-8 standards violation;    Exactly one space required after commaNothing to previewNothing to preview,Github
+"PEP-8 standards violation:    Invalid class name ""Level_num""Nothing to previewNothing to preview",Github
+"PEP-8 standards violation:    Invalid constant name ""gamelevel""Nothing to previewNothing to preview",Github
+"PEP-8 standards violation:    Invalid constant name ""Screen_width""Nothing to previewNothing to preview",Github
+PEP-8 standards violation:    invalid variable name jjNothing to previewNothing to preview,Github
+"PEP-8 standards violation:    Line too long character limit is 80 ,91 presentNothing to previewNothing to preview",Github
+PEP-8 standards violation:    Trailing whitespace (trailing-whitespace)Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly 1 space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly one space required around assignmentNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Exactly one space required around assignmentNothing to previewNothing to preview,Github
+PEP-8 STANDARDS VIOLATION:   Exactly one space required around comparisonNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Final newline missingNothing to previewNothing to preview,Github
+"PEP-8 standards violation:   Invalid argument name ""objImage""Nothing to previewPEP-8 standards violation:   Exactly one space required after commaNothing to previewNothing to preview",Github
+"PEP-8 standards violation:   Invalid constant name ""coinImage"" Nothing to previewNothing to preview",Github
+"pep-8 STANDARDS VIOLATION:   Invalid constant name ""score"" used throughout the moduleNothing to previewNothing to preview",Github
+"PEP-8 standards violation:   Invalid method name ""addFireball""Nothing to previewNothing to preview",Github
+"PEP-8 standards violation:   Invalid variable name ""L""Nothing to previewNothing to preview",Github
+"PEP-8 standards violation:   Line too long -90 characters present ,80 is the standard limitNothing to previewNothing to preview",Github
+PEP-8 standards violation:   Line too long (121 characters present /80 is the standard limit)Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   Line too long 80 characters allowed 91 presentNothing to previewNothing to preview,Github
+"PEP-8 standards violation:   Line too long 80 characters allowed,98 presentNothing to previewNothing to preview",Github
+PEP-8 standards violation:   Line too long 80 characters limit 91 presentNothing to previewNothing to preview,Github
+"PEP-8 standards violation:   Line too long character limit is 80, 82 presentNothing to previewNothing to preview",Github
+PEP-8 standards violation:   Missing function docstringNothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before :Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before :Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before :Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before :Nothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before bracketNothing to previewNothing to preview,Github
+PEP-8 standards violation:   No space allowed before comma and line too longNothing to previewNothing to preview,Github
+"PEP-8 standards violation:   No space allowed before->  "":""Nothing to previewNothing to preview",Github
+"PEP-8 standards violation:   Old -style class defined.Nothing to previewBad code smell- ""few public methods""Nothing to previewNothing to preview",Github
+PEP-8 standards violation:   Trailing whitespaceNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Trailing whitespaceNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Trailing whitespaceNothing to previewNothing to preview,Github
+PEP-8 standards violation:   Wrong hanging indentation.Nothing to previewNothing to preview,Github
+PEP-8 standards violation:  exactly 1 space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:  Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation:  Exactly one space required around assignmentNothing to previewNothing to preview,Github
+PEP-8 standards violation:  invalid variable name jjNothing to previewNothing to preview,Github
+"PEP-8 standards violation:  invalid variable names a,chNothing to previewNothing to preview",Github
+PEP-8 standards violation:  Line too long -max 80 chars here 133Nothing to previewNothing to preview,Github
+PEP-8 standards violation:  Trailing whitespace (trailing-whitespace)Nothing to previewNothing to preview,Github
+PEP-8 standards violation:  Trailing whitespace Nothing to previewNothing to preview,Github
+PEP-8 standards violation:  Trailing whitespaceNothing to previewNothing to preview,Github
+PEP-8 standards violation:  Trailing whitespaceNothing to previewNothing to preview,Github
+PEP-8 standards violation:  Wrong hanging indentationNothing to previewNothing to preview,Github
+PEP-8 standards violation: Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 standards violation: Exactly one space required around comparisonNothing to previewNothing to preview,Github
+PEP-8 standards violation: Unnecessary parentheses after while keywordNothing to previewNothing to preview,Github
+PEP-8 violated: trailing white-space.Nothing to previewNothing to preview,Github
+PEP-8 Violation Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP-8 Violation Line too longNothing to previewNothing to preview,Github
+"PEP-8 violation, missing class docstringNothing to previewNothing to preview",Github
+"PEP-8 violation, Missing method doc-string.Nothing to previewNothing to preview",Github
+"PEP-8 violation, missing module doc-stringNothing to previewNothing to preview",Github
+PEP-8 violation: Extra whitespacesNothing to previewNothing to preview,Github
+"PEP-8 Violation: Invalid constant name ""lives""Nothing to previewNothing to preview",Github
+PEP-8 violationNothing to previewNothing to preview,Github
+PEP-8 violations : exactly one space after commaNothing to preview,Github
+PEP8  - Indentation contains mixed spaces and tabsNothing to previewThe co-ordinates of the player should have been private attributes.Nothing to previewNothing to preview,Github
+PEP8 - Indentation contains mixed spaces and tabsNothing to previewNothing to preview,Github
+PEP8 - Indentation contains mixed spaces and tabsNothing to previewNothing to preview,Github
+PEP8 - Indentation contains tabsNothing to previewNothing to preview,Github
+PEP8 - Line too longNothing to previewPEP8- there should be a  ' ' after '#'Nothing to previewNothing to preview,Github
+PEP8 - Line too longNothing to previewunused-wildcard-importNothing to previewNothing to preview,Github
+"PEP8 - Missing white space after "",""Nothing to previewNothing to preview",Github
+"PEP8 - Missing white spaces after "",""Nothing to previewNothing to preview",Github
+PEP8 - Missing white spaces around operatorsNothing to previewNothing to preview,Github
+PEP8 - Multiple imports in one lineNothing to previewNothing to preview,Github
+"PEP8 - No white space after "",""Nothing to previewNothing to preview",Github
+"pep8 - Should leave a space after ""#"" Nothing to previewNothing to preview",Github
+PEP8 Error : The modules are not imported in a proper manner. Valid : from directoryName.fileName import Class Used : from fileName import ClassNothing to previewNothing to preview,Github
+PEP8 Error : Whitespace errorNothing to previewNothing to preview,Github
+PEP8 Error: mixed indentation using tabs and spaces.Nothing to previewCode Smell: Too few public methods(0/2).Use tuple or dictionary instead.Nothing to previewPEP8 Error: One whitespace after every commaNothing to previewNothing to preview,Github
+PEP8 Error:The line is too long The assignments could have been done in separate lines. Nothing to previewNothing to preview,Github
+PEP8 standard errors: 1) Mixed indentation everywhere{including spaces and tabs} 2) Trailing whitespaces 3) Class names should be in CamelCase 4) method names should be underscoresNothing to previewPEP8 standard errors: 1) Bad whitespaces 2) Exactly one whitespace after every comma 3) No module docstring 4) Lines are too longNothing to previewMultiple attributes have been defined outside init. init not properly definedNothing to previewFunctionality Errors: Fireball not implemented.Nothing to previewFunctionality Errors: Jump not implemented.Nothing to previewFunctionality Errors: Climbing through ladders is not implemented.Nothing to previewFunctionality Errors: Donkey is not there nor is the queen.Nothing to previewNothing to preview,Github
+PEP8 Standard violated There should be 2 blank line between Class and first methodNothing to previewBad code smell:   Too few public methods (0/2)Nothing to previewNothing to preview,Github
+PEP8 standard violated Used multiple statement in same lineNothing to previewNothing to preview,Github
+"PEP8 standard violation: Bad Indentation: found 40 spaces,expected 20Nothing to previewNothing to preview",Github
+PEP8 standard violation:Many spaces Nothing to previewNothing to preview,Github
+Pep8 standards not followed while naming classes https://www.python.org/dev/peps/pep-0008/#class-namesClass NamesClass names should normally use the CapWords convention. The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable. Nothing to previewNothing to preview,Github
+PEP8 standards violated: Line is longer than 79 characters.Nothing to previewNothing to preview,Github
+PEP8 standards violated. 2 blank lines should be left between class name and first methodNothing to previewNothing to preview,Github
+PEP8 standards violated. 2 blank lines should be left between class name and first methodNothing to previewNothing to preview,Github
+PEP8 standards violated. Found indentation with tabs instead of spaces.Nothing to previewNothing to preview,Github
+PEP8 Violation : Whitespace errorNothing to previewNothing to preview,Github
+PEP8 violation: Exactly one space required after commaNothing to previewNothing to preview,Github
+PEP8 violation: exactly one space required after commaNothing to previewPEP8 standard violation: lines are too long length of a line should be less than 79 charactersNothing to previewNothing to preview,Github
+PEP8 violation: Exactly one space required around assignmentNothing to previewPEP8 violation: Mixed indentation error.Both tabs and spaces found.Nothing to previewNothing to preview,Github
+PEP8 violation: Global variable names should dont use the CapWords conventionNothing to previewNothing to preview,Github
+PEP8 violation: Use of no white spaces around the comparison operator ==Nothing to preview,Github
+PEP8 violation: Use of no whitespaces around assignment operatorNothing to preview,Github
+PEP8 violation: Use of wildcards in import statement.Nothing to previewNothing to preview,Github
+PEP8 violation: Use of wildcards in import statement.Nothing to previewNothing to preview,Github
+PEP8 violation: Use of wildcards in import statement.Nothing to previewNothing to preview,Github
+PEP8 violation: Use spaces instead of tabs for indentation. Never using vim again...Nothing to previewNothing to preview,Github
+PEP8 Violation:The length of the line is greater then expected.Code Smell : Method-Level Smells: : Too many parameters passed to printLayoutNothing to previewNothing to preview,Github
+PEP8: Leave a space before and after an operator.Nothing to preview,Github
+PEP8: Unused imports from a wildcard import.Nothing to preview,Github
+PEP8(pylint): Too many arguments.Nothing to previewNothing to preview,Github
+Person Class should contain movement methods which should be inherited to Donkey and Player.Nothing to previewNothing to preview,Github
+Person class written twice -> Code SmellNothing to previewfireballs class is not properly implemented.Nothing to previewNothing to preview,Github
+"Player able to move on the walls and through the walls , Gravity not present when player moves on walls but present when player moves through wallsNothing to preview",Github
+player can even move inside the floor basement.Nothing to preview,Github
+Player can lose only if he volunteers to do so because the donkey just oscillated a little bit.Nothing to preview,Github
+Player can not move when jumping.Nothing to preview,Github
+"player can't move other than the initial line because no functions are implemented for example ladder,jump,move to the platform just below when the player is in air.Nothing to preview",Github
+Player cannot climb some of the stairs . Example : The left most stair on the second floor.(Taking Ground Floor convention)Nothing to preview,Github
+Player cannot climb up the stairsNothing to preview,Github
+Player climbs the wall even he is not aligned correctly to the ladder and goes into the air sometimes by pressing the 'w' keyNothing to preview,Github
+Player does not die anyway. Donkey doesn't kill  playerNothing to preview,Github
+Player doesn't die even after colliding with the Donkey.Nothing to preview,Github
+Player doesn't die even after hitting the fireballsNothing to preview,Github
+"Player doesn't die, unable to close gameNothing to preview",Github
+Player doesn't move at some points.Nothing to preview,Github
+Player doesn't spawn from the bottommost floor.Nothing to preview,Github
+Player escapes from game window.Nothing to preview,Github
+Player falls down through the ladder if passes over it but it should pass over the ladder and should climb down if the down key is pressed.Nothing to preview,Github
+Player getting four lives.Nothing to previewNothing to preview,Github
+player is just moving in one floor left and right. this does not meet even basic requirements.Nothing to preview,Github
+player is missing when attempted to move in air and after some random reappears.Nothing to preview,Github
+player is moving even if there is no floor.Nothing to preview,Github
+Player is not killed by fireball when player is on the ladderNothing to preview,Github
+Player is not starting again after hitting fireballNothing to previewNothing to preview,Github
+player is winning just by entering the queen's level and game quits .There is no upgradation of levels after winnning.Nothing to preview,Github
+"Player never dies , it eates the donkey when it gets in contact with donkey.Nothing to preview",Github
+"Player never dies,even on hitting with donkeyNothing to preview",Github
+player never dies.Nothing to preview,Github
+"player not falling from edge ""Nothing to previewNothing to preview",Github
+"Player not jumping properly, height of jump less lessNothing to previewNothing to preview",Github
+"Player not moving with a single input, the game doesn't work properly. Nothing to preview",Github
+Player on reaching at the end of platform does not drops on  lower platformNothing to preview,Github
+Player position is hard coded. Instead of that you could declare variable and use it globally which helps us when we to change the code.Nothing to previewtoo many branches.Nothing to previewNothing to preview,Github
+Player should not move through walls.Nothing to preview,Github
+Player start moving from ground platform after reaching queen platformNothing to preview,Github
+Player will remain in the air after alternate jumps.Nothing to preview,Github
+Player wins the game without even touching the queenNothing to preview,Github
+Player's motion is not constrained when we give two inputs simultaneously.Nothing to previewWhen the player reaches princess he is not going back to start position again.Nothing to previewNothing to preview,Github
+"Player's motion is not constrained.lt's a bug.Score function is not implemented.Donkey function not implemented.w,a,s,d are taken as controls instead of arrow keys. Fireball function not implemented . Player moving through walls . Inheritance . Encapsulation not implemented . Unable to close game . Incomplete code.Jump function not implemented.Nothing to previewCoins function is not implemented.Nothing to previewDonkey class not implemented.Nothing to previewup  functinality not implemented.Nothing to previewdown functinality not implemented.Nothing to previewleft and right functions should be represented by 'a' and 'd' respectively,instead left and right arrows are used.Nothing to previewscore functionaity is not implementedNothing to previewencapsulation is not implemented(no private variables or protection modes ...).Nothing to previewinheritance and polymorphism not implemented.Nothing to previewbug in liives functionality. it's not working. .Nothing to previewquit functionality is not working.Nothing to previewlevel upgrading not implemented.Nothing to previewNothing to preview",Github
+pointless string statement: string statement has no effectNothing to previewNothing to preview,Github
+Polymorphism and Encapsulation not implemented.Nothing to preview,Github
+Polymorphism is not implementedNothing to preview,Github
+Polymorphism not implemented.Nothing to preview,Github
+Polymorphism not implemented.Nothing to preview,Github
+polymorphism not usedNothing to previewNothing to preview,Github
+"polymorphism,encapsulation,modularity not imlemented.Nothing to preview",Github
+Poor Frame RateNothing to preview,Github
+Position of donkey king absolute not relative to the layoutNothing to previewNothing to preview,Github
+Position of the ladder should have been a private attributeNothing to previewNothing to preview,Github
+Postions of coins are fixed. Nothing to previewNumber of coins are fixedNothing to previewJump feature is not implementedNothing to previewPolymorphism not implementedNothing to previewtoo many if conditionds . code smellsNothing to previewLife of player does not decreases.Nothing to previewNothing to preview,Github
+Practically difficult to clear the game.Nothing to preview,Github
+Pressing space moves the player up and vanishes after hitting the wall.Nothing to preview,Github
+Proper Comments are not provided for the code.Nothing to preview,Github
+"Proper Comments not provided, difficult to understand the code.Nothing to preview",Github
+"Proper Comments not provided, difficult to understand the code.Nothing to preview",Github
+"Proper Comments not provided, difficult to understand the code.Nothing to preview",Github
+"Proper Comments not provided, difficult to understand the code.Nothing to preview",Github
+Public and private variables have not been used in the definition of these classes.Nothing to previewNothing to preview,Github
+Put a space after every comma.(PEP8)Nothing to preview,Github
+Put functions within classes.Nothing to previewNothing to preview,Github
+Python error- Mixed Indentation Nothing to previewNothing to preview,Github
+Queen is not in a cage.Nothing to preview,Github
+Queen is not present in a cage.Nothing to preview,Github
+quit redefined while importing in line 1 and 4Nothing to previewUnnecessarily imporing wildcard by importing * from pygameNothing to previewNothing to preview,Github
+quite a few occurrences of superfluous-parens.Nothing to preview,Github
+"randapplex,randappley are not used at all.Nothing to previewcode smells : Dead codeNothing to previewNothing to preview",Github
+Re importing 'sys'Nothing to previewCode smell: import sys is used twiceNothing to previewNothing to preview,Github
+Readme is very small  Add Following : 1. Details about Modules and their inter module relationships  2. Features you have implemented 3. Prerequisites required to run it (if any .. just like installing pygame module in this case)Nothing to previewNothing to preview,Github
+Redefined 'x' and 'y'. Nothing to previewNothing to preview,Github
+Redefining from outerscope - maxstairs and maxt.Nothing to previewNothing to preview,Github
+"Redefining prow,pcol from outer scope.Nothing to previewNothing to preview",Github
+Redundant code to create the layout. A function should have been present.Nothing to previewNothing to preview,Github
+"Redundant code, bad spaces, too long line. Should have used a function insteadNothing to previewNothing to preview",Github
+"Redundant code, use a functionNothing to previewNothing to preview",Github
+"Redundant Code, use functionNothing to previewNothing to preview",Github
+"Redundant Code, used in many places, should have used a function insteadNothing to previewNothing to preview",Github
+Redundant CodeNothing to previewNothing to preview,Github
+Reimporting and redefining 'sys' from outer scope. See line 2.Nothing to previewNothing to preview,Github
+"repeated code, should be placed in a separate function, doesn't follow DRY principlesNothing to previewNothing to preview",Github
+"Repetitive code, should be placed in functions and reusedNothing to previewNothing to preview",Github
+"Repetitive Codes, should have used a functionNothing to previewNothing to preview",Github
+"Repetitive codes, should have used a functionNothing to previewNothing to preview",Github
+Returns error at global jj = 5*k as this cannot be done.Nothing to previewNothing to preview,Github
+Same code is written twice .. So better make it a function . Bad code smell. Code can be defined as a function and can be called http://blog.codinghorror.com/code-smells/Combinitorial Explosion You have lots of code that does almost the same thing.. but with tiny variations in data or behavior. This can be difficult to refactor-- perhaps using generics or an interpreter?Nothing to previewNothing to preview,Github
+Same code is written twice can be written as a function and be called twice.Code smell.Jump function is not working at edges of a floor.Nothing to previewNothing to preview,Github
+Score and lives are not displayed to the userNothing to preview,Github
+score attribute of the player is publicNothing to previewNothing to previewNothing to preview,Github
+Score doesn't decrease even after hitting the fireball.Nothing to preview,Github
+Score function is not implemented. Quit is not implemented properly.Nothing to previewNothing to preview,Github
+score function is used in the code without having coins and fireballs.Nothing to preview,Github
+Score is not displayed live while the user is playing-Not according to the requirementsNothing to preview,Github
+score is not displayedNothing to preview,Github
+Score of the player doesn't increase after reaching the queenNothing to preview,Github
+Score should be incremented even during the second and third life.Nothing to previewNothing to preview,Github
+score should have been a private attributeNothing to previewNothing to preview,Github
+Screen resolution does not fit standard screen size. Nothing to previewNothing to preview,Github
+Screen resolution is hard-coded. Should use sys module.Nothing to preview,Github
+Screen resolutions should not be hardcoded . They should be rather extracted from the system using python sys module.Nothing to previewToo many whitespace errorNothing to previewNothing to preview,Github
+"Self attribute defined outside init, bad practice.Nothing to previewNothing to preview",Github
+self.chances not used.Nothing to previewNothing to preview,Github
+"short name, code smellNothing to previewBUG: Doesn't work on different resolutionsNothing to previewNothing to preview",Github
+should be on different lines. Not PEP8 standardNothing to previewNothing to preview,Github
+Should be split into different files.Nothing to previewDoesn't take advantage of classes.Nothing to previewNothing to preview,Github
+Should be used in main functionNothing to previewNothing to preview,Github
+Should contain only upto 79 character in a line.Nothing to previewNothing to preview,Github
+Should have declared these in globals..Nothing to previewToo much hardcodingNothing to previewNothing to preview,Github
+"Should have made program components independent, so that you don't need to use global variables.Nothing to previewImporting modules is faster than executing and can be compiled.Nothing to previewMissing module docstringNothing to previewNothing to preview",Github
+should have only 80 characters in a lineNothing to previewNothing to preview,Github
+Should have used a setter function instead of changing the coordinates manually each time.Nothing to previewNothing to preview,Github
+Should have used private variables instead of protected for posx and posy.Nothing to previewNothing to preview,Github
+"should have used range(1,4) insteadNothing to previewline too longNothing to previewNothing to preview",Github
+Should have used variables instead of hardcoding values.Nothing to previewNothing to preview,Github
+should include person classNothing to previewNothing to preview,Github
+should not use 2 keys for one direction .If you are not clear about what keys to be used then use any one key and write in readme.txt or another file don't represent in multiple keys Nothing to previewNothing to preview,Github
+Should use broken ladders.Nothing to previewNothing to preview,Github
+Should use different folder for media objectsNothing to previewNothing to preview,Github
+"Should use inheritance, polymorphism,modularity.Nothing to previewShould include Fireball class,DonkeyKong class etcNothing to previewNothing to preview",Github
+"should use space after usage of "","". Not following PEP8 standards.Nothing to previewNothing to preview",Github
+Shouldnot have hardcorded values.Should have used variables.Nothing to previewNothing to preview,Github
+Size of player is smaller than that of coin. Nothing to preview,Github
+size of player is very small.Nothing to preview,Github
+So many lines doing the same assignmentNothing to previewNothing to preview,Github
+"So many nested if-else inside this function. Seems like everything is dependent on it.Refactor it to distribute load of this function to other functions (if they don't exist, create new functions.)Nothing to previewNothing to preview",Github
+So many unused importsNothing to preview,Github
+Some part of the previous code is repeated here.Could use functions for that.This is code smell.Nothing to previewBAD CODING PRACTICE : The code is too big. Should have been divided into classes.Nothing to previewNothing to preview,Github
+Sometime Coins float in air i.e not on any ground surfaceNothing to preview,Github
+"Sometimes a ""P"" is left behind(stationary) on collision with donkey while another ""P"" keeps moving .Nothing to preview",Github
+Sometimes coins float in air.  Random function for coins positioning not implemented properly.Nothing to preview,Github
+Sometimes player does not die on hitting fireball. In case player dies it start moving from same position not from initial position.Nothing to preview,Github
+"Speed of the player increases as more fireballs come in , therefore whenever a game starts or restarts , the speed of the player is low and then increases gradually as more fireball come in.Nothing to preview",Github
+Split code into functions and re-factor them so that it enhances re usability of the code Nothing to previewNothing to preview,Github
+Split these kind of sentences into multiple ones so that code becomes readableNothing to previewNothing to preview,Github
+String statement has no effect (pointless-string-statement)Nothing to previewNothing to preview,Github
+Super init not called. Improper inheritanceNothing to previewNothing to preview,Github
+sys reimported. Not requiredNothing to previewNothing to preview,Github
+The argument grid has no use in method. Only arguments used must be passed.Nothing to previewNothing to preview,Github
+The below function doesn't add any functionality ->code smell It is just a wrapper.Nothing to previewNothing to preview,Github
+The class donkey should be inherited from class person.Nothing to previewencapsulation not implemented.(private and public variales).Nothing to previewNothing to preview,Github
+The closing bracket on multi-line construct should line with either the first non-whitespace character of the last line or the first character of the line that starts the construct. ( PEP-8 standards)Nothing to previewNothing to preview,Github
+The code has many hard coded values.Nothing to preview,Github
+The code should be made more modular like the file state.py is excessively large. It should be split into multiple files.  Nothing to preview,Github
+The coin position is fixed as it is hard-codedNothing to preview,Github
+"the coins are intersecting with the walls. no movement in the donkey. player can either move forward or up,but not both as was required by the game.Nothing to preview",Github
+The controls as per the problem statement : Moving Up -> W Moving Down -> S Moving Left -> A Moving Right -> DUsed : Arrow keys.Nothing to preview,Github
+The creation of ladder doesn't happen in the ladder class instead it happens in the level classNothing to previewError:Use of super on an old style class Nothing to previewNothing to preview,Github
+The dimensions of the game window should not be hard-coded as the resolution differ for different system. Instead sys module should have been used and the values of the system should have been extracted.Nothing to previewNothing to preview,Github
+"The donkey is not throwing fireballs, instead they are moving independently on each floor.Nothing to preview",Github
+The drums are not falling down from the ladder which is against the problem statement.Nothing to preview,Github
+"The fireball has to fall down from the ladder once it comes in contact with it. That is , the path of fireballs is fixed not randomly generated.Nothing to preview",Github
+The fireballs are not falling from the stairs or from the floor.Nothing to preview,Github
+The fireballs do not eliminate at the player's spawn position.Nothing to preview,Github
+The floor_gap attribute of the method has not been used.Nothing to previewNothing to preview,Github
+"The following bugs have been detected in this code : 1. Functionality : No fireballs present. 2. Functionality : No coins present for the user to collect. 3. Design : Absence of Broken ladder. 4. Functionality : The user does not lose a life when he comes in contact with the donkey. 5. Functionality : No transitional movement across a ladder. On pressing the ""w"", the user jumps up one floor when near the ladder. 6. Functionality : No concept of User-Lives. 7. Functionality : No concept of User-Score. 8. Design : All issues with respect to displaying the score and the lives. 9. Functionality : Important Methods such as checkWall(), checkCollision, getPosition(), collectCoin() have not been implemented. 10. Functionality : Very minimal functionality as compared to what is expected from the problem statement.Nothing to preview",Github
+"The following errors have been identified in the code snippet below : 1. Cyclomatic complexity: too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.Nothing to previewCould be made more readable by proper indentation and by better line-spacing.Nothing to previewThere is a fair amount of complexity in the conditional statements below.Nothing to previewNothing to preview",Github
+"The following errors were found in this function : 1.Code Smell :  Excessively long identifiers: in particular, the use of naming conventions to provide disambiguation that should be implicit in the software architecture. 2. The code could be made more readable by introducing multi-line comments and better spacing between the lines.Nothing to previewNothing to preview",Github
+The following lines of code till 158 should have been included in class.Nothing to previewNothing to preview,Github
+The following lines of code till line 138 should have been included in a class.Nothing to previewNothing to preview,Github
+The following lines of code till line 294 has been hard-coded. Would be hard to modify the code. Using loops and variables could have made the code more readable. Nothing to previewPEP-8 standards violation 262-294 Bad white spacesNothing to previewNothing to preview,Github
+"The following methods and blocks of code could have been included in a class. Long method, main is very long and could have been broken down in to smaller methods for better readability and understanding of its functionality.Nothing to previewNothing to preview",Github
+The following methods and blocks of code should have been included in a class. This would better explain the functionality and the code would have better readability.Nothing to previewNothing to preview,Github
+The following methods should have been included in a class.Nothing to previewNothing to preview,Github
+The function definitions are not present in a class .Nothing to previewCode Smell : Long Method.Nothing to previewNothing to preview,Github
+"The functions checkWall(), checkCollision() and collectCoin() are not present.Nothing to preview",Github
+"The functions getPosition(), checkWall(), checkCollision() and collectCoin() are not present.Nothing to preview",Github
+"The functions getPosition(), checkWall(), checkCollision() and collectCoin() not present.Nothing to preview",Github
+"The functions getPosition(), checkWall(), checkCollision() and collectCoin() not present.Nothing to preview",Github
+"The functions getPosition(), checkWall(), checkCollision() and collectCoin() not present.Nothing to preview",Github
+The game does not start when the player reaches the floor of the princess.Nothing to preview,Github
+The game doesn't restart when the player reaches the queen.Nothing to preview,Github
+The game doesn't work like its supposed toNothing to preview,Github
+The game doesnot work.Nothing to preview,Github
+The game has no option to restart itself.Nothing to preview,Github
+"The game has no window boundaries , a player can move down even when it's on the floor and can move beyond the game board.Nothing to preview",Github
+The important layout of the game attributes like platform and ladders are public which is serious problemNothing to previewNothing to preview,Github
+"The jump without the movement is good enough but whenever player jumps horizontally while moving , the player doesn't jump much high which makes it practically difficult to jump over the fireball.Nothing to preview",Github
+The loop has high Cyclomatic complexityNothing to previewNothing to preview,Github
+The loop has high Cyclomatic complexityNothing to previewNothing to preview,Github
+The loop has very high Cyclomatic complexityNothing to previewNothing to preview,Github
+The mario class is basically the player of the game and it has no methods. [lazy class]. does not have any methods for the class. Nothing to previewNothing to preview,Github
+The output comes on the bottom left corner which is not suitableNothing to preview,Github
+The player and fire can move on the ladder simultaneously. Nothing to preview,Github
+The player can't climb up broken ladders but it can jump up broken ladders ( not specified in problem statement )Nothing to preview,Github
+The player cannot climb ladders even if implemented as the player contact with the ladder is only on right-half or left-half .Nothing to preview,Github
+"The player moves only a certain amount of pixels when the direction keys are pressed, and does not keep moving as long the key is pressed.Nothing to preview",Github
+The score is not visible on the game window rather on the terminal which makes it impractical to see the score while playingNothing to previewNothing to preview,Github
+The transition in moving on ladder is not shownNothing to preview,Github
+There are no broken stairs. (We were asked to implement some broken stairs)Nothing to preview,Github
+"There are too many mixed indentations, trailing whitespaces and a few missing docstringsNothing to previewNothing to preview",Github
+there is a green block in the game.we cannot understand what it is.it is better use some symbol or picture that any user can easily understand.Nothing to preview,Github
+there is functionality defect in laddersNothing to previewNothing to preview,Github
+There is no method of creation of a coin in the coin instead it is in the level class which is wrong.Nothing to previewError/Bug:   Use of super builitin on an old style classNothing to previewNothing to preview,Github
+there is no wall.Nothing to preview,Github
+There should be a line gap at the start of every function . Not following PEP8 standards.Nothing to previewNothing to preview,Github
+"there should be space after usage of "",""  Not following PEP8 standards.Nothing to previewNothing to preview",Github
+"There should be space around an operand like "" = "" . Not following pep8 standardsNothing to previewNothing to preview",Github
+"There should be space around an operand like "" = "" . Not following pep8 standardsNothing to previewNothing to preview",Github
+"There should be space around an operand like "" = "" . Not following pep8 standardsNothing to previewNothing to preview",Github
+"There should be space before and after a comma( , ) operand.Not following pep8 standards.Nothing to previewNothing to preview",Github
+"There should be space before and after a comma( , ) operand.Not following pep8 standards.Nothing to previewToo much hardcoding.Nothing to previewcode smells : Duplicated code.Nothing to previewNothing to preview",Github
+there should have been exactly one space after a coma. Same thing has occured beyond in following lines.Nothing to previewNothing to preview,Github
+there should have been exactly one space after a coma.Nothing to previewNothing to preview,Github
+These methods could be placed within a main class.Nothing to previewNothing to preview,Github
+"These should be a series of else-if statements rather than just ""if"" statements .Nothing to previewNothing to preview",Github
+These should be present within a main function .Nothing to previewNothing to preview,Github
+"This class (Coins) depends on the structure of the board, which shows inappropriate intimacy.Nothing to previewmissing-docstring for the class Coins.Nothing to previewNothing to preview",Github
+"This class seems to do everything like checking collision, walls, collecting coins etc. The class tends to do both the functionality of characters as well as the main game loop . [god class]. Bad code smell.Nothing to previewClass is not appropriately structured. init function has no attributes.Nothing to previewall attributes of the class ( b, player, floorwalls, rightwalls etc) have been used outside the init  and none of them have been declared/initiated in the init function. very bad coding style.Nothing to previewNo function implemented for jump.Nothing to previewCode Smell: too many instance attributes.Nothing to previewClass has no Method descriptors.Nothing to previewNothing to preview",Github
+"This class should have a class of its own and should not be in main.pyNothing to previewInherited things not required, improper inheritance.Nothing to previewNothing to preview",Github
+This class should have a class of its own and should not be in main.pyNothing to previewNothing to preview,Github
+This class should have a file of it's own.Nothing to previewAbsence of data abstraction : Class data members not divided into private and protected.Nothing to previewNothing to preview,Github
+This class should have a file of it's own.Nothing to previewAbsence of data abstraction : Class data members not divided into private and protected.Nothing to previewNothing to preview,Github
+This class should have a file of it's own.Nothing to previewLazy class : class too smallNothing to previewNothing to preview,Github
+This class should have a file of its own.Nothing to previewNothing to preview,Github
+This code snippet could have been made more readable by introducing multi-line comments and better line-spacing.Nothing to previewNothing to preview,Github
+This could be improved by making a array block instead of having so many objects of the Block class.Nothing to previewNothing to preview,Github
+"This file consists of all global variables, not classified, errors here would be hard to find and debug. Colors, Fonts, Music, Barrels etc could be either in separate files or under separate classes to improve readability. Nothing to previewAnd PEP-8 Violations. Nothing to previewNothing to preview",Github
+This file consists of all the classes. Should have divided the file into multiple modules consisting of common modules. [lacks modularity]Nothing to previewNo fireball class implemented.Nothing to previewNothing to preview,Github
+This function could be defined in the base class as it can be used by all the children of the base class.Nothing to previewNothing to preview,Github
+This function could be places within a class and it is recommended that you do so.Nothing to previewNothing to preview,Github
+this game do not have levelsNothing to previewCode would be easier to read if it was split into different files.Nothing to previewNothing to preview,Github
+This game does not have levelsNothing to previewNothing to preview,Github
+This is an excessively complex conditional statement. It can be broken down into simpler nested statements for better understanding of the code.Nothing to previewNothing to preview,Github
+This is not even  used in the game at all.Nothing to previewNothing to preview,Github
+This is not used in the game.so this is not required.Nothing to previewNothing to preview,Github
+This loop has a high Cyclomatic complexityNothing to previewNothing to preview,Github
+This method could be defined in the base class Person.Nothing to previewNothing to preview,Github
+This method could have been a function as there is no self use.Nothing to previewNothing to preview,Github
+This module could be made more modular by breaking it into smaller different modules.Nothing to previewNothing to preview,Github
+Tidy indention throughout. You have an envious editor ...Nothing to preview,Github
+time module has not been usedNothing to previewNothing to preview,Github
+time module not used Nothing to previewNothing to preview,Github
+time module not usedNothing to previewNothing to preview,Github
+Timer implementation wrong. Leads to different gaming experience on different machines. Not in sync with the proper real world time.Nothing to previewNothing to preview,Github
+"To link a level and a platform list to fireball, two way linking has to be done. Fireball to level and level to fireball. Every time we create a fireball and link to a level , we have to link the level to the fireball separately. This does not follow divergent change. Bad code smell.Nothing to previewNothing to preview",Github
+"To many for loops ,game takes time to load Nothing to previewNothing to preview",Github
+Too bad code smell in living.py. Almost all functions have too many arguments.Nothing to preview,Github
+too big line : should have only 80 characters in a lineNothing to previewNothing to preview,Github
+too few commentsNothing to preview,Github
+Too large class. Could be broken into smaller.Nothing to previewNothing to preview,Github
+Too long function. could have divided the functionality into smaller functions.Nothing to previewToo many if-else conditions in the function.Nothing to previewLarge Function It can be broken down into smaller functions.Nothing to previewNothing to preview,Github
+Too long function. Split the functionality into various small ones. Nothing to previewNothing to preview,Github
+Too long line-PEP 8 standards violationNothing to previewNothing to preview,Github
+Too long lineNothing to previewNothing to preview,Github
+too many arguments : bad code smell Nothing to previewNothing to preview,Github
+too many arguments (more than 5)Nothing to previewNothing to preview,Github
+too many arguments in function. avoid adding too many arguments. bad code smellNothing to previewNothing to preview,Github
+too many arguments in function. avoid adding too many arguments. bad code smellNothing to previewNothing to preview,Github
+too many arguments in function. try not keeping arguments that are not used are have been kept in the function for default values.Nothing to previewNothing to preview,Github
+too many arguments in function. use at most 5 arguments in functionNothing to previewNothing to preview,Github
+"Too many arguments in init. attributes like startFloor, gap, offset could have been locally declared into the function.Nothing to previewNo spaces allowed during argument assignment of a function.Nothing to previewNothing to preview",Github
+Too many arguments! Pylint: (7/5) (too-many-arguments)Nothing to previewNothing to preview,Github
+too many arguments. avoid passing class-objects as arguments. try importing them and use their attributes in the function.Nothing to previewNothing to preview,Github
+Too many arguments. Instead of assigning class object as arguments could have imported the object from main.py.Nothing to previewNothing to preview,Github
+Too many arguments. Too many branches in method.Nothing to previewNothing to preview,Github
+Too many arguments.Nothing to previewNothing to preview,Github
+Too many arguments.Nothing to previewNothing to preview,Github
+Too many attributes in the constructor.Nothing to previewNothing to preview,Github
+Too many blank lines  PEP8 standards violated.Nothing to previewNothing to preview,Github
+Too many blank lines between the code must not be presentNothing to previewNothing to preview,Github
+Too many blank lines left. PEP8 standards violated.Nothing to previewCode smell: Speculative generality  we have change values at so many positions to make changes in the game.Nothing to previewNothing to preview,Github
+"Too many blank lines left. PEP8 standards violated.Nothing to previewInsteaded of hardcoding values , variables could have been used.Nothing to previewNothing to preview",Github
+Too many blank lines left. PEP8 standards violated.Nothing to previewNothing to preview,Github
+Too many blank lines left. PEP8 standards violated.Nothing to previewNothing to preview,Github
+Too many blank lines left. PEP8 standards violated.Nothing to previewSame type of lines written too many times could have used a function.Nothing to previewNothing to preview,Github
+Too many blank lines unnecessarily usedNothing to preview,Github
+Too many blank lines used violating PEP 8 rules.Nothing to previewNothing to preview,Github
+Too many branches and statements. Code to be refactored to be modularized and distributed.Nothing to previewNothing to preview,Github
+Too many branches.Nothing to previewNothing to preview,Github
+Too many branching.Nothing to previewNothing to preview,Github
+Too many classes in the file board.py . Avoid it and try separating classes into different modules. Modularity not implemented.Nothing to preview,Github
+Too many classes in the same file. Avoid it and try separating classes into different modules as a good coding practice.Nothing to previewgood coding practice : avoided using global variablesNothing to previewNothing to preview,Github
+Too many comments.Nothing to previewNothing to preview,Github
+Too many conditions.Nothing to previewNothing to preview,Github
+"Too many files in main directory, Resources like images and audio should be organised and placed in seperate folders. Many of the resources are never even used in the code.Nothing to preview",Github
+"Too many if , else conditions .Bad code smell.Nothing to previewglobal variable z undefined at module level.Nothing to previewNothing to preview",Github
+Too many if-else. Try to reduce that by improving game logic.Nothing to previewNothing to preview,Github
+"Too many if,else conditions.Code smell.Nothing to previewNothing to preview",Github
+"Too many if,else conditions.Code smells bad.Nothing to previewNothing to preview",Github
+Too many if's and for's used.Try reducing themNothing to previewNothing to preview,Github
+Too many if's used -> code smellNothing to previewNothing to preview,Github
+Too many ifs and elifs.Nothing to previewNothing to preview,Github
+Too many image loads.Repetitive code -> code smellNothing to previewNothing to preview,Github
+Too many invalid constant names and whitespace errors.Nothing to preview,Github
+Too many nested - if's must not be usedNothing to previewNothing to preview,Github
+Too many nested conditions . Conditional Complexity. Bad code Smell.Nothing to previewNothing to preview,Github
+Too many nested if conditions. Bad code smell.Nothing to previewNothing to preview,Github
+Too many parameters in the function checkCollision.Nothing to previewCan use an object to pass in argument to prevent from too many parameters.Nothing to previewNothing to preview,Github
+"Too many parameters: a long list of parameters is hard to read, and makes calling and testing the function complicated.Nothing to previewNothing to preview",Github
+"Too many parameters: a long list of parameters is hard to read, and makes calling and testing the function complicatedNothing to previewNothing to preview",Github
+Too many parameters. Can use an object instead of 8 parameters.Nothing to previewNothing to preview,Github
+Too many parameters.Nothing to previewCode smell : Long parameter listNothing to previewNothing to preview,Github
+Too many parameters.Nothing to previewNothing to preview,Github
+Too many statements in function. Could have divided functionality into separate functions. Too many arguments(maximum should be 5).Nothing to previewToo many local variables used in the function. Very long function.Nothing to previewNothing to preview,Github
+Too many unused stuff from state.pyNothing to previewNothing to preview,Github
+Too many unused wildcard importsNothing to preview,Github
+"Too many while loops: Can use a function for doing same job.Bad code smell, should be refactored (maybe by using a function).Nothing to previewNothing to preview",Github
+Too many whitespace and mixed indentation errors in the moduleNothing to previewNothing to preview,Github
+Too much dead code->Code SmellNothing to previewNothing to preview,Github
+Too much hard coding in the class and the screen dimensions should not be hard coded as they may differ for different resolutions .  The use of sys module in python would solve the problem.Nothing to previewBad code smell:    Too few public methods (1/2) Nothing to previewNothing to preview,Github
+"Too much hardcode. Should've used constants, or values generated randomly.Nothing to previewNothing to preview",Github
+Too much indentation and whitespace errors.Nothing to preview,Github
+Too much Mixed Indentation error Nothing to preview,Github
+"Too much of hard code, makes it tough to find errors . Bad practiceNothing to previewCode smell: DEAD CODE . Since the player is not moving upwards all the ladders,queen are not used at-least once in the game.Nothing to previewNothing to preview",Github
+Too much of hard coding.Could be generated dynamically.Nothing to previewNothing to preview,Github
+"Trailing white spaces found on lines numbered 5,7,10,14,19 and 33. PyLint recommends not to have trailing white space on any line. Not according to PEP 8 standards.Nothing to previewNothing to preview",Github
+Trailing whitespace after line and missing space after comma. Not according to PEP8 standardNothing to previewinvalid constant name 'screen'Nothing to previewNothing to preview,Github
+Try not to use many if's in your code.Nothing to previewNothing to preview,Github
+Try reducing the if's.Nothing to previewNothing to preview,Github
+Try writing classes with a constructor.Nothing to previewNothing to preview,Github
+"Trying to access protected member __go_lefts of a client class. PEP8 standard violatedNothing to previewBtw, results prefixed with w don't denote pep-8 standard violationNothing to previewNothing to preview",Github
+Two blank lines must be left between the class and it's first method.Nothing to previewNothing to preview,Github
+Two blank spaces should be given between the class and it's first method.Nothing to previewClass names should normally use the CapWords convention. PEP8 standards violated.Nothing to previewClass has no init method.Nothing to previewNothing to preview,Github
+Two line gap must be left between class name and it's first method.Nothing to previewNothing to preview,Github
+two lines must be left blank after class definiton.Nothing to previewNothing to preview,Github
+"Unable to compile the code. Comments missing, very difficult to understand the code.Nothing to preview",Github
+Uncommunicative names.Nothing to previewNothing to preview,Github
+unecessary parenthesis after elifNothing to previewlines 115-117 bad indentation.Nothing to previewNothing to preview,Github
+Unexpected IndentationNothing to previewNothing to preview,Github
+Unnecesary ConstantNothing to previewPEP-8 standards violation:   Exactly one space required after comma-Bad whitespaceNothing to previewNothing to preview,Github
+Unnecessarily making the variable privateNothing to previewNothing to preview,Github
+Unnecessary ;Nothing to previewNothing to preview,Github
+Unnecessary ( and ) with ifNothing to previewNothing to preview,Github
+Unnecessary comments which increases length of code.Nothing to preview,Github
+"Unnecessary declaration of private methods above, since they are just being called with the same parameters by the functions below.Nothing to previewNothing to preview",Github
+"unnecessary function .. could call directly func(1,0) from code itself.Player could not escape fireball while on ladder.BUGNothing to previewNothing to preview",Github
+Unnecessary function. Not being called anywhere. levelUp is doing the job instead. Nothing to previewNothing to preview,Github
+Unnecessary functionNothing to previewNothing to preview,Github
+Unnecessary import of copy. Not usedNothing to previewNothing to preview,Github
+"Unnecessary parens after 'if' keyword (superfluous-parens)Bad code smell, Should be avoided for readability.Nothing to previewNothing to preview",Github
+"unnecessary parentheses used in if condition, python if conditions don't need parentheses Nothing to previewNothing to preview",Github
+Unnecessary parenthesis in if statement. Nothing to previewNothing to preview,Github
+Unnecessary print statement. Print to console while game is graphical. Probably a debugging statement. Should've been removed.Nothing to previewNothing to preview,Github
+unnecessary printing  after game completion other than the scoreNothing to preview,Github
+Unnecessary spaces and white lines used . Readability of code is lessNothing to previewNothing to preview,Github
+Unused argument 'array'Nothing to previewMethod could be refactored to a function.Nothing to previewNothing to preview,Github
+Unused arguments 'row' and 'column' passed to function Nothing to previewNothing to preview,Github
+"Unused arguments 'x' , 'y' , 'x_change' , 'y_donkey' , 'y_change' , 'x_donkey' .Nothing to previewNothing to preview",Github
+Unused function setLevelNothing to previewNothing to preview,Github
+Unused import 'Player'Nothing to previewNothing to preview,Github
+Unused import 'sys'Nothing to previewNothing to preview,Github
+unused import 'sys'Nothing to previewPEP8 error: 1) mixed indentation using tabs and spaces 2) exactly one space required after commaNothing to previewCode Smell: Too few public methods to call(0/2). Instead use tuple or dictionary to define variablesNothing to previewBug: Donkey cannot throw fireballs.Nothing to previewNothing to preview,Github
+unused import as reimported required same in line 5Nothing to previewNothing to preview,Github
+Unused Import boardNothing to previewUnused import pygameNothing to previewNothing to previewNothing to preview,Github
+unused import matrix. Only modules which have to be used are to be imported.Nothing to previewNothing to preview,Github
+Unused import OS.Nothing to previewNothing to preview,Github
+Unused import pygameNothing to previewNothing to preview,Github
+Unused import random. Nothing to previewNothing to preview,Github
+Unused import sys (unused-import) Unused importPlatform (unused-import) Unused import Ladders (unused-import)Nothing to previewNothing to preview,Github
+unused import sysNothing to previewNothing to preview,Github
+Unused import sysNothing to previewNothing to preview,Github
+unused import.message module is not used in the game.Nothing to previewcodesmells : DeadcodeNothing to previewNothing to preview,Github
+Unused importNothing to previewNothing to preview,Github
+"Unused sys,re,os Unused import from wildcard import (unused-wildcard-import)Nothing to previewNothing to preview",Github
+Unused time module. Only modules which have to be used are to be imported.Nothing to previewNothing to preview,Github
+"Unused variable __dx, __dyNothing to previewNothing to preview",Github
+unused variable 'i'Nothing to previewNothing to preview,Github
+Unused variable 'k'.Nothing to previewNothing to preview,Github
+Unused variable begin.Nothing to previewNothing to preview,Github
+unused variable block_sizeNothing to previewNothing to preview,Github
+"Unused variables __ax, __ayNothing to previewNothing to preview",Github
+"Unused variables __tx, __tyNothing to previewNothing to preview",Github
+Unused wildcard importNothing to previewNothing to preview,Github
+Unused wildcard importNothing to previewNothing to preview,Github
+Unused Wildcard ImportNothing to previewNothing to preview,Github
+Unused wildcard importNothing to previewNothing to preview,Github
+Unused Wildcard ImportNothing to previewNothing to preview,Github
+"Unwanted, long print function. It could be made into simpler multiple print statements.Nothing to previewNothing to preview",Github
+"up,down movements are not implemented with w,s.Nothing to preview",Github
+Use 4 spaces per indentation level.  PEP8 standards violated.Nothing to preview,Github
+"Use a white space after comma, semi-colon, colon etc.Nothing to previewNothing to preview",Github
+use a white space around a operator.Nothing to previewNothing to preview,Github
+Use a white space around operatorNothing to previewNothing to preview,Github
+use a white space around the operator.Nothing to previewNothing to preview,Github
+"use arrow functions instead of w,s,a,d (or) represent your assumption in readme.txt  Nothing to previewNothing to preview",Github
+use arrows as convention or represent your assumptions in readme.txtNothing to previewNothing to preview,Github
+Use comments to make your code more readable! Nothing to preview,Github
+Use communicative variable names.Nothing to previewExactly one space is required after comma. PEP-8 standards violatedNothing to previewNothing to preview,Github
+Use communicative variable names.Nothing to previewNothing to preview,Github
+Use communicative variable namesNothing to previewNothing to preview,Github
+Use communicative variable namesNothing to previewNothing to preview,Github
+"Use constructors  to declare attributes of a class. Nothing to previewHardcoded Layout could have been loaded from another file, keep the logic separated from the data.Nothing to previewClass has no init method (no-init)Nothing to previewNothing to preview",Github
+Use Doc strings for classes and it's methods.Nothing to previewNothing to preview,Github
+Use of Global variables should be avoided.Nothing to previewNothing to preview,Github
+Use PEP standards to Name classes.https://www.python.org/dev/peps/pep-0008/#class-namesClass Names:Class names should normally use the CapWords convention.Nothing to previewNothing to preview,Github
+Use PEP standards to Name methods . https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variablesMethod Names and Instance VariablesUse the function naming rules: lowercase with words separated by underscores as necessary to improve readability. Use one leading underscore only for non-public methods and instance variables. Nothing to previewNothing to preview,Github
+Use spaces instead of tabs for indentation...(PEP8 standards)Nothing to preview,Github
+"Use then needed imports onlyNothing to previewBad Code Smell Long Method All other things being equal, a shorter method is easier to read, easier to understand, and easier to troubleshoot. Refactor long methods into smaller methods if you can.Nothing to previewNothing to preview",Github
+Use underscore in methods and attributes names instead of camel case. (PEP-8 standards)Nothing to preview,Github
+"Use variables for positioning as it would be easy if you have to change the position, you need not have to change at the every place you used it.Nothing to previewNothing to preview",Github
+Use variables instead of direct values so that modification of the code would be easyNothing to previewNothing to preview,Github
+"Use white spaces after comma,semi-colon,colon.Nothing to previewNothing to preview",Github
+Used a lot of bad-whitespace and mixed indentationNothing to preview,Github
+Used a lot of bad-whitespaces and mixed-indentationNothing to preview,Github
+"Used global for 'width' and 'height' but no assignment is done, violating PEP8 standardsNothing to previewNothing to preview",Github
+Used Global Variable in wrong class. The constants could be defined in a separate constants module which could then be imported here.Nothing to previewNothing to preview,Github
+Using an array of laddar would be betterNothing to previewNothing to preview,Github
+"Using completely random number of white space. Here 3 white spaces are used and at other places 4, 6, 8 white spaces are used PEP8 standard violatedNothing to previewNothing to preview",Github
+Using function  is better that hardcoding Nothing to previewNothing to preview,Github
+Using global variables leads to loss of encapsulation.Nothing to previewNothing to preview,Github
+Using Global variables should be avoided.Nothing to previewNothing to preview,Github
+Using if-else statement would be betterNothing to previewNothing to preview,Github
+Using variable 'G' before assignment.Nothing to previewNothing to preview,Github
+Values hard-coded; might be difficult to change the game.Nothing to preview,Github
+Variable 'd_x' not used anywhere else. Not requiredNothing to previewNothing to preview,Github
+Variable 'd_y' not used anywhere else. Not requiredNothing to previewNothing to preview,Github
+Variable 'out' not used anywhereNothing to previewNothing to preview,Github
+Variable name does not describe the use of the variableNothing to previewNothing to preview,Github
+"Variable name h1,h2 too short , not descriptiveNothing to previewNothing to preview",Github
+variable name is too small. it could have been more descriptive and atleast 3-4 characters long.Nothing to previewNothing to preview,Github
+variable name used is not good. try using variables that make some sense and are atleast 3 characters long.Nothing to previewNothing to preview,Github
+variable names are not descriptiveNothing to previewBUG: There are unused argumentsNothing to preview(pylint):global variables used but assignment not done. Nothing to previewNothing to preview,Github
+Variable names doesn't make any sense. ui in princess?Nothing to previewNothing to preview,Github
+variables not declared in globalNothing to previewNothing to preview,Github
+very few of imported module used.Nothing to preview,Github
+Very large init method with redundant code. No use of Random to make the layout.Nothing to previewNothing to preview,Github
+Very long classNothing to previewCode Smell : Large ClassNothing to previewNothing to preview,Github
+Very long function. Bad practice.Nothing to previewNothing to preview,Github
+"Very long Method Bad code smell http://blog.codinghorror.com/code-smells/Long methodAll other things being equal, a shorter method is easier to read, easier to understand, and easier to troubleshoot. Refactor long methods into smaller methods if you can.Nothing to previewGameloop() is too long. Gives rise to high Cyclomatic complexity.The method Gameloop can be broken down into multiple methods. Nothing to previewNothing to preview",Github
+Very-Very Large class. Bad coding practice.Nothing to previewClass Level Smell : God ClassNothing to previewNothing to preview,Github
+"Warning, Wildcard import mainNothing to previewNothing to preview",Github
+Warning;    Found indentation with tabs instead of spaces (mixed-indentation)Nothing to previewNothing to preview,Github
+"Warning:   bad indentation Found 8 spaces, expected 4Nothing to previewNothing to preview",Github
+Warning:   Found indentation with tabs instead of spaces (mixed-indentation)Nothing to previewNothing to preview,Github
+Warning:   Found indentation with tabs instead of spaces (mixed-indentation)Nothing to previewNothing to preview,Github
+Warning:   Found indentation with tabs instead of spaces (mixed-indentation)Nothing to previewNothing to preview,Github
+Warning:   Found indentation with tabs instead of spaces (mixed-indentation)Nothing to previewNothing to preview,Github
+Warning:   indentation with tabs instead of spacesNothing to previewNothing to preview,Github
+Warning:   Unreachable codeNothing to previewNothing to preview,Github
+Warning:   Unused import pygameNothing to previewNothing to preview,Github
+We need to press enter every time which makes game very slow.Nothing to preview,Github
+well commented and readable.Nothing to preview,Github
+Well documented programNothing to preview,Github
+"What if ""Times New Roman"" unavailable, crashes the game at times. The font should've been bundled with the game, as a good practice.Nothing to previewNothing to preview",Github
+"when 'd' is  given as input ,giving wrong output format.when non specified keys are given as input,it shouldn't effect the game.Nothing to preview",Github
+"When a player loses a life, he is not penalized as asked in the question.Nothing to preview",Github
+"When not climbing the ladder , pressing up arrow key and space bar makes no distinction. The up key should be disabled when the user is not climbing up as according to problem statement , up key is used for climbing up.Nothing to preview",Github
+"when player drops down on a coin or a fireball, it gets struckNothing to previewNothing to preview",Github
+"when player hits donkey ,donkey is replaced by player .when player moves back 'H' is shown in place od donkey.Nothing to preview",Github
+When Player hits fireball sometimes the fireball is not detroyed and remains at position of collisionNothing to previewNothing to preview,Github
+when setting dimensions please all users in view  . because when your code is run on my machine i cant even see player . so put minimal dimensions or better use fullscreen optionNothing to preview,Github
+When the player is in contact with the ladder and the bottom floor if you press the down arrow the player goes into the wallNothing to preview,Github
+"When the player reaches at queen's place game stops with error ""Attribute Error: Player instance has no attribute 'myfont'""Nothing to preview",Github
+When the user presses the close button the game displays that the user has won which must not be displayed as the user wanted to exit the game without waiting for loss or win.Nothing to preview,Github
+"While climbing the stairs , player can pass through the floor tiles.Nothing to preview",Github
+"while(1), break is bad programming practice. Better to keep a variable which changes state. Something like game_running, which is better readability.Nothing to previewNothing to preview",Github
+White space required.Nothing to previewUnnecessary CommentNothing to previewNothing to preview,Github
+white space requiredNothing to previewNothing to preview,Github
+Whole code is written in a single file and is not distributed into modules-Absence of modularityNothing to preview,Github
+wild card import. Nothing to previewNothing to preview,Github
+Wildcard import has lot of unused stuffNothing to previewNothing to preview,Github
+"Wildcard import, not PEP8 Nothing to previewUnused wild-card importNothing to previewPython error- unused wildcard importNothing to previewNothing to preview",Github
+Wildcard imports are usually not preferred... Nothing to previewNothing to preview,Github
+Wildcard imports. Never a great idea!Nothing to previewNothing to preview,Github
+writing a random function is better than using hardcode since fixed number of coins identifiedNothing to previewNothing to preview,Github
+Writing block comments is a good practice.Nothing to previewNothing to preview,Github
+Wrong attribute nameNothing to previewPositive: Good function and variable namesNothing to previewNothing to preview,Github
+Wrong continued indentation or(event.key == K_a)Nothing to previewNothing to preview,Github
+Wrong formatting to store values in the list. White-spaces and commasNothing to previewNothing to preview,Github
+Wrong hanging indentation.Nothing to previewNothing to preview,Github
+Wrong hanging indentationNothing to previewNothing to preview,Github
+Wrong Indentation in all program further on. Double spaces than PEP8 foundNothing to previewBad code Smell :- Too many functions in same class.Load of class can be distributed by refactoring (maybe by making new class for load distribution)Nothing to previewNothing to preview,Github
+Wrong Indentation Nothing to previewNothing to preview,Github
+"Wrong name, used in other classes alsoNothing to previewBUG: Parabolic Jump has not been implemented...Nothing to previewNothing to preview",Github
+• getPosition() • checkWall() • checkCollision() • collectCoin()not implementedNothing to previewLayout function is to large. Nothing to previewNothing to preview,Github
+"• getPosition() • checkWall()functions are not present , used the sprites directly.Nothing to preview",Github

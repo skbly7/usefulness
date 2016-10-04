@@ -1,0 +1,3878 @@
+"why you did that ?","Phab"
+"test comment","Phab"
+"get position function is too long!
+ideally a function should be <15-20 line.
+
+also too many nested if-else conditions.
+divide the responsibility of this function, into various other functions.","Phab"
+"Code Smell: Uncommunicative name. Also, \""downShift\"", \""coll\"" (Lines 62, 23)","Phab"
+"Code Smell:- Useless override function","Phab"
+"Too many blank lines.","Phab"
+"Code Smell: Dead code, this does nothing","Phab"
+"Sizes hard-coded, must be proportional to the resolution of the game","Phab"
+"Villains.py can be split into the two kinds of villains - Donkey and Fireballs","Phab"
+"Screen resolutions are hardcoded. They should be retrieved from the system using the sys module.","Phab"
+"Code Smell: A lot of duplication for wall collisions across classes. Could have used a function.","Phab"
+"Hardcoded sizes, should be proportional to screen resolution","Phab"
+"Unnecessary Semicolon","Phab"
+"Code Smell: Long function","Phab"
+"Code Smell: Nested conditions, could have achieved the same with one while loop, removing x.","Phab"
+"Spaces required around comparison operator
+","Phab"
+"Unnecessary parentheses around the condition","Phab"
+"Bug: Stairs functionality not implemented in code, player cannot use stairs even if they are present.","Phab"
+"Bug: Player must have 3 lives.","Phab"
+"Code Smell: Large lines in nested conditionals, could easily lead to bugs","Phab"
+"Code Smell: This limit seems to indicate there are only 15 coins present, whereas there should be 20.","Phab"
+"Code Smell: Board is hard-coded, also duplicated  in another location.","Phab"
+"Getter, Setter functions aren't used throughout the code","Phab"
+"Unnecessary Semicolon","Phab"
+"Trailing Whitespaces","Phab"
+"Bug: This method isn't used; fireballs do not move in any direction.","Phab"
+"Unnecessary comments","Phab"
+"Code Smell: Similar __init__() function compared to other classes. Along with other object-type classes like Princess, should have been inherited from an \""Object\"" class.","Phab"
+"Code Smell: Redundant code, update() should prevent object from crossing walls","Phab"
+"Unnecessary Comments. ","Phab"
+"This function and the above are inherited already, from Person. There's no need to rewrite the same code.","Phab"
+"Variable name is spelled wrongly, could cause problems when other people use this method. Could have been better named as addLadder.","Phab"
+"Too many whitespace lines","Phab"
+"Ladder positions hardcoded
+","Phab"
+"Unnecessary parantheses in the 'if' function
+","Phab"
+"Code Smell: Almost all the functionality seems to have been implemented in this single file/class.","Phab"
+"Bug: When the player is mid-air. moving left/right and collides with the edge of a wall, he is stopped. Instead, he should still move in the original direction after losing contact with the wall.","Phab"
+"Bug: When the player is on top of a ladder, the UP arrow key makes him jump, while SPACE does not work.","Phab"
+"No __init__ function","Phab"
+"Move function only used for moving left, code smell : bad naming scheme.","Phab"
+"Hardcoded the board layout, could be done in a cleaner way.","Phab"
+"Multi-jump was allowed intentionally.","Phab"
+"Code Smell: Uncommunicative method name. The difference between the constructor and initGame() should  have been highlighted with a comment,","Phab"
+"No Private Variables used","Phab"
+"Bug: Variables - ROWS, COLUMNS aren't defined anywhere, and the code does not run.","Phab"
+"Code Smell: Long class, could have inherited more of it's functionality from class Person","Phab"
+"**Bad naming** ! Could be better named if the words are separated, perhaps through capitalization (canMoveDown) or underscores (can_move_down)","Phab"
+"Code smell: Bad variable name.","Phab"
+"Redundant variable, does nothing","Phab"
+"This was done intentionally, to prevent the player jumping off ladders.","Phab"
+"Bug: Multiple coins can intersect with each other. Ideally, it must not happen.","Phab"
+"Code smell: getPosition() does not return x, y positions.","Phab"
+"Code Smell: Too many nested conditions and long code, could have split into different function","Phab"
+"Bug: The Queen on the board is inactive.","Phab"
+"Bug: When the player jumps and falls on top of a ladder, without releasing the UP arrow key, he slides down the ladder. This should not happen.","Phab"
+"not according to PEP 8 standards, space after \"" , \""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"**codesmell**
+ this is a lazy class","Phab"
+"**bad codesmell**
+
+
+uncommunicative name","Phab"
+"this line of code doesnot have any significance!!","Phab"
+"**codesmell** 
+
+too many if conditions","Phab"
+"->Fireballs disappear for sometime after they reach a new floor
+-> The fireballs stop moving when no input is given
+->spot jump is not implemented!!
+->fireballs can use broken ladders to move down but mario cant!!","Phab"
+"testing would be east if done in this manner","Phab"
+"**BUGS**
+
+Game exits when player moves to the bottom right
+Terminal doesnot respond after the game exits
+Player doesn't touch the floor during consecutive jumps
+Game restarts after player looses one life
+
+**functionality missing**
+
+jumping on the spot
+","Phab"
+"fireballs folllow a fixed path.","Phab"
+"Player cannot jump
+Fireballs are not implemented
+Monkey is not implemented
+No ladders are present
+OOP concepts are not implemented
+When player touches the border,the game exits.
+Princess in not present
+
+LOL!! this is not donkey kong","Phab"
+"Player moves well,Check again","Phab"
+"Class person does not have any methods.So polymorphism is not implemented","Phab"
+"Nothing is relevant.This is not donkey kong game.","Phab"
+,"Phab"
+"There are classes for donkey and person and player.Please check again","Phab"
+"->spot jump is not implemented
+->fireballs climbdown ladders instantaneously","Phab"
+"**BUGS**
+ladders dont retain their original position after mario leaves the ladder.They take wierd shapes like 'L' and inverted 'L'
+mario is able to stay in air as long as he wants :P
+mario swaps with coin without collecting it sometimes.
+mario doesnot die after the monkey touches him.
+fireballs are stationary
+fireballs dont originate from the monkey,they take fixed positions on the screen
+Useful information like no of lives are not printed on the screen.
+<return> key must be pressed after every input.","Phab"
+"
+Got this error when tried to execute jump according to the instructions given:
+***
+  File \""Sriharsh  Bhyravajjula_445_assignsubmission_file_DonkeyKongv2_201425019.py\"", line 414, in <module>
+    main()
+  File \""Sriharsh  Bhyravajjula_445_assignsubmission_file_DonkeyKongv2_201425019.py\"", line 386, in main
+    player.ljump(screen)
+  File \""Sriharsh  Bhyravajjula_445_assignsubmission_file_DonkeyKongv2_201425019.py\"", line 60, in ljump
+    screen.prscreen()
+NameError: global name 'screen' is not defined
+***
+**BUGS**
+When ever player collides with a fireball,a new staionary fireball is created there.
+Player score is not changed  when he collides with a fireball
+Assuming,P represents player,There are multiple P's in the  game screen
+Fireballs don't move unless player gives an input
+
+**Features not implemented**
+Player doesnot have any lives
+Fireballs don't dissapear after reaching the bottomleft corner
+","Phab"
+"This class is the parent of the person class,but it does not have any methods of its own.So polymorphism is not implemented","Phab"
+"Pep-8 standards not followed
+Inheritance not followed properly
+polymorphism not found ","Phab"
+"**code smell**
+Too many if conditions
+","Phab"
+"-> ladders dont retain their original position after mario leaves the ladder.They take wierd shapes like 'L' and inverted 'L'
+->mario is able to stay in air as long as he wants :P
+->mario swaps with coin without collecting it sometimes.
+-> mario doesnot die after the monkey touches him.
+->fireballs are stationary
+-> Useful information like coins collected,no of lives are not printed on the screen.
+","Phab"
+"-> there is no donkey,fireballs,ladder ot princess
+-> jump is not implemented as describes in the assignment
+-> player doesnot have any lives 
+-> there are no coins or lives to be collected during gameplay","Phab"
+"Entire code can be decomped into multiple files for better understanding
+
+","Phab"
+"position of floor is hard coded.Should be genereated randomly","Phab"
+"->spot jump is not implemented.
+->fireballs climb down ladders instantaneously.","Phab"
+,"Phab"
+"Unnecessary comments","Phab"
+"This is  not the required condition!!","Phab"
+"didnot use this method","Phab"
+"unused variable mario.running
+","Phab"
+"**BUGS**
+
+Fireballs won't climb down the ladder
+Mario goes off the screen when he jumps at the first ladder
+Mario doesnot die when he touches fireball
+Mario's score and lives are not printed on the screen
+There is no queen or donkey in the game
+The game doesnot quit when 'q' is pressed
+","Phab"
+"Game is not complete","Phab"
+"Fireballs only move when the player moves, it should move randomly even if the player is still.","Phab"
+"Jump function not implemented properly, while pressing space the player disappears.","Phab"
+"Board is hard coded, could be done by using optimal functions, loops
+","Phab"
+"Feature missing:
+The princess is not shown also there is no winning message when the player reaches at the top level","Phab"
+"Feature not implemented well: The player doesn't move sometimes and on pressing space and movement keys the game some times quits.","Phab"
+"Jump instruction implemented in the most ideal way, but sometimes the player doesn't die when in contact with the fireballs","Phab"
+"BUG:
+The fireball doesn't kill the player mostly when the player comes in contact with the fireball","Phab"
+"Too many if conditions and one of the if condition had more than 40 lines of code, more than normal standard.","Phab"
+"You did not remove  1 in this code","Phab"
+"Bad indentation","Phab"
+"PEP-8
+multiple imports should be declared in different lines
+like
+import tty
+import termios
+import sys","Phab"
+"functionalities-
+Printing function is not working properly according the layout of terminal","Phab"
+"Whole function is having Bad indentation","Phab"
+"Unused argument 'x' and 'y' (unused-argument)","Phab"
+"PEP-8
+Line too long
+ideally line has less than 80 character","Phab"
+"Code Smell:
+Conditional Complexity
+long if-else chain.
+It should be broken into the function","Phab"
+"functionalities which is not implementation-
+Player cannot reach to the queen as there is no ladder
+No jump function is implemented 
+Donkey is not  properly implemented
+Fireballs don't have random motion and it breaks the wall.  
+","Phab"
+"Unnecessary declaration
+It is not used in the code","Phab"
+"Code Smell:
+Conditional Complexity
+long if-else chain.","Phab"
+"Code Smell
+Too few public methods (1/2) (too-few-public-methods)","Phab"
+"Code Smell:
+Conditional Complexity
+long if-else chain.
+It should be broken into the function ","Phab"
+"Functionalities not implemented-
+1- Lives of player not implemented
+2- Jump function not implemented
+3- Fireball not implemented properly
+","Phab"
+"PEP-8 
+Too many blank lines
+","Phab"
+"Code Smell
+non meaningful comments for dead code
+comments should be meaningful remove unnecessary comments","Phab"
+"code smell:
+data should be store in separate file instead dumping in same file","Phab"
+"PEP-8
+space should be provided between the operator","Phab"
+"Code Smell
+non meaningful comments for the dead code
+comments should be meaningful","Phab"
+"Bad indentation","Phab"
+"PEP-8
+expected 2 blank lines","Phab"
+"PEP-8
+multiple imports should be declared in different lines
+like
+import random
+import sys
+import copy
+import os
+
+Code smell:
+Also No need to use import  Pygame because it was not used in the code","Phab"
+"PEP-8
+use space after defining function so that the code becomes more readable","Phab"
+"Code Smell:
+Too long main function
+divide this into many function","Phab"
+"Code smell:
+left is not declared","Phab"
+"functionalities-
+This part of the  condition doesn't check the stair
+and Player move in the space","Phab"
+"Bad indentation. Found 4 spaces","Phab"
+"Modularity function lacking
+Files should be broken into different files according to their function","Phab"
+"Code Smell
+non meaningful comments for dead code
+comments should be meaningful ","Phab"
+"PEP-8 standard violation:
+Space before and after  the operator isrequired","Phab"
+"This loop doesn't work properly
+when you  enter string the nothing happens because string is not an array 
+when you enter character and press enter then it works","Phab"
+"PEP-8  :
+Line too long, 133 characters used instead of the standard 80 characters per line.","Phab"
+"Wrong usage of the input.
+Here raw input is not required because it scans the string 
+we have to get character and perform the operation","Phab"
+"Bad indentation","Phab"
+"Unused argument 'ch' (unused-argument)","Phab"
+"function should be written inside the class","Phab"
+"Code Smell
+Dead code must be removed","Phab"
+"PEP-8
+Naming should follow proper convention
+There should be space before and after the operator
+","Phab"
+"No need to use pygame","Phab"
+"No need to give extra White spaces","Phab"
+"functionalities-
+Fireball is not generated by monkey
+and fireball doesn't move","Phab"
+"Too many if-else condition
+divide the functionalities into different function","Phab"
+"PEP 8:
+Naming should follow convention
+proper space should be provide after and before '='
+","Phab"
+"Unnecessary semicolon
+At the end of the line no semicolon required","Phab"
+"functionalities-
+Unnecessary input required to complete the jump task as it should be continuous
+jump is not properly implemented , as it doesn't check for the coin, stair.","Phab"
+"Code smell:
+Function too long 
+Ideally function is of 15 to 20 lines","Phab"
+"code smell:
+data should be store in separate file instead dumping in same file","Phab"
+"Modularity function lacking
+Files should be broken into different files according to their function","Phab"
+"Line too long
+ideally line has less than 80 character","Phab"
+"Too many for loop 
+it should be divided in the functions","Phab"
+"Code Smell
+Too many branches 
+Too many while loop used instead using single while loop","Phab"
+"Functionalities which are not implemented-
+Fireballs are not generated by Donkey
+Fireball doesn't have random motion
+Donkey is not implemented
+Jump function not implemented
+Lives not implemented properly
+","Phab"
+"function should be written inside the class","Phab"
+"Not implemented anything in the game","Phab"
+"Line too long 
+ideally line has less than 80 character","Phab"
+"functionalities-
+Fireball is not generated from donkey
+Fireball doen't have random motion
+","Phab"
+"Modularity function lacking
+","Phab"
+"functionalities-
+Score is not adding for all the life,
+It only prints the last life score","Phab"
+"It shouldn't be written separately
+It should me mention inside the class ","Phab"
+"Given extra spaces for the indentation","Phab"
+"There is no space between subsequent if else statement,
+so that readability  improves ","Phab"
+"Code Smell
+non meaningful comments for the dead code
+comments should be meaningful","Phab"
+"PEP-8
+Space is required after the Class written","Phab"
+"Code Smell:
+Function is too big.
+Expected line of the function should be between 15 to 20 ","Phab"
+"Code Smell
+Too many nested conditional statement
+","Phab"
+"ode Smell:
+Function is too big.
+Expected line of the function should be between 15 to 20","Phab"
+"Code smell
+Function is too big
+It can be divide the function into  various other function","Phab"
+"Whole function is not having proper indentation","Phab"
+"Code Smell:
+Too many nested conditional statement 
+It should be divided into  functions","Phab"
+"Bad indentation. Found 4 spaces","Phab"
+"Code Smell
+Comment should be meaningful
+Dead code can be removed","Phab"
+"Code Smell:
+function is too long","Phab"
+"functionalities:
+Donkey is not moving","Phab"
+"PEP-8
+clas names should use CapsWord case","Phab"
+"Whole function is Bad indentation ","Phab"
+"There is no space between subsequent if else statement,
+so that readability improves","Phab"
+"Code Smell:
+Conditional Complexity
+long if-else chain. Invalid method name \""getX\","Phab"
+"PEP-8
+space should be provided between the operator
+it should be like
+prince_x = 27","Phab"
+"Unnecessary parens after 'if' keyword (superfluous-parens)","Phab"
+"fireball doesn't have the random move","Phab"
+"Code Smell
+Dead code must be removed","Phab"
+"Indentation error
+Bad indentation. Found 8 spaces, expected 4 (bad-indentation)","Phab"
+" Unnecessary semicolon at the end of the line","Phab"
+"PEP-8
+multiple imports should be declared in different lines
+like
+import tty
+import termios
+import sys","Phab"
+"Code Smell
+non meaningful comments for dead code
+comments should be meaningful","Phab"
+"PEP-8
+Every import should be in different line","Phab"
+"functionalities-
+Game never finishes if  player reaches to the queen","Phab"
+"There is no main function
+ Proper function should be there so that the code is readable","Phab"
+"Code Smell
+non meaningful comments for dead code
+comments should be meaningful remove unnecessary comments","Phab"
+"Assignment -1 Requirement 
+
+no modular code  
+","Phab"
+"bug:
+
+unused files present","Phab"
+"PEP-8
+should be xrange(0, width):
+
+Should be so in lines 19, 21, 23, 28, 30, 32, 34, 36","Phab"
+"Code Smell
+Very long function
+
+GOD FUNCTION
+==","Phab"
+"BUG
+=====
+File \""Sneha Nanavati_404_assignsubmission_file_sneha_dk.py\"", line 176, in <module>
+    main()
+File \""Sneha Nanavati_404_assignsubmission_file_sneha_dk.py\"", line 159, in main
+    screen.prplayer(28,2,'P')
+File \""Sneha Nanavati_404_assignsubmission_file_sneha_dk.py\"", line 135, in prplayer
+    if(self.board[x][y]=='C'):
+IndexError: list index out of range","Phab"
+"BUG:
+
+Standalone Jump  not implemented.","Phab"
+"Good commenting ","Phab"
+"PEP-8
+
+MAX length of a line of code <= 72","Phab"
+"PEP-8
+
+##VERY long parameters","Phab"
+"PEP-8
+
+One line after a function gets over","Phab"
+"No Modular Code","Phab"
+"Code Smell 
+Too many input parameters
+
+PEP - 8
+NO spaces after commas","Phab"
+"Very big function. Normally a function should be  15-20 lines","Phab"
+"NO Private Variable
+==
+
+## NO private variable in the entire code","Phab"
+"PEP-8
+Should be =>  p1.life -= 1   {{Space after '=' sign}}","Phab"
+"PEP-8
+
+Very Long Function","Phab"
+"Dirty name... Many capitals. PeP 8 standards say - class should start with capitals but not be mix of those","Phab"
+"PEP-8
+
+xrange(0,5)
+
+Should be => xrange(0, 5)","Phab"
+"Code-Smell
+
+Freeloader
+===","Phab"
+"Code Smell
+
+##Lazy class / Freeloader","Phab"
+"CODE-SMELL
+##FREELOADER
+Function doing too little","Phab"
+"PEP - 8
+
+MAX length of a line of code <= 72","Phab"
+"PEP - 8
+All imports should be at one place.. Preferably in the start","Phab"
+"PEP-8
+
+Name of a class should start from a Capital letter","Phab"
+"###BUG
+
+1. Invincible on ladder till next up move.
+2. Cannot jump from b/w of ladder
+3. Slowmotion Jump, Makes the game sleezy
+4. Gravity not implemented for player but implemented for fireball, Bad code logic
+5.  Hard coded game even for different levels, Fake levels
+6. Code Glitch, Sometimes fireballs disappear an then appear again","Phab"
+"PEP-8
+
+MAX length of a command should be 72","Phab"
+"PEP-8
+
+Should be 
+
+self.y = random....","Phab"
+"PEP - 8
+
+Very Long Function: 
+
+Length of function should be 15 - 25 lines","Phab"
+"PEP-8
+
+Lazy Methods","Phab"
+"Assignament Requirements
+
+ALL code must be in a class.","Phab"
+"PEP-8
+MISSING !
+if __name__ == \""__main__\"":","Phab"
+"No  README provided. How is the gamer supposed to know what file to run to play the game","Phab"
+"Pep -8
+
+Very Long line
+Standard command < 72","Phab"
+"PEP-8
+
+Class name should start from a Capital letter","Phab"
+"Useless files
+
+Increases gamer's Download 
+== ","Phab"
+"PEP-8
+
+One empty line needed just for cleanliness","Phab"
+"PEP-8
+Spaces between .....(width)]for ...
+                                                  
+Should be  .....(width)] for ....  ","Phab"
+"PEP -8
+Unnecessary Comments","Phab"
+"BUG:
+
+Should have taken account of different display resolutions ......
+Game screen overflows on lower resolution displays","Phab"
+"PEP -8 
+NoSpaces after commas : Unreadable Code ","Phab"
+"PEP-8
+
+Doc string not provided","Phab"
+"NOT Implemented 
+==
+
+1. Gravity for player
+2. Fireballs don't move if player is not moved.
+","Phab"
+"WHY ?
+==== ","Phab"
+"NO Spaces b/w different if/else conditions","Phab"
+"PEP-8
+
+BAD Init
+ALL imports first","Phab"
+"Spaces - PEP-8
+
+dr,dw,de  =>  dr, dw, de","Phab"
+"Code-Smell
+
+GOD Class","Phab"
+"PEP-8
+
+
+Should be ==> board.print_player(self.x, self.y, self.prev_char, mario)","Phab"
+"PEP-8
+
+Inconsistant spaces b/w '==' ; '>='","Phab"
+"No such She-Bang exists 
+
+Points to a folder /bin/usr","Phab"
+"BUG:
+==
+
+When too many fireballs move past each other, there are instances where one of the fireball stops.
+
+Also if the overlap happens on a ladder, sometimes H gets replaced by O","Phab"
+"while using multiline comments, the ending { ''' } should be at the next line
+
+''' Some comment
+'''","Phab"
+"Code Smell
+Function moveup() very long","Phab"
+"Code-Smell
+
+Cyclomatic complexity","Phab"
+"PEP-8
+
+No spaces b/w if-else statements","Phab"
+"PEP-8
+should be ==>  (sc.old != 'C'):","Phab"
+"PEP-8
+
+## Hardcoded map
+## Doesn't meet the Assignment requirements","Phab"
+"Assignment-1 Guidelines Violations
+===
+
+Classes Missing
+#Donkey Class 
+#FireBall","Phab"
+"Pep -8
+Space needed after imports","Phab"
+"Two similar comments in two different files:
+
+##Missleading ","Phab"
+"It was not specified in the assignment to have windows support.. Though I would be happy do it for @Origin it asked for.","Phab"
+"PEP-8
+
+should be ==>  elif(p.getX() == f.getX()):
+
+Remove redundant spaces","Phab"
+"Remove Unused Files","Phab"
+"BUG:
+===
+
+The Game works in urxvt not in gnome-terminal, due to repeated printing of the whole board (gnome-terminal is slow).
+
+Colored Output not implemented.
+
+Sometimes Fireballs don't start from the current position of the donkeykong.","Phab"
+"PEP-8
+
+if __name__ == \""__main__\"":
+
+NOT Present","Phab"
+"Code Smell
+
+TOO Long a Method
+
+","Phab"
+"Hardcoded map should be in line to ease understanding.","Phab"
+"Module 'pygame' has no 'K_DOWN' member (no-member)","Phab"
+"PEP-8 and PEP-257 standard violation: Docstring should not be added as a # comment.","Phab"
+" Attribute 'y' defined outside __init__","Phab"
+"Too many if-else statements.","Phab"
+"Incorrect indentation.","Phab"
+" Code Smell : Too many statements (213/50) ","Phab"
+"Too many if-else statements. Use functions instead.","Phab"
+"PEP-8 standard violation: Line too long. 145 characters present instead of the standard limit of 79 characters per line.","Phab"
+"PEP-8 standard violation: Imports should always be put at the top of the file, just after any module comments and docstrings, and before module globals and constants. ","Phab"
+"Code Smell : Standard function node used to draw rectangles.","Phab"
+"PEP-8 violation : Found indentation with tabs instead of spaces.","Phab"
+"PEP-8 Function docstring should be above the function.","Phab"
+"Hardcoded map should be one after the other line wise to ease understanding.","Phab"
+"  # Function size crazy big.
+
+
+  # Too many if-else statments.
+
+
+
+
+
+","Phab"
+"Indentation with tabs instead of spaces : mixed indentation.","Phab"
+"Two lines should be left before beginning class in accordance with PEP8 standards.","Phab"
+"Bug - Multi Threading required for Donkey movement. Else game won't end without player movement.","Phab"
+"Unnecessary, inconsistent indentation should be removed.","Phab"
+"PEP-8
+variable names should not be uppercase","Phab"
+"PEP-8 Function docstring should be above the function.","Phab"
+"Entire function is too big with erratic indentation. Functions should not be longer than ~ 20 lines.","Phab"
+"Wildcard imports should be avoided.","Phab"
+"Unnecessary whitespace should be avoided.","Phab"
+"Double indentation should not be used.","Phab"
+"Undefined variable 'K_a' (undefined-variable)
+","Phab"
+"Missing docstring.","Phab"
+"Code Smell : Unused import time (unused-import)
+","Phab"
+"PEP-8 violation : Indentation with tabs in statement","Phab"
+"No docstring.","Phab"
+"More than one statement on a single line (multiple-statements)
+","Phab"
+"Incorrect indentation.","Phab"
+"PEP-8 and PEP-257 standard violation: Missing function docstring.","Phab"
+"Code Smell (Cyclomatic Complexity): too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.","Phab"
+"Erratic indentation","Phab"
+"Bug:
+Threading not implemented. Fireball movement depends on player movement.","Phab"
+"Code Smell : getPosition function is faulty","Phab"
+"More than one statement on a single line (multiple-statements)
+","Phab"
+"Old-style class defined. (old-style-class)","Phab"
+"Code Smell (Cyclomatic Complexity):
+Too many branches. Either the function needs to broken down into smaller functions or it needs to be simplified.","Phab"
+"Code Smell : i is never used in the function.","Phab"
+"Unnecessary blank lines.","Phab"
+" Undefined variable 'K_d' (undefined-variable)","Phab"
+"Code Smell (Cyclomatic Complexity): too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.","Phab"
+"Indentation should be appropriate.","Phab"
+"Getters and setters should be combined. Code has too many redundancies.","Phab"
+"Code Smell (Cyclomatic Complexity): too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.","Phab"
+"Code Smell : Nothing imported.","Phab"
+"Bug - Ladder formation is random instead of predefined and constant
+
+Bug - Donkey sleep time too much.","Phab"
+"Map cannot be understood looking at the code. Lines on the maps should correlate with lines on the code.","Phab"
+"Unused imports because of wildcard import.","Phab"
+"Entire function has excess indentation.","Phab"
+"PEP-8 and PEP-257 standard violation: Missing function docstring.","Phab"
+"Code Smell (Cyclomatic Complexity): too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.","Phab"
+"Too few public methods (0/2) (too-few-public-methods)
+","Phab"
+"Unnecessary whitespace should be avoided.","Phab"
+"PEP-8 violation : Class name should begin with capital letter.","Phab"
+"Unnecessary white space should be avoided","Phab"
+"According to PEP8 standards, there should be only two lines here, four is unnecessary.","Phab"
+"Code smell : Inappropriate intimacy","Phab"
+"Missing module docstring. PEP 8 standards not followed.","Phab"
+"Code Smell : Too many members.","Phab"
+"Code smell : Cyclomatic complexity.","Phab"
+"Code smell : Data class","Phab"
+"Code smell : Repeated code.","Phab"
+"Added a few more code smells and PEP 8 violations found.","Phab"
+"Line too long.Not in accordance with PEP 8 standards ","Phab"
+"PEP 8 standards violated and code smells found.","Phab"
+"PEP 8 standards violated : Wildcard import should be avoided as it includes unnecessary methods.","Phab"
+"Collision with Donkey does not result in loss of lives, deduction of points or an end game.","Phab"
+"Bugs found in code. Random letter \""d\"" pops up at the sides of the game board and moves the game board at random times. No action for donkey collision. PEP 8 standards of indentation, spacing not followed.","Phab"
+"Code Smell : Indecent exposure. Exposing such code means that users know about code that is nimportant or only indirectly important.","Phab"
+"Screen has to be resized for every ASCII games. Not something that can be handled from within Python. BUG: 
+  File \""player.py\"", line 362, in <module>
+    main()
+  File \""player.py\"", line 335, in main
+    fireball.move_fireball(Board,l)
+  File \""/home/levicorpus/Downloads/fireball.py\"", line 198, in move_fireball
+    Board.z[l[i].x][l[i].y]=\""o\","Phab"
+"Code smell : Large Class. The class has too many members","Phab"
+"Same function repeated in a previous file : main.py . Could have made a seperate module.","Phab"
+"Modified Review.","Phab"
+"PEP 8 standards violated : Unnecessary parent '()' for ifs and elifs throughout the code.","Phab"
+"Code Smell : Shotgun surgery. Incorrect character was being displayed at the player spawn position hence the ' ' was hard coded. ","Phab"
+"BUGS Found!
+1. Player eats up ladder.
+2. Donkey is not present at the top most level.
+3. Game layout has two layers of X at the bottom. Not according to the specified layout.
+4. When player jumps on a fireball the character O comes above it and stays there.
+5. When player moves up a staircase, the 'H' on the topmost stair dissapears.
+6. Gravity is not implemented for player. 
+7. Player can jump through walls. If a player is at the edge of the wall and jumps it can pass through and often dissapears.
+
+
+ ","Phab"
+"ASCII games are not the same as a game implemented using Pygame.","Phab"
+"BUG : At the right end of a platform beside the wall, if the player tries to move up it can, gravity does not take effect and since player cannot move without a platform it gets stuck.","Phab"
+"BUG: Player goes all the way down the stairs and gets stuck in between the platform resulting in pre mature termination of game. 
+IndexError: list index out of range at line 180.
+
+","Phab"
+"Code Smell : Cyclomatic Complexity.","Phab"
+"Refactor: Method could be a function. Pep 8 standards not followed","Phab"
+"Length of code is too long. Abstraction could have been implemented in a better way through Person class. Move function of Player has repeated code. PEP 8 standards not followed. Lines too long, Wilcard import, Bad indentation, spaces around assignment, invalid constant names x, y, board etc. ","Phab"
+"BUG: Fireball falls through a platform but it should only take the stairs or fall from the end of platform.","Phab"
+"PEP 8 standards not followed. Missing module docstring . BUG: When player jumps across a ladder and then tries to climb it code behaves unexpectedly and player reaches the inaccesible area between layers. 
+File \""player.py\"", line 80, in getposition
+    Board.z[self.x][self.y]=\""P\","Phab"
+"Irrelevant comments. Comment only if it enhances understanding of the code or increases readability. ","Phab"
+"PEP 8 standards violated : Missing module docstring.","Phab"
+"Code Smell : Duplicated code.","Phab"
+"Code Smell: Long Parameter List","Phab"
+"PEP 8 standards violated : Invalid variable name 'c'","Phab"
+"Repeated import statements","Phab"
+"Missing module docstring at line 1. Pep 8 standards not followed.","Phab"
+"Main should be in a seperate module. Layout and main have different context and implementation.","Phab"
+"Wildcard imports not in accordance to PEP 8 standards","Phab"
+"PEP 8 : Exactly one space around assignment.","Phab"
+"Code Smell: Long Method , long class","Phab"
+"Code smell : repeated code","Phab"
+"Modified review.","Phab"
+"Code smell : Conditional complexity. Too many If-Elif statements","Phab"
+"Code Smell : Data clumps. Methods and attributes ought to be made into their own object.","Phab"
+"BUG: At Level 2 , When a donkey collides with 2 fireballs, a new static 'D' is seen which gets removed if a donkey object collides with it.","Phab"
+"Code smell","Phab"
+"Classes not implemented. 
+Code Smell : Indecent exposure . Methods should not be visible to user.","Phab"
+"BUG: Donkey moves more than one position at a time and while the player jumps, donkey disappears. Defeats the purpose of Donkey","Phab"
+"Code Smell: Conditional complexity. Too many if-elif statements.","Phab"
+"Code Smell : Combinatorial Explosion. Lots of code that almost does the same thing.","Phab"
+"FAKE BUGS pointed out.","Phab"
+"Code smell : Data clumps. The attributes are related to each other and should be rolled up in a class.","Phab"
+"PEP 8 Standards not followed. Wildcard import.","Phab"
+"Basic functionality not implemented.  Code smells detected.","Phab"
+"Review: PEP 8 standards mostly followed. Modularity not implemented to full effect. ","Phab"
+"Modification to review.","Phab"
+"Code smell : Cyclomatic complexity.","Phab"
+"Modified review","Phab"
+"PEP 8 standards: Exactly one space around assignment.","Phab"
+"BUG : When a player jumps on a fireball, for one frame two player characters are visible and a blank space in the 27, 0 position on the board.","Phab"
+"Added inline comments.","Phab"
+"Modified Review:
+BUGS:  While fireballs go down stairs they don't always follow a straight down trajectory.
+BUG:  While a player jumps, fireballs don't move","Phab"
+"Code Smell : Repeated line of code. Combinatorial explosion.","Phab"
+"Similar module name already used. Function of the two unclear. ","Phab"
+"Code Smell : Long method.","Phab"
+"Hard-coded values. Values should be assigned according to program.","Phab"
+"Code smell : Shotgun surgery . Incorrect characters were printed on losing a life while collision with fireballs. Hence a space character and 'X' were hard coded. The cause of the printing wasnt directly fixed.","Phab"
+"According to the game specifications, since its an ASCII game, fireballs should only move on key press. Also in the actual Donkey Kong game, fireballs can fall through broken staircases but Mario can't. These two features are implemented in the code.","Phab"
+"PEP 8 standards not followed : Invalid function name throughout code as its in Camel case. Function names should be lowercase, with words separated by underscores as necessary to improve readability.","Phab"
+"End Of Review","Phab"
+"Pep 8 standards not followed. Lines too long, Bad indentation, tabs instead of whitespaces, Old class style definitions.
+End Of Review","Phab"
+"Nice game :) 
+
+Pep 8 standards not followed. Lines too long, Bad indentation, tabs instead of whitespaces, Old class style definitions.
+End Of Review","Phab"
+"PEP 8 standards not followed : Method docstring absent from all functions.","Phab"
+"Code smell : Feature envy . In all move functions in the program grid attribute of matrix classhas been used too many times","Phab"
+"Code Smell : Refused Bequest. These methods could have directly been implemented in Player","Phab"
+"PEP 8 standards violated : statement seems to have no effect.","Phab"
+"Shotgun Surgery : To fix a bug (when a play spawns to the bottom left corner it also prints an 'H' as prev_char , hard coding of self.prev_char without optimising and removing the cause for the error.","Phab"
+"BUG: At level two, when number of fireballs increases , in rare cases a fireball gets stuck at the end of the top platform.","Phab"
+"Code Smell : Long class, they typically contain too many responsibilities and should be avoided.","Phab"
+"Unclear description.","Phab"
+"Exactly one space around assignment. PEP 8 standards not followed.","Phab"
+"Modified Review.","Phab"
+"Code smell : Indecent Exposure. Important attributes like a score in the game should be private so that its not modifiable outside class. ","Phab"
+"Bug: When  number of donkeys increase, top stair at the donkey level disappears randomly.","Phab"
+"Code smell : Duplicate code, combinatorial explosion.","Phab"
+"Code Smell : Data class.","Phab"
+"Screen has to be resized for every ASCII games. Not something that can be handled from within Python.","Phab"
+"Missing!
+ if __name__==\""__main__\"":main()","Phab"
+"PEP 8 standards violated : Remove comments not relevant to code or those that don't enhance readability. 
+Code Smell : Comments","Phab"
+"Correction : Primitive Obsession.","Phab"
+"1. Player should not be able to jump from a ladder. This feature has been deliberately implemented as it was not mentioned in the game specifications. Hence not a bug.
+2. In an ASCII game when the player jumps the fireballs should also move. This is given in the assignment specifications in the diagram. Not a bug. 
+3. In the game specifications : \"" Fireballs can falldown from a ‘Staircase’ or ‘End of the Floor’ and will move in a particular direction, randomly chosen on a falldown. \"" is mentioned but the same has NOT been mentioned for a player so this can not be identified as a bug.
+4. Each level has the same board. The number of donkeys increases and the frequency of fireballs increases. This is also a part of my game and it's not REQUIRED to change the layout for every level.","Phab"
+"Code too long for a single module. Line should be maximum 80 characters","Phab"
+"Wildcard imports not recommended by PEP 8 standards.","Phab"
+"Edited an inline comment.","Phab"
+"BUGS found!","Phab"
+"Nice game :)","Phab"
+"Code smell : Comment does not serve much purpose.","Phab"
+"This is a requirement for an ASCII game. Check game specifications.","Phab"
+"Modified Review.","Phab"
+"Missing! 
+if __name__==\""__main__\"":main() ","Phab"
+"Invalid function name. PEP 8 standards not followed.","Phab"
+"PEP 8 standards violated : Camel case naming not recommended in PEP 8 convention.","Phab"
+"Code smell: Conditional Complexity
+Too many if-else ifs . ","Phab"
+"Modified Review.","Phab"
+"Player has infinite life but it should have three.","Phab"
+"Module member (random) re-imported with *","Phab"
+"Pep8:
+variable names not clear","Phab"
+"level hard-coded","Phab"
+"Very long function.
+Distribute work and use another function","Phab"
+"Jump function not implemented properly at all
+player continuously goes up on pressing space
+also goes out of frame","Phab"
+"BUG:
+when a player dies or saves princess, game sleeps for 2-3 seconds to display message, if any button is pressed it shows its effect later, which causes displacement of player from its spawning position. Sometimes the player goes out of game screen.","Phab"
+"Pep8:
+variable name not clear","Phab"
+"Pep8:
+more than one modules are imported in one line","Phab"
+"(input) shadows builtin","Phab"
+"Private variables are accessed and changed without getter-setter function","Phab"
+"BUG:
+player does not  jump smoothly..","Phab"
+"Nice game.","Phab"
+"Code Repeated to display text
+Instead make a class to display messages","Phab"
+"Pep8:
+veryyy long line..","Phab"
+"re-written implemented code for mod","Phab"
+"FULL GAME IN ONE FILE. NO MODULARITY. NO CLASSES","Phab"
+"Feature not implemented:
+fireball does not disappear on going to lower left corner","Phab"
+"Local variable (coin_list) shadows global defined on line 4
+","Phab"
+"Local variable (size) not used","Phab"
+"PEP8:
+More than one modules imported in one line","Phab"
+"Generating Board is hard-coded.","Phab"
+"Feature not implemented:
+fireball is generated from only one position. It should be generated from random position","Phab"
+"BUG:
+path of images not found","Phab"
+"BUG:
+Player not killed by fireball sometimes.","Phab"
+"player remains in air
+jumps continuously if space is kept pressed  ","Phab"
+"On life lost, fireballs are not cleared...","Phab"
+"Imported module (board) not used
+Imported module (time) not used","Phab"
+"BUG:
+Fireball generates another fireball on collision with player at the site of collision which is stationary","Phab"
+"BUG:
+directional jump is not implemented","Phab"
+"Pep8:
+line to be left is 2","Phab"
+"BUG:
+Player is sometimes not killed on collision with fireball.","Phab"
+"coins not generated randomly","Phab"
+"Repetitive codes are written.","Phab"
+"PEP8:
+Private variables such as self.rect.x is accessed ddirectly without use of getter-setter function","Phab"
+"Local variable (i) not used","Phab"
+"Local variable (Red) not used","Phab"
+"BUG: 
+does not jump if player is standing on platform colliding with stair ","Phab"
+"PEP8:
+class names are not capital","Phab"
+"Parameter (frame) not used
+Parameter (signum) not used","Phab"
+"Also there is mixed indentation at many places.","Phab"
+"variable name not clear
+Difficult to read code","Phab"
+" No global (ssuper) found
+","Phab"
+"very long function...","Phab"
+"Also different module  are imported in one line","Phab"
+"Pep8:
+Class containing more than one words should have underscore","Phab"
+"Imported module (menu) not used","Phab"
+"PEP8:
+function outside of a class","Phab"
+"PEP8:
+function outside of a class","Phab"
+"Local variable (j) not used","Phab"
+"Ideally, imports should be done at the top, and not inside functions, as they then become local imports, and hence it diminishes their usability.","Phab"
+"Internal imports should be avoided.
+Please import at top","Phab"
+"God object - very large class.","Phab"
+"Contrived complexity (code smell) much simpler implementation could have been done. Unnecessary complication.","Phab"
+"Much of in-depth conditionals.","Phab"
+"\""X\"" is randomly getting displayed from time to time at the bottom of the screen. ","Phab"
+"Updated comments.","Phab"
+"Some bugs while executing game, such as incorrect positioning, improper ladder implementation etc..","Phab"
+"Combine your getters and setters, reduce redundancy of code.","Phab"
+"Much of code is hard-coded, try to implement functions in a better manner such that they cover  a wide range of conditions.","Phab"
+"On pressing \""space bar\"" and doing random combinations of \""w-s-a-d\"" Donkey sometimes disappears and multiple fireballs appear in its place.","Phab"
+"Leave at least one blank line after end of each method or class. Adds readability.","Phab"
+"Global variables must be declared outside functions.
+It defeats the purpose of having global variables.","Phab"
+"Jump functions could have been combined into one with better implementation (for the parabolic jump) Lot of redundant code.","Phab"
+"Pep8 standards require separation of import statements (don't use commas)
+Also  import modules outside (at top) and not locally within  methods to enhance usability.","Phab"
+"Teamworking bug - Comments incorrect or out of date. (Irrelevant ; do not increase readability) ","Phab"
+"I have made other private variables such as score and lives.
+I 'protected' the position variables for ease of access.","Phab"
+"I've used it here since I'm dealing with private variables such as the lives of the player.","Phab"
+"After reaching Queen, receiving following error:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+Nice simple game, however with little excitement...
+Could implement lives+randomization :)","Phab"
+"Lazy class.
+Not being used much.
+Could be implemented as a method instead.","Phab"
+"If the Player dies on  a ladder, then it respawns at the beginning co-ordinates and leaves behind an 'H'.","Phab"
+"Large class with verbose code.
+Break it down into functions for readability.","Phab"
+"No jump implemented, almost impossible to win game without it.
+The need for jumping over incoming fireballs.","Phab"
+"If fireballs cross coins at edge of platform, they sometimes displace the coins and bring them down. Replacement of coin is not being done properly hence.","Phab"
+"Cool game :)","Phab"
+"Implement privatization (data hiding/encapsulation)","Phab"
+" Sometimes when player is climbing up a ladder, it is thrown to the ground (sandwiched as in)","Phab"
+"It's a method, FYI.
+Also, it's required for printing score, lives etc.. as aesthetic features of the game.","Phab"
+"No concept of lives implemented.
+","Phab"
+"Implement Pep8 Standards for spacing.","Phab"
+"Player in mid-air during some random combination of jumping off the platforms and stuck there.","Phab"
+"Excessive and unnecessary use of literals. \""FIRSTROW\"" -> 'FIFTHROW\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"Multiple \""if-elif\""s as well as nested implementation.
+Divide it up rather.","Phab"
+"Played game. Some errors popped out.","Phab"
+"Could have implemented broken ladders..","Phab"
+"Many functions and code lines are outside of classes.
+Please implement encapsulation and OOP concepts.","Phab"
+"Implement broken ladders..","Phab"
+"Enhancement : Could have randomized gameboard for better game-play.","Phab"
+0,"Phab"
+"Game display resolution too large (doesn't entirely fit screen)
+Display uneven and could be better","Phab"
+"Updates comments.","Phab"
+"Cannot fall off platforms.","Phab"
+"I have a class called game in gameboard module which is responsible for creating a board","Phab"
+"This is a function to CREATE the board, as everything is randomized and set things such as coins, which are in no way irrelevant to the game.","Phab"
+"Bug found. Donkey sometimes 'eats' the ladder when the ladder is randomized too close to the Donkey. ","Phab"
+"As soon as game started, \""P\"" is in between the ladder, there's no way of climbing up, can only move left or right, with no option of moving up/down,
+Placement hence wrongly implemented.","Phab"
+"Updated comments.","Phab"
+"This is for implementation of movements. How is this irrelevant to you?","Phab"
+"Internal imports should be avoided. Made at top.","Phab"
+"Remove unnecessary comments unless they support readability/understandability.","Phab"
+"Some fireballs were stuck at end of platform and didn't move. Some error in fireball's move function.","Phab"
+"Too many if-elifs . Hard for an external user to understand the code, as well as increasing the risk/scope of errors. Debugging could be pretty difficult.","Phab"
+"Follow PEP8 standards of spacing. Also avoid error-related commenting.","Phab"
+"The layout for walls \""X\""  and ladders \""H\"" could be written into methods for better readability and implementation of OOP concepts.
+Setter functions setwall() setladder() etc...","Phab"
+"Multi-thread bug/Deadlock: Donkey and Fireballs do not move independent of Player.","Phab"
+"It's a function, not a class.","Phab"
+"    if l[i].direction==2 and Board.z[l[i].x+1][l[i].y]==\""X\"":
+IndexError: list index out of range
+
+Error occurred when playing game and touching wall.","Phab"
+"Large function. Should be <20 lines.
+(Cyclomatic complexity)
+Could be broken down into many movement-check functions rather.
+Also, a common move() function could be implemented for Player and Donkey.","Phab"
+"Could have added more features like multiple donkeys, more fireballs, and coins with increase in level.","Phab"
+"Message never printed.","Phab"
+"Too long, with multiple ifs. Could have used methods for modularizing. ","Phab"
+"I have a class called game in gameboard module which is responsible for creating a board
+","Phab"
+"Long identifiers. Shorten them for better understanding and readability.","Phab"
+"Implemented OOP concepts. 
+Spaces, I agree. ","Phab"
+"Unused variable. Should have randomized ideally.","Phab"
+"When the player collided with the Fireball, NOTHING happens.
+No lives to lose, no points deducted, no re-spawning of player.
+Game carries on normally as if nothing happened","Phab"
+"No requirement of both variables 'lose' and 'win'.
+Redundancy/extra variables. Not needed.
+","Phab"
+"Updated comments","Phab"
+"Player is invincible if it is upon a ladder.","Phab"
+"Fireballs tend to get stuck at borders of platforms during game-play.","Phab"
+"Very long. Functions should ideally be 15-20 lines long.","Phab"
+"Can return x and y co-ordinates in a tuple rather than define 2 unnecessary methods.","Phab"
+"Shouldn't be left hanging like this... should belong to a class/method, else it is vulnerable.","Phab"
+"Fireballs sometimes disappear on their own.","Phab"
+"MoveRight and MoveLeft could have been combined as one. Using direction passing perhaps.","Phab"
+"Simple game but with low funtionality/features.
+Can implement levels, multiple donkeys, jump etc to enhance game-play.","Phab"
+"Player while passing through Donkey, creates many instances of the Donkey, which remain static throughout the next level.","Phab"
+"Indentation with tabs and not spaces. Follow Pep8 Standards","Phab"
+"Hard coded ladders. Could have randomized.
+#Enhancement","Phab"
+"Donkey and Fireball sometimes 'eat' the bottom step of the ladder upon game-play.","Phab"
+"BUG found. Sometimes, after getting eaten  by the Fireball, the Player just disappears and doesn't respawn to the beginning nor does the game finish..","Phab"
+0,"Phab"
+"Jump implemented in a very slow manner, difficult to jump over incoming fireballs.
+Also, not instantaneous","Phab"
+"Jump not implemented.","Phab"
+"Should not display comments unless they help in readability.","Phab"
+"Pep8 standards require spacing.","Phab"
+"Should have used helper functions rather than multiple 'if' conditions to determine movement... eg. checkcoin() checkfireball() etc..","Phab"
+"Pep8 standards require proper spacing between operators","Phab"
+"Implement encapsulation, privatize the variables..","Phab"
+"Should have returned lives, using a method, since it's a private variable","Phab"
+"pep 8: class name should be starting with capital letters","Phab"
+"pep 8: the constants should be all in capital.
+NO: display_height
+YES: DISPLAY_HEIGHT","Phab"
+"code smell:
+Code should be encapsulated within a class.
+classes not implemented
+code should be within a function.","Phab"
+"pep 8:
+function names should contain underscore to improve readability","Phab"
+"pep8: maximum length shold be atmost 79 lines. here you have a length of 103 characters.","Phab"
+"code smell:
+no encapsulation of data. ie., no private variables declared","Phab"
+"bug:
+collision not implemented properly. Some coins are missed while moving. The same thing with the fireballs.","Phab"
+"GameLoop function is too long","Phab"
+"Bugs:
+- because of hard coding of all the collisions, sometimes when the player is on the ladder, the fireball doesnot kill it. 
+- the score is going in negative if you die without taking any goldcons.
+- if you stand on the ladder and press jump and s together , the player goes out of the frame. 
+- gold coins are not placed randomly.
+- Level1 , and level2 the only difference is that the image of the fireball changes. 
+- Motion of donkey is not random.","Phab"
+"Modularity lacking:
+code should be broken into different files","Phab"
+"Functionality:
+Jump not implemented","Phab"
+"Bad indentation","Phab"
+"encapsulation:
+functions should be inside classes.","Phab"
+"Code smell: all functions should be defined in a class. 
+No use of classes.","Phab"
+"Bad codesmell:
+repetitive code. Could have used a loop.","Phab"
+"Bad codesmell;
+Unnecessary comments should be avoided","Phab"
+"pep8:
+Multiple modules imported in a single line","Phab"
+"Bad code smell:
+Too many if else conditions. Instead use functions","Phab"
+"Pep 8:
+Unneccessary blank lines","Phab"
+"functionality:
+Donkey does not move.","Phab"
+"Pep8:
+Class name should start with a capital letter.","Phab"
+"Polymorphism and inheritance missing","Phab"
+"functionality:
+gold coins not placed randomly.","Phab"
+"bad codesmell:
+length of line should not exceed 179 characters.","Phab"
+"Separate classes wer required for player, person, donkey, queen, game, etc
+not all are there","Phab"
+"encapsulation missing:
+private variables not declared.","Phab"
+"Pep8:
+do not import multiple modules on the same line.","Phab"
+"pep8:
+if a function name has more than two words, then the words should be separated by an underscore.","Phab"
+"import statement shoud be at the top of the file.
+NO: import tty, termios,sys
+YES:
+import tty
+import termios
+import sys","Phab"
+"Nice Game.. :)","Phab"
+"Code smell:
+Class Name should start with Capital letter","Phab"
+"ad codesmell:
+Polymorphishm not implemented","Phab"
+"function length too big(97 lines)","Phab"
+"pep8:
+constants should be all upper_case
+","Phab"
+"bad codesmell:
+instead of so many if else statements, separeate functions should be used.","Phab"
+"encapsulation of data missing:
+No private variables","Phab"
+"Pep8:
+All the constants should be completely capital.","Phab"
+"pep8:
+Length of line should not exceed 79 characters.","Phab"
+"bad codesmell:
+code should be encapsulated in a class.","Phab"
+"Functinality missing:
+-no player movement
+-fireballs not coming down
+-no donkey
+-no queen
+-score not displayed
+","Phab"
+"Bad codesmell:
+should have declared these variables in a separate class.","Phab"
+"BUG:
+if fire-ball and the player come at adjacent positions, the that fireball does not kill the player but just passes it.
+eg. plarepos:a[0][2] , fireballpos[1][2]
+then on clicking 'd', then plyerpos[1][2] , and fireballpos[0][2], and the fireball does not kill the player. ","Phab"
+"bad code smell:
+function func too big. 
+You have declared a function inside a function(again a bad code smell)","Phab"
+"pep8:
+Class name should start with a capital letter","Phab"
+"bad codesmell:
+the code should be atleast inside a function or a class. (encapsulation misisng)","Phab"
+"bad codesmell:
+game_loop function is too long","Phab"
+"Bad codesmell:
+No private variables declared.","Phab"
+"all constant variables should be capital letters.","Phab"
+"bug:
+After reaching the queen, if you press any key, the game continues. ","Phab"
+"Good: exceptional handling done.","Phab"
+"pep8:
+names of functions should be small letters. Multi-case is allowed to increease readability and understandability.","Phab"
+"bug:
+jump not implemented properly. 
+If you keep the space bar continuously, the player does not come back to land. ","Phab"
+"Modularity: Its better to define different classes in different files
+Modularity lacking","Phab"
+"bad codesmell:
+Make a separate class to initiate variables","Phab"
+"pep8:
+NO: import pygame, sys
+YES: import pygame
+import sys","Phab"
+"Function should be within a class","Phab"
+"bad codesmell:
+length of the line should not exceed 79 characters.","Phab"
+"pep8:
+line length limit exceeded.
+legth of line should not be more than 79 characters","Phab"
+"pep8:
+if function name contains more than one word then they should be separated by underscore.","Phab"
+"sfaskld","Phab"
+"**CODE SMELL**
+Too large class.","Phab"
+"**CODE SMELL**
+Too small class.","Phab"
+"**CODE SMELL**
+Too small class.","Phab"
+"**CODE SMELL**
+Too small class.","Phab"
+"**CODE SMELL**
+Too small class.","Phab"
+"**CODE SMELL**
+Too broad class, can be broken into two classes `fullStairs` and `brokenStairs` with a super class `Stairs`.","Phab"
+"**CODE SMELL**
+Not have private variables for player's position.","Phab"
+"**CODE SMELL**
+Too broad class, can be broken into two classes `fullStairs` and `brokenStairs` with a super class `Stairs`.","Phab"
+"**CODE SMELL**
+No modularity. No use of classes.Try to use OOP concepts and break large files into modules.
+Less readability.","Phab"
+"**OVERALL**
+No modularity, less readability, less use of OOP concepts.
+Essential class `board` not implemented.","Phab"
+"This loop should be present in the main class. Player class is doing too much stuffs, example of //large class//.","Phab"
+"**CODE SMELL**
+//self.player, self.donkey//, etc are irrelevant here, you made them variables of game class. You could have been used //player,donkey//,etc.","Phab"
+"**CODE SMELL**
+Contains too many irrelevant methods like createboard, printboard, generatecoins etc.","Phab"
+"**CODE SMELL**
+Duplication of code. You should use a loop and a function to avoid duplication of code.","Phab"
+"**FEATURE NOT IMPLEMENTED**
+Only one fireball is present and it only moves in topmost level.","Phab"
+"**CODE SMELL**
+Again, irrelevant class, it should be written in the main class.","Phab"
+"**CODE SMELL**
+Not follows PEP-8 standards.
+Should be like:
+**import pygame**
+**import sys**","Phab"
+"Does `lives` is constant ? ","Phab"
+"**BUG**
+Donkey stop moving after sometime.","Phab"
+"**FEATURE NOT IMPLEMENTED**
+No winning condition implemented.
+// Easy to implement, just display **YOU WON** if player reaches on topmost bar// .
+If you lose, game quits without giving any information.
+// Again, this is easy to implement, just display **GAME OVER** if `lifes =0`//.","Phab"
+"**CODE SMELL**
+Duplication of code, could use different method for changing player's position.","Phab"
+"**BUG**
+Player fall off the level, not implemented proper movement restriction.","Phab"
+"**CODE SMELL**
+Irrelevant class, //game state// should be checked in main class.","Phab"
+"**PEP-8 STANDARD**
+Constants names should be in capital letter, it increases readability and understanding . ","Phab"
+"**FEATURE NOT IMPLEMENTED**
+-Game doesn't quit on pressing //q//.
+-Queen not present.
+
+","Phab"
+"Player class should have some private variables like player's position.","Phab"
+"**CODE SMELL**
+Not implemented `board` class instead used this module. Should created the `board` class and implement relevant function in it.","Phab"
+"**CODE SMELL**
+Too large class, should have used `board` class.","Phab"
+"**CODE SMELL**
+Not have essential class like `board`.","Phab"
+"**CODE SMELL**
+Above 4 classes are irrelevant in player class.","Phab"
+"**PEP-8 Standard**
+Should leave 2 blank lines according to PEP-8 standard.","Phab"
+"**CODE SMELL**
+Large class, can add some functions to super class.","Phab"
+"**BUG**
+Sometimes played not killed by fireballs.","Phab"
+"**BUG**
+Player not jumps if I only press space bar.
+Player not jumps if it's standing too close to end of bar.","Phab"
+"**CODE SMELL**
+Irrelevant class, should move to `board` class.","Phab"
+"**CODE SMELL**
+You should use //setter// instead of two functions for changing //score//. Similarly, for //lives// also.","Phab"
+"**CODE SMELL**
+Too large class.","Phab"
+"**BUG**
+Less than 20 coins may be generated because you are using `radint(10,20)`.","Phab"
+"**BUG**
+Player jump not implemented correctly. If I press space again and again frequently player will go to upper levels and on pressing only space it should jump up only, but player is jumping on right side.","Phab"
+"**FEATURE NOT IMPLEMENTED**
+Atleast 20 coins should be generated randomly.","Phab"
+"That's not bad indentation, website is showing it like this. Download the file then see the indentation.
+//python will throw error if this is bad indentation// .","Phab"
+"**FEATURE NOT IMPLEMENTED**
+Queen is not present in the game.","Phab"
+"**CODE SMELL**
+Too smell class and does nothing.","Phab"
+"**BUG**
+Player killed even when fireball is too close to him (but not touching) .
+//Player is actually colliding with fireball but due to small image size of the fireball it's appearing that collision doesn't happen//. ","Phab"
+"**BUG**
+Wrong image paths. Image should preferably reside in same folder.
+//ladd.jpeg// imagefile not found.
+//scene.jpeg// imagefile not found.
+//youwin.png// imagefile not found.
+//gameover.png// imagefile not found.
+//princ.png// imagefile not found.
+
+","Phab"
+"**CODE SMELL**
+Lack of modularity, Low readability. Try to use OOP concepts and also try to make code more readable. Should provide whitespace after `,`  ,  `=` and `==`.","Phab"
+"**CODE SMELL**
+Should implement `board` and put all relevant function in it.","Phab"
+"**FEATURE NOT IMPLEMENTED**
+Game won't be quit on pressing  //q// or //escape// key.","Phab"
+"**PEP-8 STANDARD**
+Bad-whitespace before `:`.","Phab"
+"**Not follows PEP-8 standards**
+Should be :
+import random
+import sys","Phab"
+"PEP-8
+Global variables should start with uppercase ","Phab"
+"PEP-8
+Global variables should begin with Upper Case","Phab"
+"Code Smell
+Unused argument ch and rand","Phab"
+"Code Smell 
+__init__ of class Parent class Person not called ","Phab"
+"Code Smell
+init of class class Person not called by children","Phab"
+"Code Smell
+Unused variables i1 and j1","Phab"
+"nice","Phab"
+"PEP-8 
+whitespace after ' , ' not correnct
+
+```
+BLACK = (0, 0, 0)
+```","Phab"
+"Code Smell
+Funciton too long ","Phab"
+"Code Smell
+Developer too hopeful for assignment code 
+This should have been added in readme instead of the code ","Phab"
+"Code Smell
+Unused Code 
+Imported Package never used ","Phab"
+"PEP-8
+Function name should begin with uppercase ","Phab"
+"Code Smell
+Function definition too long 
+divide into shorter functions ","Phab"
+"No private objects defined in class 
+A class should implement the concept of public and private","Phab"
+"PEP-8
+Blank line at end of file waste of space","Phab"
+"Code Smell 
+naming of the funtions should be improved ","Phab"
+"Code Smell
+Unused Code ","Phab"
+"Number of coins is hardcoded into the file should be random in a range ","Phab"
+"Ladders are made according to Hardcoded values may not worlk on all resolutions 
+Should be relative","Phab"
+"No private variables defined or used in class.
+The class should have private variables indicated by __var_name","Phab"
+"Queen is not a seperate object but a hardcoded rectangle","Phab"
+"Code Smell
+loop could have been summarized in a function to reduce the size of the function","Phab"
+"PEP-8
+naming should follow convention 
+
+```
+self.__x = x
+self.__y = y
+self.__flag1 = 0      
+self.__flag2 = 0
+self.__cnt = 0
+```","Phab"
+"Code Smell
+Hardcoded values for floors 
+can be randomized to make program more dynamic","Phab"
+"PEP-8
+variable name should not be uppercase ","Phab"
+"BUG
+Screen size not supported for full HD displays","Phab"
+"Code Smell
+Unused Import ","Phab"
+"PEP-8
+Improper whitespace in assignment ","Phab"
+"Code Smell 
+Hardcoded value 
+should be set according to values in program","Phab"
+"Floors are Hardcoded into the game may not work on all screen resolution
+Ideally Floors and ladders should be set according to screen resolution","Phab"
+"Code Smell
+Data should be stored in a seperate file instead as Data Dump","Phab"
+"BUG 
+Fireball not properly set on the level may get inside the level","Phab"
+"Code Smell 
+code is not well commented and should be commented in a better way to make it more readable","Phab"
+"PEP-8
+Whitespace before ' : '","Phab"
+"Code Smell 
+unused Import ","Phab"
+"PEP-8
+Too many blank lines","Phab"
+"Code Smell
+useless code","Phab"
+"Code Smell
+Code Duplication","Phab"
+"Code Smell
+Avoid Data classes store data in a seperate file and use calss to just contain functions that operate on the data","Phab"
+"Code Smell 
+Code Duplication the same while loop is used multiple times it can be made into a function and called and many of the cases can be combined ","Phab"
+"Code Smell
+Duplication of similar code , could have been put in a function","Phab"
+"PEP-8
+there should be spacing between different loops","Phab"
+"PEP-8
+variable names should not be uppercase ","Phab"
+"Function is too long should be split into multiple files 
+Ideally should be only 15-20 lines","Phab"
+"Code Smell
+method should have been called ","Phab"
+"PEP-8
+Line too long","Phab"
+"Code Smell
+Code Duplication .
+A function could have been implemented to summarize all this ","Phab"
+"Code Smell
+Code duplication 
+Combine all the Check functions for walls and floors into one function","Phab"
+"PEP-8
+Improper white space after ' , '","Phab"
+"LOL :)","Phab"
+"PEP-8
+Class names should normally use the CapWords convention. ","Phab"
+"Nice work wide support but why no support for windows :(","Phab"
+"Code Smell
+Function definition too long 
+Function length could have been reduced by divinding code into other functions","Phab"
+"Last four lines in each if else statement are repeated can be easily put in a seperate function to avoid duplicaton","Phab"
+"Code Smell 
+Code duplicated repeated code should be made into functions to improve implementation ","Phab"
+"BUG
+The resolution specified may not fill all screens properly and should be relative","Phab"
+"BUG 
+No functionality implemented and nothing imported ","Phab"
+"Code Smell
+Hard coded values for walls","Phab"
+"Code Smell
+Function is too long seperate it into multiple functions for better functionality and readability","Phab"
+"PEP-8
+assignment should be spaced 
+
+eg 
+
+```
+i = 24
+j = 2
+i1 = 4
+```","Phab"
+"Code Smell
+Unused variables dw and de","Phab"
+"Duplicate Functions used in files same as in other files ","Phab"
+"Hardcoded value for wall , value should be passed to the function or be declared globally","Phab"
+"Code Smell
+Dead Code should be removed ","Phab"
+"PEP-8
+Imoproper Spacing after ','","Phab"
+"Code Smell
+Normal ladders and Broken ladders could have been combined under one super class
+as both are similar objects ","Phab"
+"PEP-8
+function name should not contain uppercase","Phab"
+"Code Smell 
+variables should be named something meaningful according to their usage
+
+```
+global count_coin
+global count_fireball
+```","Phab"
+"Code Smell 
+Code could have been combined under one loop","Phab"
+"PEP-8 
+Imporpoer Spacing after ','","Phab"
+"PEP-8
+clas names should use CapsWord case ","Phab"
+"PEP-8
+no spacing betwwen subesequent conditional statements 
+put at least one line of space to increase readability","Phab"
+"Code Smell
+Redifined built in 'map'","Phab"
+"PEP-8
+multiple imports should be declared in different lines 
+like 
+import tty
+import termios
+import sys","Phab"
+"Code Smell
+non meaningful comments for dead code 
+comments should be meaningful and dead code should be removed ","Phab"
+"No Private objects or Functions in the class 
+A class should have both public and private parts","Phab"
+"Code Smell
+code duplication could have been made into a function","Phab"
+"Code Smell 
+Conditional Complexity
+Too many if else statements should be broken down into functions and implemented seperately","Phab"
+"Code Smell 
+Conditional Complexity
+The number of conditions should be reduced or grouped into diffrent functions to increase code readability 
+and avoid errors ","Phab"
+"Code Smell
+Since all objects are generally rectangles a wrapper class to draw rectangles could have been made","Phab"
+"PEP-8
+Improper spacing after ','","Phab"
+"Code Smell 
+code could have been put in a seperate function to reduce the size of scan function","Phab"
+"PEP-8
+Impropoer spacing after ','","Phab"
+"Code Smell
+Dead code put as comments should be removed ","Phab"
+"PEP-8
+https://www.python.org/dev/peps/pep-0008/#constants
+Constant Names should be capitalized","Phab"
+"Queen, Coin, Wall,Ladder,FakeLadder all 5 classes could have been derived from single template of static object, which could have been derived from pygame.sprite.Sprite","Phab"
+"Too many if - else statements.","Phab"
+"Code Smell:
+Data Class","Phab"
+"Code Smell:
+Code duplication
+Could have used a single message generator function.","Phab"
+"Library imports should have been together, They could have been separated with local module imports . PEP-8 Convention","Phab"
+"Queen, Platform, Ladder implement the same functionality, but images are different. So a static parent class could have been used.","Phab"
+"Check Collision  with barrel must have been implemented for player.","Phab"
+"Too many global variables used.
+No globals would have been better.","Phab"
+"Jump function should use go_up","Phab"
+"Code Smell:
+Conditional Complexity
+Long if-else chain.","Phab"
+"Library imports should be separated from local module imports PEP-8.
+","Phab"
+"Too many magic numbers used in the code.
+Use constants instead.","Phab"
+"Inconsistent spacing between different lines. PEP-8.","Phab"
+"Bugs:
+  -  On starting game if we just press right and don't jump we get stuck somewhere (like some invisible object is blocking our path).
+  -  Incomplete ladders should not allow climbing up. The first ladder allows.
+  -  Some coins are impossible to take.
+
+
+
+
+
+","Phab"
+"Bugs:
+  -  On starting game if we just press right and don't jump we get stuck somewhere (like some invisible object is blocking our path).
+  -  Incomplete ladders should not allow climbing up. The first ladder allows.
+  -  Some coins are impossible to take.
+  -  If we jump on ladder, we keep falling down till we press up button.
+
+
+
+
+
+","Phab"
+"Bugs:
+  -  On starting game if we just press right and don't jump we get stuck somewhere (like some invisible object is blocking our path).
+  -  Incomplete ladders should not allow climbing up. The first ladder allows.
+  -  Some coins are impossible to take.
+  -  If we jump on ladder, we keep falling down till we press up button.
+  -  Fireballs fall from every ladder. They should not fall from some.
+
+
+
+
+
+","Phab"
+,"Phab"
+"pickle module could have been used here.","Phab"
+"Instead of implementing go_<direction> implement as go(direction)
+and reduce number of methods.","Phab"
+"Conflicting with PEP-8 Constant definition . Constants should be capitalized.","Phab"
+"Code Smell:
+Dead Code
+Unused module 'pygame'
+Why import pygame when it is not used in this file?","Phab"
+"Code smell:
+Code duplication: if elif are repeated.","Phab"
+"PEP-8:
+Global variables should not be named as CAPITAL but lowercase","Phab"
+"Code smell:
+Long method. Could have been written as a separate function.","Phab"
+"Documentation strings could have been used for all classes.","Phab"
+"This file is not used anywhere. It should not have been submitted as part of project.","Phab"
+"Nice :-D","Phab"
+"Nice :-D
+Bugs:
+  -  On starting game if we just press right and don't jump we get stuck somewhere (like some invisible object is blocking our path).
+  -  Incomplete ladders should not allow climbing up. The first ladder allows.
+  -  Some coins are impossible to take.
+  -  If we jump on ladder, we keep falling down till we press up button.
+  -  Fireballs fall from every ladder. They should not fall from some.","Phab"
+"Code Smell:
+A standard function could have been used to draw all rectangles which would take it's argument as rectangle.","Phab"
+"Code Smell:
+Magic numbers used(should be replaced with constants)
+```
+j = self.princessx*SOME_CONSTANT #Where SOME_CONSTANT = 0.8
+```","Phab"
+"This could have been something random. Random number of coins in every level.","Phab"
+"Too many methods defined in a single class.","Phab"
+"Code Smell:
+Data Class
+No class out of 5  above has any method.","Phab"
+"Levels could have been saved in a separate levels directory.
+Error handling could have been done for already existing levels.","Phab"
+"DISPLAYSURF not a constant. Windowwidth Windowheight DisplayFlags,Depth all are contstants. Not PEP8","Phab"
+"Instead of stop and stop2 use stop(coordinate)
+This will reduce number of unnecessary methods.","Phab"
+"Queen, Coin, Wall,Ladder,FakeLadder all 5 classes could have been derived from single template of static object, which could have been derived from pygame.sprite.Sprite","Phab"
+"
+Random coin generator not implemented.","Phab"
+"This code is repeated for every object.
+This could have been separated as some other function which returns (pygame.transform.scale object) and takes as arguments (url)","Phab"
+"Code Smell:
+Class has too many functions.
+Functions could have been inherited from person class.","Phab"
+"Code Smell:
+Main function too long .","Phab"
+"Code Smell:
+Large Class
+Too many methods .
+~500 Lines","Phab"
+"All imports should have been together. PEP-8 Convention","Phab"
+"Instead of defining different function , you can redefine __init__ in fireballs as
+```
+def __init__(self,toplevel,LEVEL,dragonx):
+    self.bally = toplevel + FLOORGAP - 20
+    self.ballx = dragonx + DRAGONWIDTH
+```
+and edit makeballs appropriately.","Phab"
+"Capitalized constants could have been set up in a separate module file.
+The constants are not capitalized. PEP-8","Phab"
+"More modules could have been used.","Phab"
+"Code Smell:
+Lazy Class","Phab"
+"PEP-8
+Class name should be capitalized.
+https://www.python.org/dev/peps/pep-0008/#class-names","Phab"
+"Magic number used.
+They should have been replaced with constants.","Phab"
+"PEP-8 Violation.
+First you should import standard modules and libraries.
+Then local modules.
+All imports should be listed before starting code.","Phab"
+"Good 
+You have implemented separate classes  for person,player,fireball,donkey","Phab"
+"Dead code should be removed","Phab"
+"Ideally a function should  not have more than 15-20 lines.This function consists of more than 25 lines ","Phab"
+"Dead code should be removed","Phab"
+"Encapsulation is missing","Phab"
+"Constant Name should be capital","Phab"
+"PEP-8:
+
+missing whitespace after ','","Phab"
+"method not used","Phab"
+"User interface of the game looks good.
+","Phab"
+"Just an empty code.
+No module is imported","Phab"
+"A small bug
+
+When a person is standing just at the position of ladder,there is no effect of fireballs
+","Phab"
+"Person,Donkey,Board,Fireball classes are missing.
+Coins,Ladder and Scoreboard are also not implemented
+","Phab"
+"Good ( You declared constants using Upper Case Alphabets)","Phab"
+"
+Functionality:
+
+Could have created a list and a tuple(for the co-ordinates) through which a single loop can iterate and calling stair.build and wall.build","Phab"
+"Constants should be in CAPITAL","Phab"
+"You did not import sys in this file and that is why you got the following error:
+
+Traceback (most recent call last):
+  File \""donkey.py\"", line 50, in <module>
+    sys.quit()
+NameError: name 'sys' is not defined
+
+
+","Phab"
+"Modularity and Inheritance features are implemented","Phab"
+"Import Statement should be on separate lines
+","Phab"
+"Separate functions are not  made for the player to move and jump. In fact , they ( move and jump ) are present in the function update.","Phab"
+"Unnecessary line","Phab"
+"PEP-8
+
+too many blank lines (3) 
+
+missing whitespace after ',' ","Phab"
+"Fireball  collision detection is not  proper ","Phab"
+"Moves are very slow","Phab"
+"Moves are very slow and levels are not implemented","Phab"
+"Codesmell:
+Large method used","Phab"
+"Dead code should be removed","Phab"
+"Class names should be in the form of CapWords -pep8","Phab"
+"PEP-8:
+
+too many blank lines (4) ","Phab"
+"Inline comments should be written this way
+<code> #Comment  
+
+there should a whitespace between <code> and #","Phab"
+"Code does not follow PEP-8 standards","Phab"
+"PEP-8 :
+
+too many blank lines (3) 
+missing whitespace after ',' ","Phab"
+"Variables used are not specific like p,q,bo,ex","Phab"
+"This code does not follow PEP-8 standards
+
+
+","Phab"
+"There is negative score ","Phab"
+"There is negative score when the player fails to collect any coin
+","Phab"
+"Position of coins is fixed.","Phab"
+"PEP-8:
+blank line at the end of the file","Phab"
+"Pressing esc button twice makes game quit","Phab"
+"Large method.The works should be divided within smaller methods","Phab"
+"Lives not implemented properly.
+
+Score is not displayed ","Phab"
+"Ideally a function should  not have more than 15-20 lines.This function consists of more than 25 lines 
+","Phab"
+"Your code  does not follow PEP-8 standards. Ideally a line should not have more than 72 charecters","Phab"
+"Indentation error","Phab"
+"return statements should not be left blank.You should write return None - pep -8
+This error is present in most of the methods","Phab"
+"Comments should be at the same level as the code","Phab"
+"In line 10 of file main.py Use blanklines sparsely","Phab"
+"Quit Functionality is not properly implemented","Phab"
+"declared the variable twice","Phab"
+"Fireballs do not come down and player is not affected by fireballs","Phab"
+"Your Code does not follow PEP-8 Standards.
+Modularity is not implemented in your code.","Phab"
+"Your Code does not follow PEP-8 Standards.
+Modularity is not implemented in your code.","Phab"
+"there is no need to initilize i to 0","Phab"
+"PEP-8
+
+too many blank lines (2) ","Phab"
+"The person is  climb the broken ladder","Phab"
+"The person is  able to climb the broken ladder","Phab"
+"Did not use for-loop as there are 4 fixed parameters  passed to the method classwall.Wall","Phab"
+"did not use this method ","Phab"
+"PEP-8:
+ 
+missing whitespace after ',' ","Phab"
+"In line 311 in the file preson.py 
+Inline comments should be written this way
+<code> #Comment  
+
+there should a whitespace between <code> and #","Phab"
+"Unnecessary  print statements ","Phab"
+"Levels are not implemented","Phab"
+"In the line 18 of file player.py there is an indentation error","Phab"
+"A boolean should not be compared with True or False","Phab"
+"PEP-8:
+
+  too many blank lines (2) ","Phab"
+"Use blank lines sparsely","Phab"
+"Movement of the fireballs is very fast
+","Phab"
+"Movement of the fireballs is very fast
+User cannot play the game freely due to this constraint","Phab"
+"Movement of the fireballs is very fast
+User cannot play the game freely due to this constraint","Phab"
+"3 lives condition is implemented and  extra features like background music is also implemented
+","Phab"
+"There is no indentation error here.Used   elif event.key == pygame.K_q  to specify that if I press q, then the game stops","Phab"
+"So many lines in the funtion boardMap. A function should not have more than 20 lines","Phab"
+"Remove dead code.Such dead code is present in all files","Phab"
+"Try reduce the for loops by adding conditional statements","Phab"
+"wall = classwall.Wall(0, 0, 10, 600)
+wall_list.add(wall)
+all_sprite_list.add(wall)
+Should have made a method using these three lines","Phab"
+"No great use of this variable","Phab"
+"Good 
+
+Constants should be in Capital Letter
+","Phab"
+"Modularity is Implemented
+","Phab"
+"The co-ordinates are hardcoded.The game should adjust to change in display_height and display_width","Phab"
+"IDEALLY, A FUNCTION SHOULD NOT HAVE MORE THAN 15-20 LINES.
+THIS FUNCTION HAS MORE THAN 35 LINES","Phab"
+"The following functions are not implemented:
+
+getPosition()
+checkWall()
+checkCollision()
+collectCoin()","Phab"
+"In the line 17 of the file board.py , the number of loops can be reduced by adding conditional statements","Phab"
+"Class name should be in the for CapWords -pep8","Phab"
+"PEP-8:
+blank line contains whitespace ","Phab"
+"The function wally has nearly 40 lines of code.
+
+But ideally a function should not have more than 20 lines of code
+","Phab"
+"Bad Code Smell
+
+The function wally has nearly 40 lines of code.
+
+But ideally a function should not have more than 20 lines of code
+","Phab"
+"Unnecessary initilisation","Phab"
+"Encapsulation ,Inheritance are  not implemented.","Phab"
+"Encapsulation is  not implemented.","Phab"
+"Delete code used for debugging ","Phab"
+"Avoid using magic numbers","Phab"
+"**Bugs**
+ * Player moves randomly if 3 or more spaces pressed altogether.
+ * Fireballs don't fall off ladders.
+","Phab"
+"Code Smell :
+Lazy Class","Phab"
+"No classes used.No OOPS concepts implemented.","Phab"
+"Docstring's missing from  methods.","Phab"
+"**Bugs **
+ * Fireball direction not randomized
+ * Fireball doesn't kill player on ladders. 
+ * Player stops if direction keys are continuously pressed after jump.
+ * Player disappears when touched by donkey.","Phab"
+"**Bugs**
+ * Wall and Player symbols interchange.
+ * Player can move randomly anywhere irrespective of the floor.
+ * User has to press Enter key after every move.","Phab"
+"Code Smell :
+ God object used.","Phab"
+"**Bugs**
+ * Duplicate Donkey is created when Player touches Donkey.
+ * Player can walk in air at bottom-right corner and eventually freezes. ","Phab"
+"Modularity not implemented.","Phab"
+"**Cyclomatic complexity**
+ ","Phab"
+"Found indentation with tabs instead of spaces (mixed-indentation)","Phab"
+"the player is able to fall from the end of the platform and  it should happen !!
+
+","Phab"
+"The player loses it life only when caught by the donkey king or when player and the fireball are on same co-ordinates , nevertheless if they simply  pass through each other , then no harm will be done to player.","Phab"
+"Exactly one space required after comma
+        def __init__(self,x=0,y=0):
+                                ^ (bad-whitespace)
+","Phab"
+"Exactly one space required after comma
+        def __init__(self,x=0,y=0):
+                      ^ (bad-whitespace)
+","Phab"
+"PIP8 error .
+Trailing whitespace (trailing-whitespace)","Phab"
+"PIP8 error.
+Unnecessary parens after 'if' keyword (superfluous-parens)","Phab"
+"PIP8 error.
+Line too long (158/80) (line-too-long)
+","Phab"
+"PIP8 error.
+Unnecessary parens after 'elif' keyword (superfluous-parens)","Phab"
+"Bad indentation. Found 40 spaces, expected 20 (bad-indentation)","Phab"
+" Exactly one space required around comparison","Phab"
+"Bad indentation. Found 1 spaces, expected 4 (bad-indentation)
+","Phab"
+"bug in the code.
+Undefined variable 'down' (undefined-variable)","Phab"
+"bad code smell.
+Too few public methods (1/2) (too-few-public-methods)","Phab"
+"Pygame is not used anywhere , still imported it to with no use","Phab"
+"Redefining name 'sys' . Sys module has been already imported at line 3.","Phab"
+"According to PIP8  \""fd\"" is invalid variable name.","Phab"
+"Unused argument 'flag' (unused-argument)","Phab"
+"Access to a protected member _a of a client class (protected-access)
+","Phab"
+"Missing method docstring (missing-docstring)","Phab"
+"String statement has no effect (pointless-string-statement)","Phab"
+"Bad code smell.
+Too many branches (14/12) (too-many-branches) . ","Phab"
+"Bad code smell.
+Method could be a function (no-self-use)","Phab"
+"Bad code smell.
+Too many statements (92/50) (too-many-statements).
+Can be divided into sub functions.","Phab"
+"standard violation.
+Missing module docstring (missing-docstring)","Phab"
+"standard violation.
+Missing module docstring (missing-docstring)","Phab"
+"standard violation.
+Missing module docstring (missing-docstring)","Phab"
+"standard violation.
+Old-style class defined. (old-style-class)","Phab"
+"Code smell.
+Too many branches (24/12) (too-many-branches)
+ Too many statements (109/50) (too-many-statements)
+","Phab"
+"BUG in the code -
+ score doesn't sum up when player got died , and get the second life.","Phab"
+"standard violation.
+Exactly one space required around assignment
+                        prevY=fi.getY()
+","Phab"
+"Found indentation with tabs instead of spaces (mixed-indentation)","Phab"
+"standard violation.
+No space allowed before comma
+                                screen.printfi(8,45     ,'O',fi) ","Phab"
+"Bug - 
+Score didn't get deducted while get hit by fireball . ","Phab"
+"Error
+Instance of 'Screen' has no 'score' member ","Phab"
+"bad code smell
+Too few public methods (1/2) (too-few-public-methods)","Phab"
+"Many Unused import from \""import *\""$$$$""{\""source\"":\""legacy\"",\""params\"":[]}","Phab"
+"Invalid argument name \""x\"" and \""y\"" (invalid-name)","Phab"
+"Unused import setstate from wildcard import (unused-wildcard-import)","Phab"
+" PIP8 error - 
+Line too long (161/80) (line-too-long)","Phab"
+" standard violation
+Wrong hanging indentation.","Phab"
+" standard violation.
+Line too long (161/80) (line-too-long)
+","Phab"
+" standard violation.
+Exactly one space required around comparison","Phab"
+"bad code smell.
+Too many branches (21/12) (too-many-branches)","Phab"
+"standard violation.
+Invalid argument name \""x\""  and \""y\"" (invalid-name)","Phab"
+"Error
+Undefined variable 'screen' (undefined-variable)","Phab"
+"Error
+Instance of 'Player' has no '_Person__x' member (no-member)","Phab"
+"Error
+Instance of 'Player' has no '_Person__y' member (no-member)","Phab"
+" bad code smell.
+Too many instance attributes (11/7) (too-many-instance-attributes)","Phab"
+"standard violation
+Invalid argument name \""x\"" and \""y\"" (invalid-name)","Phab"
+"bad code smell.
+Method could be a function (no-self-use)","Phab"
+"standard violation.
+Missing function docstring (missing-docstring)","Phab"
+"bad code smell.
+Method could be a function (no-self-use)","Phab"
+"Bug
+Jump not implemented","Phab"
+"Bug
+levels not implemented","Phab"
+"Lazy class.
+
+Person class has no methods except a constructor and does nothing significant.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"Large class.
+
+The person class is very large.
+
+It has certain methods which could be defined and used from the Person class.","Phab"
+"multiple imports on one line","Phab"
+"Trailing whitespaces.","Phab"
+"Methods present in player class which do nothing.","Phab"
+"missing whitespace after ','","Phab"
+"Forced usage of overly complicated design patterns where simpler design would suffice.","Phab"
+"PEP8 standards violated.
+
+There is a missing whitespace after ',' in the function definitions.
+
+At many places indentation is not a multiple of 4.
+","Phab"
+"BUG- Failed to implement the functional requirements of the donkey kong game assignment.
+
+When the game is run there is no-
+1. Donkey
+2. Princess
+3. fireballs
+
+Player does not move at all.
+
+The game is just like a static picture.","Phab"
+" 2 blank lines should be present.","Phab"
+"Library imports should be separated from local module imports PEP-8.","Phab"
+"No modules used.
+Defined all the classes and functions in a single file.","Phab"
+"BUG-failed to  implement required functionality of the donkey Kong Game.","Phab"
+"BUG-
+
+Donkey kong game not implemented.
+
+When game is run a small block appears which moves horizontally and vertically.
+Rest no other feature is present.
+The screen is blank.","Phab"
+"BUG-
+
+Donkey kong game not implemented.
+
+When game is run a small block appears which moves horizontally and vertically.
+Rest no other feature is present.
+The screen is blank otherwise.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"BUG -  code unindented so it does not run when executed and gives an error.","Phab"
+"PEP8 standards not followed.","Phab"
+"line too long (140 characters)","Phab"
+"BUG - Sometimes the princess gets caught in the cage and cannot be rescued.","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"missing whitespace after ','","Phab"
+"PEP8 standards not followed.","Phab"
+"Code Smell: Duplicated code
+
+could have used a for-loop statement to repeat the same steps.","Phab"
+"blank line contains whitespace","Phab"
+"Functions such as checkLadder(), checkDonkeyOrBall() and checkQueen() defined in Person class and then it is inherited by donkey class which does not use these functions.","Phab"
+" line too long (86  characters)","Phab"
+"missing whitespace around operator
+","Phab"
+"Should use OOP features.
+
+No modularity. Only one file present. It should be broken into smaller modules to make the project more manageable.
+
+No encapsulation implemented.","Phab"
+"PEP8 standards violated.","Phab"
+"Multiple imports on 1 line.","Phab"
+"missing whitespace after ','","Phab"
+"Good.
+Constantvariable started with capital letters.","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"indentation is not a multiple of four","Phab"
+"checkCollision() function should be checking collision with all types of objects and not just platform.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"indentation is not a multiple of four","Phab"
+"line too long (133 characters)","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"line too long (342  characters)
+","Phab"
+"Gameboard hardcoded","Phab"
+"PEP8 standards not followed.","Phab"
+"Unindented !!
+Does not match any indentation level.","Phab"
+"multiple imports on one line","Phab"
+"2 Blank lines expected.","Phab"
+"blank line contains whitespace","Phab"
+"BUG- Fireball disappears once we jump over it.","Phab"
+"BUG nothing implemented at all.
+No player, donkey, platforms, princess, fireballs and coins.","Phab"
+"Nothing done at all.
+Just an empty code.","Phab"
+"Too many lines left.","Phab"
+"expected 2 blank lines, only 1 is present.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines.","Phab"
+"This code has been repeated again in the same funtion.
+
+Instead a Game class should have been defined and it's object should have been created to restart the game,","Phab"
+"Necessary function not implemented 
+checkCollision() function not implemented.","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"No Fireball class implemented.","Phab"
+"Separate functions should have been made for the player to move and jump.","Phab"
+"PEP8 standards not followed.
+Surround top-level function and class definitions with two blank lines. ","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"Lazy classes - Coins, Queen, Ladder","Phab"
+"checkWall() should have been used to check wall in other classes too.
+No checkWall() function in player and fireball classes.","Phab"
+"unexpected indentation","Phab"
+"line too long (97 > 79 characters)","Phab"
+"Not done anything that the assignment asked for.","Phab"
+"PEP8 standards not followed.","Phab"
+"unexpected indentation","Phab"
+"DuplicatedCode
+In main a lot of code has been repeated.","Phab"
+"Code not properly indented so does not run when executed.","Phab"
+"Code Smell - Duplicated code","Phab"
+"line too long (342 characters)
+","Phab"
+"Bug - As the level increases the speed of the fireballs increases and they do not fall down the ladders.","Phab"
+"PEP8 standards not followed.","Phab"
+" 2 blank lines should be present.","Phab"
+" unindent does not match any outer indentation level","Phab"
+"Game does not run at all.","Phab"
+"Good :)
+Constants are usually defined on a module level and written in all capital letters with underscores separating words.","Phab"
+"comparison to False should be 'if cond is False:' or 'if not cond:'","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"Some functions that should be compulsorily be present in your code:
+• getPosition()
+• checkWall()
+• checkCollision()
+• collectCoin()","Phab"
+"Classes corresponding to -
+1. Person
+2. Donkey
+3. Board
+4. Fireball
+
+are absent . The assingment clearly specified that these should have been present.","Phab"
+"Classes corresponding to -
+1. Person
+2. Donkey
+3. Board
+4. Fireball
+
+are absent . The assignment clearly specified that these should have been present.","Phab"
+"Code Smell : Long Method","Phab"
+"No modularity,classes and encapsulation.","Phab"
+"Good.
+
+Constants are usually defined on a module level and written in all capital letters with underscores separating words.","Phab"
+"Compulsary functions not present at all.
+• getPosition()
+• checkWall()
+• checkCollision()
+• collectCoin()","Phab"
+"line too long (140 characters)","Phab"
+"line too long (89  characters)","Phab"
+"Lazy class.","Phab"
+"OOP concepts not implemented like Inheritance, Polymorphism, Modularity and Encapsulation.","Phab"
+"PEP8 standards not followed.
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners .","Phab"
+"CLASSES specified in the assignment not present.
+1. Person
+2. Player
+3. Donkey
+4. Board
+5. Fireball","Phab"
+"It happens as I have taken two cases either player hits fireball on his movement or fireball hits player on its movement","Phab"
+"#BUG:  levels are not implemented since layout is not randomized","Phab"
+"Unused import random (unused-import)","Phab"
+"class name should start with capital letter","Phab"
+"multiple comments shouldn't be inline to method","Phab"
+"comments","Phab"
+"Missing method docstring (missing-docstring)","Phab"
+"replies to comments","Phab"
+"according to PEP-8 standards class name should start with capital letter","Phab"
+"Attributes defined outside __init__ ","Phab"
+"No use of modularity ,classes can be in different files and can be imported","Phab"
+"#BUG:
+Donkey position changes only when player moves by one position in any direction.Threading is not done","Phab"
+"multiple levels are implemented with increasing difficulty by increasing frequency of fireball","Phab"
+" Unused argument 'gameLevel' ","Phab"
+"comments","Phab"
+"__init__ method from base class 'Person' is not called (super-init-not-called)","Phab"
+"Board should ideally be randomised","Phab"
+"comma separated imports should be avoided","Phab"
+"sorry fireballs are implemented but are fixed","Phab"
+"#BUG:
+sometimes fireball stuck to a place which causes undesired movement of fireball","Phab"
+"#BUG:
+Fireball doesn't move when at the edge of a level and at the end a coin is placed . Outcome should be it should drop down but it doesn't and stays in space.","Phab"
+"BUG","Phab"
+"one space required around assignment","Phab"
+"commented","Phab"
+"multiple line comments shouldn't be in-line to class according to PEP-8 standards","Phab"
+"commented","Phab"
+"multiple line comments shouldn't be in-line to method","Phab"
+"As for displaying layout there is time sleep of 0.2 sec which might can cause donkey to disappear.","Phab"
+"Repeated if-else conditions","Phab"
+"comments","Phab"
+"Old-style class defined. (old-style-class)","Phab"
+"#BUG:
+Player eats up stairs while its movement. While jump if player ends up at bottom of stairs then player's previous position has 'H'","Phab"
+"multiple imports shouldn't be in same line separated by commas
+module pygame of no use","Phab"
+"Jump is implemented but press space and then character corresponding to jump direction","Phab"
+"avoid in-line comment according to PEP-8","Phab"
+"comment","Phab"
+"Missing method docstring (missing-docstring)","Phab"
+"pygame module of no use","Phab"
+"Global variable 'z' undefined at the module level (global-variable-undefined)","Phab"
+"commented","Phab"
+"not implemented encapsulation","Phab"
+"Class name should start with capital letter","Phab"
+"Not indented properly","Phab"
+"According to PEP-8 comma separated imports should be avoided","Phab"
+"Undesired outcome","Phab"
+"Redefining name 'sys' from outer scope (line 3) ","Phab"
+"Wrong indentation","Phab"
+"comment","Phab"
+"Redefining name 'score' from outer scope (line 14) ","Phab"
+"#BUG : fireball not implemented","Phab"
+"#BUG:
+If player's jump ends at fireball instead of player starting new game its position is interchanged by fireball","Phab"
+"__init__ method from base class 'Person' is not called ","Phab"
+" Missing class docstring (missing-docstring)","Phab"
+"Unused argument 'y','x','p' (unused-argument)","Phab"
+"Unwanted movement of fireball","Phab"
+"class name should start with capital letter","Phab"
+" Using the global statement at the module level ","Phab"
+"#BUG:
+Fireball are moved only after movement of player. Not implemented threading.
+Fireball comes down while encountering first staircase . It doesn't come down randomly","Phab"
+"comment","Phab"
+"__init__ method from base class 'Person' is not called ","Phab"
+"use PEP-8 standard of indentation","Phab"
+"Missing method docstring (missing-docstring)","Phab"
+"Code Smell (Dead Code):
+Unused 'getScore' method. Unused code must be removed.","Phab"
+"Error (**NameError**):
+Following error is encountered when player reaches queen.
+```
+NameError: global name 'crt_level' is not defined
+
+```","Phab"
+"Unnecessary usage of parentheses. ","Phab"
+"PEP-8 standard violation:
+Missing method docstring.","Phab"
+"Missing function docstring.","Phab"
+"Further features not implemented:
+5. Player does not die upon colliding with a fireball at most times.","Phab"
+"Found indentation using tabs, instead of using spaces.","Phab"
+"Bug:
+Player does not 'die' when it collides with donkey icon, 'D'.","Phab"
+"PEP-8 standard violation:
+Missing function docstring. (line 156).
+","Phab"
+"PEP-8 standard violation:
+Pointless string statement. (line 155)
+","Phab"
+"Bug:
+'Screen' class has no 'score' member.
+
+getScore() method should have been used.","Phab"
+"PEP-8 standard violation:
+Line too long, 83 characters present instead of the standard limit of 79 characters per line.","Phab"
+"Missing method docstring.","Phab"
+"PEP-8 standard violation:
+Found 16 spaces, expected 8","Phab"
+"PEP-8 standard violation:
+Binary augmented assignment operator should be surrounded by a blank space on either side of the operator.","Phab"
+"Bug:
+Player cannot jump in a particular direction but only vertically at the same point.","Phab"
+"Error:
+Arguments passed should have been (27,2) and not (28,2) so that player icon, 'P' is printed at bottom left corner, so that it is in accordance with lines 112,113, which intends board to be 30*80 in size.","Phab"
+"PEP-8 standard violation:
+Missing function docstring.
+
+Function defined outside class.","Phab"
+"Bug:
+Sometimes fireball gets stuck between a stair/ladder and a wall and keeps moving between the two.","Phab"
+"Unnecessary blank line.","Phab"
+"PEP-8 standard violation:
+Unnecessary blank line left. According to PEP-8 standards only a single blank line should be left.","Phab"
+"PEP-8 standard violation:
+Found 14 spaces, expected 8 spaces.","Phab"
+"PEP-8 standard violation:
+Binary operators should be surrounded by a blank space on either side.","Phab"
+"Code Smell (Dead Code):
+Variables i and j are never used in the function. Dead code must be deleted.","Phab"
+"Bug:
+'Screen' class has no 'score' member.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"Bug:
+Wrong syntax : Used comma instead of full-stop(.). It is,
+ClassName.method_name and not ClassName,method_name
+
+It should have been,
+f3.getPosition[0]","Phab"
+"Code Smell (Dead Code):
+Unused 'getScore' method. Unused code must be removed.","Phab"
+"PEP-8 standard violation:
+Bad indentation.","Phab"
+"PEP-8 standard violation:
+Binary operators should be surrounded by a single blank space on either side.
+","Phab"
+"Attribute, '__level' defined outside init function.","Phab"
+"PEP-8 standard violation:
+Binary augmented assignment operator should be surrounded by a blank space on either side of the operator.","Phab"
+"Code Smell (Cyclomatic complexity):
+Too many branches present. Either function needs to be broken down into smaller functions or simplified.","Phab"
+"PEP-8 standard violation:
+Top-level functions should be surrounded with a single blank line.","Phab"
+"PEP-8 standard violation:
+Binary comparison operator (in this case, == ) should be surrounded by a blank space on either side of the operator.","Phab"
+"PEP-8 standard violation:
+Exactly one space should be left after each comma(,).","Phab"
+"PEP-8 standard violation:
+Class definitions should be surrounded by two blank lines.","Phab"
+"PEP-8 standard violation:
+Unnecessary whitespace characters used (blank lines left).","Phab"
+"Too many statements => Long Function","Phab"
+"PEP-8 standard violation:
+Unnecessary blank line left.","Phab"
+"PEP-8 standard violation:
+Invalid function name. As per PEP-8,
+> Function names should be lowercase, with words separated by underscores as necessary to improve readability. mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.
+","Phab"
+"Error:
+Player's score should increment by 5 and not 1 each time player \""collects\"" a coin.","Phab"
+"PEP-8 standard violation:
+Misplaced function docstring.","Phab"
+"PEP-8 and PEP-257 standards violation:
+Bad docstring convention as per PEP-257. The entire docstring should have been enclosed by a single pair of triple quotes (\""\""\"") . The closing triple-quote (\""\""\"") for a multiple line comment should be on a new line by itself.
+
+PEP-8 Violation : 
+Line too long, 133 characters used instead of the standard 80 characters per line.","Phab"
+"Attribute, __ladder_length defined outside '__init__' function.","Phab"
+"Code Smell  (Dead Code):
+Unused variable, CYAN. Unused code must be removed.","Phab"
+"Bug:
+Player's life never gets reduced. Game goes on indefinitely.","Phab"
+"PEP-8 and PEP-257 standards violation:
+Entire docstring should be written should be within a single pair of triple-quotes(\""\""\"") and the closing \""\""\"" should be on a line by itself.","Phab"
+"PEP-8 standard violation:
+Binary operators should be a single blank space on either side.","Phab"
+"Bad indentation. 4 extra spaces are present for each line.","Phab"
+"PEP-8 standard violation:
+Bad indentation","Phab"
+"Hard-coded board should have one board-character per line to ease understanding.","Phab"
+"Features not implemented and bugs:
+1. Donkey class not created.
+2. Fireball class not created.
+3. Multiple player lives feature not implemented.
+4. Player cannot jump.
+5. Game will never end since no provision has been such that the player dies.
+6. checkWall(), getPosition() functions have not been implemented.
+7. collectCoin() function has been implemented as CoinCheck(), not in accordance with assignment-1 requirements.","Phab"
+"PEP-8 standard violation:
+Avoid extraneous whitespace immediately inside parentheses, brackets or braces, that is, no space is allowed after bracket.","Phab"
+"Error:
+Number of characters per line of the 'board' is not the same, is inconsistent. Violates statements at lines 112,113.
+Not in accordance with assignment-1 requirements.","Phab"
+"Code-smell:
+Lazy classs. The class does too little. The class should either be collapsed or be combined with another class.","Phab"
+"PEP-8 standard violation:
+Binary operators should always be surrounded by a single space on either side.","Phab"
+"Attributes, _prevX and _prevY defined outside __init__","Phab"
+"PEP-8 standard violation:
+Class definitions should be surrounded with 2 blank lines.","Phab"
+"Attribute '__life' defined outside class's init function.","Phab"
+"PEP-8 standard violation :
+Top-level functions and class definitions should be surrounded with two blank lines.","Phab"
+"PEP-8 standard violation:
+Binary assignment operator (=) should always be surrounded by a blank space on either side of the operator","Phab"
+"Basically,
+Misplaced docstring.","Phab"
+"Bug:
+'Board' class has no 'collectcoin' member.","Phab"
+"Attribute '__score' defined outside init function.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"Bug:
+Player cannot move upwards (for 2 moves made by the fireball) and is stuck on the stair at the jump's highest point, when player jumps at the base of a stair.","Phab"
+"Bad indentation. Found 24 spaces, expected 16 spaces","Phab"
+"Unnecessary semicolon. ","Phab"
+"Bug:
+'Board' class has no 'moveFireball' member","Phab"
+"Features not implemented:
+1. 'Player' can't jump, that is, jump functionality has not been implemented for player/user.
+2. Multiple fireballs are not generated randomly.
+3. Player does not have 3 lives, that is, game ends as soon as player chances upon the fireball.
+4. Fireballs do not eliminate/extinguish at the player spawn position (bottom left corner).","Phab"
+"Error:
+By default, at the beginning of each game, player should be credited 20 coins ( As per assignment-1 requirements).","Phab"
+"PEP-8 standard violation : 
+All imports should always be put at the top of the file, just after any module comments and docstrings, and before module globals and constants.","Phab"
+"PEP-8 standard violation: 
+Line too long, more than the standard 80 character per line.
+Require exactly one space after each comma(,).
+
+Hardcoded board should have one board-character per line to ease understanding.","Phab"
+"Error (**IndexError**):
+List index goes out of range.
+Argument values of range() function call at lines 112,113 not in accordance with code statements in lines 71-98.","Phab"
+"PEP-8 standard violation:
+Line too long, 142 characters present in line 71 and approximately the same in the following line; more than the standard limit 79 character per line.
+","Phab"
+"PEP-8 standard violation:
+Avoid extraneous whitespace immediately inside parentheses, brackets or braces, that is, no space is allowed after bracket.","Phab"
+"Bug:
+Using variable 'f' before assignment in code.","Phab"
+"PEP-8 standard violation
+Binary augmented assignment operator should be surrounded by a blank space on either side of the operator.","Phab"
+"Attribute, \""__flag\"" defined outside \""__init__\"" function.","Phab"
+"Code Smell (Cyclomatic Complexity):
+Too many branches. Either the function needs to broken down into smaller functions or it needs to be simplified.","Phab"
+"PEP_8 standard violation:
+Line too long , 152 characters instead of the standard 80 characters per line.","Phab"
+"PEP-8 standard violation:
+Binary comparison operator (in this case, == ) should be surrounded by a blank space on either side of the operator.","Phab"
+"Bug:
+A stationary fireball is generated, at times, when a fireball collides with the player icon, 'P' or the donkey icon, 'D'.","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"Unnecessary semicolon. ","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"PEP-8 standard violation:
+Imports should usually be on separate lines.
+Imports should always be put at the top of the file, just after any module comments and docstrings, and before module globals and constants.","Phab"
+"PEP-8 standard violation:
+Line too long. 95 characters present instead of the standard limit of 80 characters per line.","Phab"
+"Code Smell (Cyclomatic Complexity):
+Too many branches. Either function should be broken down into smaller functions or should be simplified.","Phab"
+"PEP-8 standard violation:
+Class definitions should be surrounded by 2 blank lines.","Phab"
+"PEP-8 standard violation:
+Binary operators (here, comparison, \""==\"" operator) should always be surrounded by a space on either side.","Phab"
+"PEP-8 standard violation:
+Mixed indentation. Use spaces for indentation as opposed to using tabs.","Phab"
+"PEP-8 standard violation:
+Binary augmented assignment operator should be surrounded by a blank space on either side of the operator.","Phab"
+"PEP-8 standard violation:
+Exactly one blank space must be left after each comma.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"Features not implemented:
+1. Player cannot jump, that is, 'jump' functionality has not been implemented for the player/user.
+2. Multiple fireballs are not randomly generated.
+3. No ladders between ground and upper floor. So player can never \""save\"" the queen and thus, win the game!
+4. The one fireball that is generated never reaches the ground level.
+5. The one and only fireball that is created floats, that is, it even moves if there is no 'X' character below it, on the \""board\"".
+6. Multiple donkeys get displayed and none of them move randomly.","Phab"
+"PEP-8 standard violation:
+Avoid extraneous whitespace immediately inside parentheses, brackets or braces, that is, no space is allowed after bracket.","Phab"
+"Unused import, print_function.","Phab"
+"Missing function docstring.","Phab"
+"PEP-8 standard violation:
+Binary assignment operator (=) should always be surrounded by a blank space on either side of the operator","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"PEP-8 standard violation:
+Binary comparison operator (in this case, == ) should be surrounded by a blank space on either side of the operator.","Phab"
+"PEP-8 standard violation:
+Binary assignment operator (=) should always be surrounded by a blank space on either side of the operator","Phab"
+"Bug (**NameError**):
+Following error is encountered when player reaches queen.
+```
+NameError: global name 'crt_level' is not defined
+
+```
+
+Semantic error: misspelled function name. Should have typed crt_levels.","Phab"
+"PEP-8 standard violation:
+Line too long, 96 characters present instead of the standard 80 characters per line.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"PEP-8 standard violation:
+Line too long, 97 characters present instead of the standard limit of 79 characters per line.","Phab"
+"Code Smell:
+Too many branches (Cyclomatic Complexity)
+Too many statements ","Phab"
+"PEP-8 standard violation:
+Missing function docstring.","Phab"
+"PEP-8 Standard violation:
+Binary operators should always be surrounded by a space on either side.","Phab"
+"Several unused imports.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space is required after each comma.","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after each comma(,).","Phab"
+"Code Smell (**Long Method**):
+Method is too long. A method should ideally be <15-20 lines.","Phab"
+"Code smell ( Long method ):
+A method should ideally have <20 lines","Phab"
+"PEP-8 standard violation:
+Binary comparison operator (in this case, == ) should be surrounded by a blank space on either side of the operator.","Phab"
+"PEP-8 standard violation:
+Line too long, 100 characters present instead of the standard limit of 79 characters per line.","Phab"
+"Bug:
+Player dies mostly when it is stationary and the fireball encounters the player icon, 'P'. 
+Though, sometimes the player does die when the player and the fireball are going in opposite directions.
+Player mostly just goes though the fireball upon collision and game play continues normally.","Phab"
+"PEP-8 standard violation:
+1. Lines are too long, 144 characters (in line 204), instead of the standard limit of 80 characters per line.
+2. Exactly one space is required after each comma.","Phab"
+"Error:
+The one fireball (only) that is created goes out of the boundaries of the \""board\"", thus causing an IndexError.","Phab"
+"PEP-8 standard violation:
+Missing method docstring.","Phab"
+"Bug:
+'Screen' class has no 'score' attribute. Statement should be correctly written as, self.__score.","Phab"
+"Bug:
+When fireball reaches the ground level floor, it does not get eliminated at the bottom left position.","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"Unnecessary blank line.","Phab"
+"Mixed indentation:
+found indentation with tabs instead of using spaces.","Phab"
+"Error:
+By default, at the beginning of each game, player should be credited 20 coins.","Phab"
+"Error:
+Donkey (a.k.a Donkeykong)  does not move randomly and instead multiple donkey(kong)s are displayed.","Phab"
+"Code Smell:
+Dead code must be removed.","Phab"
+"Misplaced function docstring.","Phab"
+"PEP-8 standard violation:
+Prevent mixed-indentation. Indent using spaces and not tabs.","Phab"
+"PEP-8 and PEP-257 standards violation:
+Bad docstring convention as per PEP-257. The entire docstring should have been enclosed by a single pair of triple quotes (\""\""\"") . The closing triple-quote (\""\""\"") for a multiple line comment should be on a new line by itself.
+","Phab"
+"PEP-8 standard violation:
+Line too long. 87 characters present instead of the standard limit of 80 characters.","Phab"
+"Code Smell (Dead Code):
+Dead code must be removed.","Phab"
+"PEP-8 standard Violation:
+Line too long, 84 characters used instead of the standard 80 characters limit per line.
+Exactly one space should be present after each comma(,)
+","Phab"
+"PEP-8 standard violation:
+Class definitions should be surrounded with 2 blank lines,.","Phab"
+"PEP-8 standard violation:
+Avoid extraneous whitespace immediately inside parentheses, brackets or braces, that is, no space is allowed after bracket.","Phab"
+"Unused code.","Phab"
+"PEP-8 standard violation:
+Found indentation with tabs instead of spaces.","Phab"
+"Error:
+Argument values of range() function call not in accordance with code statements in lines71-98.","Phab"
+"PEP-8 standard violation:
+Bad indentation.","Phab"
+"Bug:
+'Screen' class has no 'genCoins' member.","Phab"
+"PEP-8 standard violation:
+Line too long, 140 characters present instead of the standard limit of 79 characters per line.","Phab"
+"PEP-8 standard violation:
+Invalid variable names. As per PEP-8, for variables, 
+> Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability
+
+","Phab"
+"PEP-8 standard violation:
+Require exactly one space after each comma(,).","Phab"
+"PEP-8 standard violation:
+Binary operators should always be surrounded by a blank space on either side.","Phab"
+"PEP-8 standard violation:
+Method definitions inside a class should be surrounded by a single blank line.","Phab"
+"Unnecessary usage of parentheses in return statement. ","Phab"
+"Error (**UnboundLocalError**):
+
+```
+  File \""dk4.py\"", line 437, in main
+    b.printpm(f[0].getPosition()[0],f[0].getPosition()[1],' ')
+UnboundLocalError: local variable 'f' referenced before assignment
+```","Phab"
+"Code smell (duplicate code):
+Redefining variable 'fireballFlag' from outer scope (line 31).","Phab"
+"Bug:
+'donkeyPosition' is an undefined variable.","Phab"
+"Bad indentation:
+Found 16 spaces, expected 8 spaces.","Phab"
+"PEP-8 standard violation:
+Exactly one space is required after each comma.","Phab"
+"Unnecessary semicolon. ","Phab"
+"Bug:
+Sometimes player does not die when it collides with a fireball,.","Phab"
+"Exactly one space required around assignment
+","Phab"
+"Exactly one space required around assignment
+ Exactly one space required after comma
+white=(255,255,255)","Phab"
+"Exactly one space required around assignment
+gamexit=False","Phab"
+" Exactly one space required around assignment
+ex=False
+","Phab"
+"Exactly one space required around assignment
+    bo=board()
+","Phab"
+"Exactly one space required around assignment
+    if ex==False:","Phab"
+"Exactly one space required after comma
+        donk.put(bo,white)","Phab"
+"Exactly one space required after comma
+        p.put(bo,white)","Phab"
+"==Primitive Obsession==
+The x and y coordinates must have been attributes of the object class.
+pass them as parameters of the constructor method of object class.
+Don't use a gaggle of primitive data type variables as a poor man's substitute for a class. If your data type is sufficiently complex, write a class to represent it.","Phab"
+"==Dead code==
+method not called anywhere","Phab"
+"=Inconsistent method name=
+should have used update or changeposition as method name","Phab"
+"misleading comment","Phab"
+"=Feature not implemented=
+Should use checkwall() and checkstairs() function to change the y coordinate of the player","Phab"
+"=Bug=
+initial position of the player is not correct.","Phab"
+"=Bug=
+initial position of the player is not correct.","Phab"
+"=Dead code=
+No array object named floor_mainarray was found","Phab"
+"=Dead code=
+No array object named floor_mainarray was found","Phab"
+"=Unnecessary variable=
+unnecessary variable count.","Phab"
+"=Unecessary  class=
+Oddball solution.The functionality of the object class can be done within the board.create method","Phab"
+"display must be a global variable.
+it need not be attribute of the board class.","Phab"
+"=Object oriented principles not followed properly=
+this code does not implement polymorphism and encapsulation.","Phab"
+"class name and module name are the same.","Phab"
+"==No princess==
+princess does not appear on the screen.","Phab"
+"=Oddball Solution=
+No need of using a function here.we can just pass the coordinates as separate parameters.","Phab"
+"==Modularity has not been implemented==
+Please try to divide the code into smaller files,which implement the classes in the present file.","Phab"
+"==Write a method to do this==
+write a method to build the wall.","Phab"
+"=inheritance is not necessary here=
+when pygame module is imported all it's corresponding classes are also imported.","Phab"
+"Err:509","Phab"
+"=Dead method=
+Method not used anywhere.....","Phab"
+"=Bug=
+limits given are incorrect.","Phab"
+"Function is not named appropriately.
+This function ought to belong to the object class.","Phab"
+"coin object not named properly","Phab"
+"==Duplicated Code==
+should be done within the constructor of object class","Phab"
+"=Dead code=
+unnecessary if condition","Phab"
+"need not import sys module","Phab"
+"==Duplicated Code==
+should be done within the constructor of object class","Phab"
+"==Use method to do this==
+write a create method in object class to do this function.the wall class inherits from the object class.","Phab"
+"hardcode the background measures
+use:
+background_x=1024
+background_y=750","Phab"
+"=Bug=
+Cannot find method named lives.","Phab"
+"Too many unnecessary modules.Modules are not named properly.","Phab"
+"==Dead Code==
+player not used in the class.It has been declared just to display person on the screen","Phab"
+"=Oddball solution=
+method is not required.redundant","Phab"
+"==Bug==
+person cannot change his y coordinate at any position on the board","Phab"
+"=Dead code=
+rect not used anywhere","Phab"
+"PEP-8 Standards are not followed","Phab"
+"==Bug==
+Event does not get caught.must use pygame.event.get().this if condition must be present in the mainflow.","Phab"
+"=Features not implemented=
+
+The score and lives are not displayed on the screen at all.
+The number of coins appearing is less than 10.
+The topmost level is not implemented.
+there is no coin class.
+there is no wall class.
+There is no donkey.
+
+=Bugs=
+Wrong player controls.
+the limit within which the coins must be present is not checked properly.
+The coins can appear even on the stairs.
+The design of the board is incorrect.
+Limits of movement of the fireball are not checked properly.
+The hearts and coins overlap.
+player does not appear on the screen at all.
+Fireballs increase exponentially on mouse pointer movement.
+Fireballs are spawned even when there is no donkey.fireballs are spawned from the coordinate (         ,        )
+Fireball does not fall from the stairs.
+the limit within which the coins must be present is not checked properly.
+coins overlap on each other.
+
+==None of the required methods are implemented==
+==Contains lots of dead code==
+==Object oriented principles not followed== 
+==Pep-8 standards not followed at all==","Phab"
+"creating board object in every iteration of the while loop.
+Created objects are not freed.The board object must be a private variable.
+","Phab"
+"==Bug==
+coordinates of the fireball are not correct.the fireball does not fall down","Phab"
+"==Class not implemented==
+wall class has not been implemented","Phab"
+"==Bug==
+event doesn't get updated.
+","Phab"
+"==Combinatorial Explosion==
+These should have been implemented in a method in the wall class","Phab"
+"==Scope for Improvement==
+=Check coordinates=
+player's,fireballs and donkey's coordinates are incorrect.
+=Wrong code structure=
+mainflow has to be done independently.
+=Inheritance has not been used anywhere.No encapsulation,polymorphism or Modularity=
+==Features not implemented==
+=functions like checkwall() checkcollission(),getposition()have not been implemented.=","Phab"
+"Bad way of declaring an array.","Phab"
+"This functionality should have been implemented in person class","Phab"
+"This functionality should have been implemented in the donkey class.
+","Phab"
+"color is white no need to pass this as a parameter.","Phab"
+"=Conditional complexity=
+too large if condition.","Phab"
+"=Bug=
+Some floors have more number of coins than other floors,because of the above line.","Phab"
+"=Long parameter list=
+too many function parameters","Phab"
+"=Dead code=
+there is no object named coin.","Phab"
+"=Necessary inheritance is not present=
+Person class is not present.","Phab"
+"==Data clumps==
+Better write a wall class to do this.","Phab"
+"==Combinatorial Explosion==
+This should have been done in a method in the wall class.","Phab"
+"=Dead code=
+ no_of_lives=3
+is not used anywhere","Phab"
+"=Bug=
+No coin class can be found.","Phab"
+"=Oddball Solution=
+player.change_x+=change can be used instead of the method.","Phab"
+"==Bug==
+Event does not get caught.must use pygame.event.get().this if condition must be present in the mainflow.","Phab"
+"I have not followed python PEP-8 standards and the code is redundant.","Phab"
+"Not following PEP-8 standards.
+","Phab"
+"This file does not take continuous user input because of the above line.
+The nuber of clock ticks has to be below 100.","Phab"
+"=Temporary Field=
+image need not attribute of the class","Phab"
+"==Bug==
+coordinates of the player are not correct.","Phab"
+"=Dead code=
+created object is not used","Phab"
+"=Conditional Complexity=
+too large if condition","Phab"
+"==Duplicated Code==
+should be done within the constructor of object class.","Phab"
+"Err:509","Phab"
+"the checkup functions in the above 2 if statements must be a part of the getposition() function in person class.","Phab"
+"==Bug==
+the game should exit when q is hit not when esc is hit.
+if event.type == pygame.KEYDOWN and event.key == pygame.K_q:","Phab"
+"==Primitive Obsession==
+The x and y coordinates must have been attributes of the object class.
+pass them as parameters of the constructor method of object class.
+Don't use a gaggle of primitive data type variables as a poor man's substitute for a class. If your data type is sufficiently complex, write a class to represent it","Phab"
+"=Bug=
+Score should increase by 5,not by 1.","Phab"
+"==Dead code==
+no need of this as modularity is not there.","Phab"
+"Very bad function design.everything here is redundant.it ought to have been designed properly using  loops and control flow statements.","Phab"
+"=Dead code=
+No need of this if condition","Phab"
+"No need of inheritance here.
+We can use the 2d array in the object class itself.","Phab"
+"=Use method to create the board=
+The coordinates can passed as parameters to the method.","Phab"
+"==Combinatorial Explosion==
+This should have been done in a method in the wall class.","Phab"
+"bad if condition.","Phab"
+"==Dead Code==
+Donkey not used in the class.It has been declared just to display donkey on the screen","Phab"
+"==Primitive Obsession==
+The x and y coordinates of the player must have been attributes of the person class.
+pass them as parameters of the constructor method  of person class","Phab"
+"==Ladder class has not been implemented==
+write a class ladder which inherits from the object class.","Phab"
+"==Oddball Solution==
+can use a simple break statement","Phab"
+"=Unnecessary constructor=
+dead code","Phab"
+"==Unnecessary Class==
+Mainflow of the game should not be done within a class.","Phab"
+"==Unnecessary Attributes==
+player,donkey,fireballs,walls,ladders,coins need not be attributes of the game class","Phab"
+"==Primitive Obsession==
+The x and y coordinates  must have been attributes of the object class.
+pass them as parameters of the constructor method of object class. 
+Don't use a gaggle of primitive data type variables as a poor man's substitute for a class. If your data type is sufficiently complex, write a class to represent it.","Phab"
+"bad way of declaring an array.should specify array size at the time of declaring..","Phab"
+"== Object class  not implemented ==
+this line inherits the object class of python.","Phab"
+"=Unnecessary class=
+This class does not have much functionality","Phab"
+"==Class not implemented==
+fireball class has not been implemented.","Phab"
+"==Write a method to do this==
+write a create method in object class to do this function.the ladder class inherits from the object class.","Phab"
+"this is the checkcollision function.","Phab"
+"Contrary to the instructions in assignment:
+1 point awarded instead of 5 when receiving each coin.","Phab"
+"Function should be in main()","Phab"
+"No module imported
+No functionality of game implemented.","Phab"
+"Pep-8:
+Method doc-string absent.","Phab"
+"Unable to import. Import error.","Phab"
+"Code Smell:
+Comments should contribute to the code by explaining the functions and the functionalities.
+Dead code.","Phab"
+"Score should update by 5 points instead of 1 point.","Phab"
+"Pep-8:
+Method doc-string absent.","Phab"
+"Violations of PEP-8 guidelines:
+All the arguments in the bracket should be comma separated with one space after comma and before the next argument.","Phab"
+"Pep-8:
+Method doc-string absent.","Phab"
+"Violates PEP-8 guidelines:
+Line too long. Has 94 characters instead of 80.","Phab"
+"Will not quit if chosen 'n'.","Phab"
+"Violates pep-8 guidelines:
+One line has too many characters and it too long. (1986/80)
+Too many white spaces
+Only One Space after comma required, none before it.","Phab"
+"Unable to import. Import error.","Phab"
+"PEP-8 guidelines:
+Use all lower-case letters in function name.","Phab"
+"No Modularity function
+","Phab"
+"Violates pep-8:
+One space before and after \""==\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"BUG:
+Fireball not randomly generated itself/ from the monkey.
+Fireball doesn't move.
+","Phab"
+"PEP-8:
+Missing method doc-string","Phab"
+"Pep-8 guidelines:
+Method doc-strings not present.","Phab"
+"Return function not  working here.","Phab"
+"Code smell: Works just the same as getPosition","Phab"
+"PEP-8 guidelines:
+Equal spacing should be there before and after \""==\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"Violates PEP-8:
+Too many blank lines. No Necessity of so much  to separate different parts of the program/ different function methods.","Phab"
+"PEP-8:
+Method documentation string absent.","Phab"
+"Does not check collision with the player.","Phab"
+"Could have inherited Person .","Phab"
+"Functionality:
+Fire ball not randomly generated.
+Fire ball does not move.","Phab"
+"Pep-8 guideline violation:
+Module names should be all lower-case letters and avoiding numbers.","Phab"
+"PEP-8: 
+Use of numbers for function names should be avoided.","Phab"
+"Dead code block above.","Phab"
+"No need to reiterate.","Phab"
+"Inheritance in person class, not used","Phab"
+"BUG:
+Ineffective collisions.
+Can pass through the stairs.
+","Phab"
+"Erratic indentation.","Phab"
+"BUG:
+Reaching the end of the floor, doesn't make the character stop neither a fall, but the character keeps moving ahead.","Phab"
+"PEP-8:
+Missing method doc-string.","Phab"
+"The function of this piece of code seems to be to input a single character from the user.
+Due credit for the source should have been given ideally.","Phab"
+"Pep-8 guideline very well implemented:
+Doesn't use parenthesis after if, else-if etc","Phab"
+"In the tar file for the assignment, the modules are named as - authorname_420_module.py  whereas they are used as module.py in the codes.
+Had to change the names of the modules for the code to run.","Phab"
+"PEP-8 guidelines:
+There should be equal spacing before and after \""=\"", with one space on both sides","Phab"
+"PEP-8 guidelines:
+comma separation along with space
+quee = Queen(3, 23, 'Qu')","Phab"
+"Space around assignment.","Phab"
+"Space around assignment.","Phab"
+"Pep-8 guideline:
+Class name should be- CollectCoin
+Method doc-string not present","Phab"
+"No checkcollission() - necessary function","Phab"
+"PEP-8 guidelines:
+self has not been used as the first argument.
+","Phab"
+"No scope of re-generating coins if all coins are collected. 
+
+PEP-8 guideline followed:
+no parenthesis after if, if-else.","Phab"
+"Pep-8 guideline violations:
+Function name should have all small case letters","Phab"
+"Erratic indentation.
+","Phab"
+"Parenthesis after if not required here and similar violations elsewhere.","Phab"
+"Pep-8 guidelines:
+Violate the pep-8 guidelines for 80 characters per line limit.","Phab"
+"Wonderful colour combination.
+Pleasing to the eyes.","Phab"
+"Pep-8 guidelines:
+Comma separated arguments should have a space after each comma.","Phab"
+"PEP-8: 
+Use of numbers for function names should be avoided.","Phab"
+"No separate main function.","Phab"
+"BUG:
+While getting down the stairs, at the last step floor changes to the stair","Phab"
+"Multiple Blank lines violate PEP-8 guidelines.","Phab"
+"Not needed at all.","Phab"
+"Unable to import. Import error.","Phab"
+"Does not generate coins in the code.","Phab"
+"Violates PEP-8 guidelines:
+More than 80 characters per line.
+The board is public susceptible to misuse through the code.
+Not randomly generated, limits scope for level difficulties.","Phab"
+"This function should be inside class.
+PEP-8:
+Method documentation string absent.","Phab"
+"No fireball class()- Essential.
+#BUG- Player eats the stairs","Phab"
+"Too many else-if statements and flag conditions.","Phab"
+"PEP-8:
+Equal spacing around assignments.","Phab"
+"Parenthesis after if not required.","Phab"
+"PEP-8:
+Missing method doc-string.","Phab"
+"PEP-8 guideline:
+All the lines in the board violate the 80 characters per line rule.
+Should ideally be randomised.","Phab"
+"Violations of PEP-8 guidelines:
+ All the arguments in the bracket should be comma separated with one space after comma and before the next argument. ","Phab"
+"CheckCollision() function absent. Essential.","Phab"
+"These comments are not useful in understanding of the code and its functionalities and serve no purpose.
+Should be avoided.","Phab"
+"Unable to import. Import error.","Phab"
+"Violations of PEP-8 and PEP-257 guidelines.
+PEP 257-
+Doesn't follow the convention of multiple line comments (\"" \"" \"") and encloses it in a single line once. 
+(\"" \"" \"") has been used twice in the same line. 
+PEP 8-
+violates the 80 characters per line limit.","Phab"
+"No use of modularity.","Phab"
+"These few lines are too long.","Phab"
+"missing function docstring","Phab"
+"  -   Bad indentation
+  -   __init__ method from person not called
+ 
+
+
+
+
+
+
+","Phab"
+"missing method docstring","Phab"
+"missing docstring","Phab"
+"unused import fireball","Phab"
+"Bad whitespacing, should have been
+
+SPACE = ' '","Phab"
+"**Game does not work**
+","Phab"
+"missing method docstring","Phab"
+"Fireballs do not affect the player if they hit him. Also , jump has not been implemented. The Donkey is static. Very few coins implemented. Game does not reload after the player saves the Queen.","Phab"
+"Missing docstring from function","Phab"
+"Unnecessary semicolon","Phab"
+"missing function docstring","Phab"
+"Missing module docstring","Phab"
+"missing function docstring","Phab"
+"Pointless statement","Phab"
+"missing method docstring","Phab"
+"missing docstring","Phab"
+"missing class docstring","Phab"
+"missing class docstring","Phab"
+"Too many long lines.
+
+Missing function docstring","Phab"
+"Pointless statement","Phab"
+"Instance of player has no dies member.","Phab"
+"Line too long (139/80) (line-too-long)","Phab"
+"missing method docstring","Phab"
+"undefined variable self
+no argument","Phab"
+"unused variables x and y","Phab"
+"missing method docstring","Phab"
+"Missing docstring","Phab"
+"missing docstring","Phab"
+"  - Badly indented code
+  - Functions missing docstrings
+  - all variables have invalid names.
+
+","Phab"
+"Method could be a function, no self use","Phab"
+"missing method docstring","Phab"
+"missing docstring","Phab"
+"Method could be a function, no use of self","Phab"
+"Invalid variable names used in the next few lines","Phab"
+"invalid name getch","Phab"
+"Indentation is done using TABS instead of spaces","Phab"
+"unnecessary blank lines.","Phab"
+"Missing space after comma","Phab"
+"Separate modules should have been imported in separate lines.","Phab"
+"Encapsulation used.","Phab"
+"Found indentation using tabs instead of space throughout the file board.py.","Phab"
+"Coins generated randomly, good approach, there!","Phab"
+"ch.lower() function could have been used on ch instead of checking for both 'w' and 'W'.","Phab"
+"Parenthesis not required, as per PEP-8 standards.","Phab"
+"Various instances of missing space after comma in function definition and use of tabs instead of white spaces.","Phab"
+"missing whitespace before operator","Phab"
+"
+
+Missing docstring.
+","Phab"
+"Spaces must be put after comma in function definition.","Phab"
+"First letter of class should be capital.
+eg Obj","Phab"
+"Line length should not exceed 79 characters.","Phab"
+"Private function should not be called directly.","Phab"
+"
+
+This class should have been written in a separate file and should have been imported from there as a module. Writing classes in the same file is a bad practice.
+","Phab"
+"Cyclomatic Complexity
+Too many nested if-else.","Phab"
+"Good!","Phab"
+"Bad Practice:
+Importing everything from the module is bad. Only the parts which are used must be imported. 
+Repeated the same for dkfinal and pp.","Phab"
+"Trailing whitespace.","Phab"
+"Good use of Inheritance.
+Functions used by all the classes inheriting from person are defined inside player, so as to reduce redundancy.","Phab"
+"Freeloader class because functionality is not properly implemented.","Phab"
+"Incorrect indentation for above 4 lines.","Phab"
+"Code duplication","Phab"
+"Death:
+if fireball_position = 9,20 and player_position = 11, 20.
+
+Now if the player moves towards the left and the fireball towards the right, both reach 10,20 and the player dies.
+if fireball_position = 9,20 and player_position = 10, 20.
+
+Now if the player moves towards the left and the fireball towards the right, both interchange positions and thus the player doesn't die.
+This is a major bug in the code.
+","Phab"
+"Bad practice
+Use of tabs instead of spaces.","Phab"
+"Stairs have also been hard-coded, should have been generated randomly.","Phab"
+"Comments are for increasing the understandability of the code.
+Unnecessary comment should not be present in the code.","Phab"
+"Duplicated Code:
+The function update_updatedposition is used in class player as well as fireball without any change.
+This function should have been defined only once and that too under their parent class i.e. Person.","Phab"
+"Hard-coded board makes it difficult to make changes in the board later on. Instead of hard coding, use of loops is better as it gives us better control while editing and reduces redundancy.","Phab"
+"move function too long.","Phab"
+"Good:
+Randomized movement makes the game more interesting.","Phab"
+"Duplicated code","Phab"
+"Code smell:
+too much branching.","Phab"
+"Function printlist is too long. Typically, a function should not exceed 20 lines.","Phab"
+"Jump not implemented.
+The move functions for player, fireball and donkey should have been in class person instead of class board.
+the code doesn't work.","Phab"
+"
+
+Missing Docstring in the beginning of module (PEP-8 Violation)
+","Phab"
+"sys module imported twice.","Phab"
+"Absurd coin generation function.
+Easier implementations are possible.","Phab"
+"PEP-8 standards promote the use of spaces instead of tabs.","Phab"
+"Missing docstring.","Phab"
+"Imports must not be made in single line.","Phab"
+"Providing instructions before the game is a good practice. The game should be as interactive as possible.","Phab"
+"Unused variable.","Phab"
+"Duplicated code:
+Was previously defined in class donkey. Use of inheritance could have saved these unnecesary lines of code. and reduced redundancy","Phab"
+"There are various instances of missing space after comma in function definitions.","Phab"
+"Variables should be defined in a separate file and imported when necessary.
+They can be modified easily if they are defined separately.","Phab"
+"Duplicated code for getX and getY.","Phab"
+"
+Bad code smell:
+Too many branches. Cyclomatic complexity.
+","Phab"
+"No randomization in board.
+Even the stairs are hard-coded.","Phab"
+"Variables should be stored in a separate file so that they can be modified easily and only imported when necessary.","Phab"
+"Instead of hard-coding the game board, use of loops should have been preferred as they make it easier for the programmer to edit game design easily.","Phab"
+"
+
+Wildcard import. Bad practice. Should import only those parts which are required.
+","Phab"
+"Docstring fails to provide any more information than class name.","Phab"
+"Unnecessary blank lines.","Phab"
+"limiting the value of self.__y to less than 6 makes the donkey practically useless. Since queen is at y=23, so the player never moves towards the donkey and the donkey cannot kill the player.","Phab"
+"No need of including this file in the game module.","Phab"
+"useless comments not removed.","Phab"
+"Missing docstring at class initialization.","Phab"
+"In lines 5-10, missing whitespace around operator.","Phab"
+"Cyclomatic complexity found.
+Instead of nested if-else statements, breaking into functions is better.","Phab"
+"Instead of hardcoding the entire gameboard, use of loops would have been better.
+It could have to improved understandability and made it easier to edit sections of board. ","Phab"
+"Player position  should have been privatised.","Phab"
+"This is PYTHON, not C
+There is no need to use parenthesis in if-else statements.","Phab"
+"
+
+Large class. Bad code smell. Should have been divided into sub classes.
+","Phab"
+"Variable names should be in capital letters.","Phab"
+"Very similar move function for player and donkey.
+Code duplication.","Phab"
+"Bad code smell:
+extremely branched code. ","Phab"
+"Line too long.
+Closing docstring should have been on a new line.","Phab"
+"line too long.
+Line should be atmost 79 characters. ","Phab"
+"Failed to implement the concept of lives in the game.","Phab"
+"missing whitespace after ','.","Phab"
+"
+
+Wildcard import. Bad practice. Should import only those parts which are required.
+","Phab"
+"Duplicated code.","Phab"
+"Code duplication
+similar code found in class Player.","Phab"
+"Since getX and getY  functions are being used by other classses too, they should have been defined inside the person class, so that all the classes inheriting from person could have used it from there itself.","Phab"
+"Good naming system followed for functions and classes.
+In functionalities:
+ # Jump not implemented.
+ # Motion of fireballs is not randomized.
+ 
+Death:
+# if fireball_position = 9,20 and player_position  = 11, 20.
+Now if the player moves towards the left and the fireball towards the right, both reach 10,20 and the player dies.
+# if fireball_position = 9,20 and player_position  = 10, 20.
+Now if the player moves towards the left and the fireball towards the right, both interchange positions and thus the player doesn't die.
+This is a mojor bug in the code.
+","Phab"
+"All classes inheriting from person are under the same files. But all other classes are already in different files.","Phab"
+"lines 13-21 have indentation using tabs instead of spaces.","Phab"
+"Hard-coded board.
+Should have used loops instead of completely hard coding the board. Loops make it easier to modify the game board and reduce redundant lines.","Phab"
+"Expected 2 blank lines after class definition, found 1.","Phab"
+"Instead of adding condition for both lower and uppercase, the programmer could have changed the user input to lower case by using ch.lower() function.","Phab"
+"Unnecessary parenthesis.
+it's python, not C.","Phab"
+"Importing all from a module is not according to PEP8 standards.
+Import only the parts which are necessary.","Phab"
+"**Functionalities:**
+JUMP not implemented.
+No concept of lives or game-level.
+Player fails to reach the queen., game ends abruptly.
+Game board completely hard-coded, even the stairs.
+Game is not interactive, information related to controls should be given to the player at the staring of the game.
+Inline comments often state the obvious, therefore are unnecessary.
+
+Use of TABS instead of spaces at various places.
+Missing spaces around the operators while assigning values to variables.
+The docstrings fail to provide any insight into the classes, hence are more or less useless.
+If and else statements don't require parenthesis.
+","Phab"
+"**Functionalities:**
+JUMP not implemented.
+No concept of lives or game-level.
+Player fails to reach the queen., game ends abruptly.
+Game board completely hard-coded, even the stairs.
+Game is not interactive, information related to controls should be given to the player at the staring of the game.
+Inline comments often state the obvious, therefore are unnecessary.
+Game has not been divided into separate modules.
+
+Use of TABS instead of spaces at various places.
+Missing spaces around the operators while assigning values to variables.
+The docstrings fail to provide any insight into the classes, hence are more or less useless.
+If and else statements don't require parenthesis.
+","Phab"
+"Good:
+Inheritance done.","Phab"
+"
+
+Wildcard import is bad. Only what is used must be imported.
+","Phab"
+"Variable should be defined in a separate class, so that they can later be imported and their values modified, if and when necessary.","Phab"
+"Unclear argument names., eg r,c.","Phab"
+"Cyclomatic Complexity
+too much branching and nested if-else statements.","Phab"
+"Missing docstrings:
+In case of large functions, Docstrings promote readability and enhance the understandability of the code.","Phab"
+"
+
+The constants should have been placed in a separate file to easily change them when required.
+","Phab"
+"File is not split equally. Most of the methods are in pp.py, while the other two barely contain any major code.","Phab"
+"For multiline docstrings, closing \""\""\""  should be on a separate line.","Phab"
+"Nested if-else.
+Cyclomatic complexity.","Phab"
+"No apparent difference in game levels, except the number of coins.","Phab"
+"
+
+Wildcard imports are bad and should not be used. This is also true for the random import statement.
+","Phab"
+"Code snell
+Unnecessary comments should be removed.","Phab"
+"
+BUG : Sometimes part of the stair gets removed from the display. Must have checked all the cases.
+","Phab"
+"unnecessary blank line
+Blank lines are only required in case of multiline docstring. ","Phab"
+"Comments are meant to increase the understandability of the code.
+Therefore, unnecessary comments must be removed.","Phab"
+"Duplicated code:
+Writing the  functions moveUP/DOWN/LEFT/RIGHT could have been avoided by making the class Fireball inherit from the class person.","Phab"
+"2 blank lines expected after class definition.","Phab"
+"Functionalities:
+JUMP not implemented.
+There is only a single fireball.","Phab"
+"Class board is too long (God object).
+no separate main() function identified.
+Inappropriate intimacy of other classes on board.
+","Phab"
+"Docstrings are meant to increase the understandability of code. This just states the class name again.","Phab"
+"Expected space after comma in function definition.","Phab"
+"Improper nomenclature reduces understandability.","Phab"
+"Expected two blank lines before start of a new function, found only one.","Phab"
+"I don't think so!
+","Phab"
+"asacsaccascsa","Phab"
+"Game asks difficulty between 1 to 3. Even if we enter a number other than 1 to 3 it works.","Phab"
+"Bug: nothing happens on reaching the queen. The game continues even after reaching the queen.","Phab"
+"If we down the ladder the stairs are shifted up","Phab"
+"Bug: jump not working","Phab"
+"There is only 1 life. 3 lives should have been given to the player.","Phab"
+"Life of player never becomes 0. The game continues even after losing 3 lifes.","Phab"
+"colors are defines here and also in dkfinal.py. You should have used modulation and imported that file in both these file. This is redundant code. Bad use of modulation","Phab"
+"init function of parent class is not called inside this function","Phab"
+"Functionality: Fireballs doesn't move if the player doesn't move.","Phab"
+"Bug: if we jump towards the stairs and the player passes through the stair, the stair disappears.","Phab"
+"Bug: Sometimes player doesn't get out even on colliding with fireball.
+Bug: If fireball is stuck between a stair and a wall, it moves between the stair and wall forever and never gets out from there","Phab"
+"Player can move up by using even the half stairs.","Phab"
+"dvzdvdsvbfvfd","Phab"
+"Too big function. Can be broken into two different functions.","Phab"
+"Code smell: Lazy Class.","Phab"
+"import of different modules should be in different lines according to PEP8 standards","Phab"
+"players stay in air if we go at he end of a floor where there is no wall below.","Phab"
+"Sometimes the code gives index out of range error if we try to pass through the wall","Phab"
+"Only classes with same characterstics should inherit each other. So fireball class should not inherit from person","Phab"
+"Bug: Player doesn't move down if space is pressed consecutively.","Phab"
+"Wrong indentation. Tabs used instead of spaces.","Phab"
+"Tabs used instead of spaces","Phab"
+"on pressing left arrow key the played moves in forward direction","Phab"
+"google pygame.quit() and you will find that there is a quit member in pygame module","Phab"
+"Unnecessary import. Select module is never used.","Phab"
+"sometimes stairs get shifted if we go across it.","Phab"
+"No need of this function if you did not do anything inside it.","Phab"
+"PEP8: A line should not have more than 79 characters","Phab"
+"Fireball doesn't get removed if it reaches bottom of the board. So no. of fireballs keeps on increasing.","Phab"
+"Bug: Because of bad use of curses library, when you quit the game, the terminal does not show anything you type. So it leaves the terminal in a bad state after you quit the game","Phab"
+"There should be a space before and after '='","Phab"
+"Bug: Because of use of threading,sometimes two lifes of player get deducted even if you get out only once i.e. life is deducted one from each thread when you collide with fireballs","Phab"
+"Function length too big","Phab"
+"If we jump over the stairs the player does not stop over the stairs. It eats the stairs.","Phab"
+"Code Smell: The name of the variable should reflect its function. Variables like l,r,fl etc. which have no meaning to the game are used.","Phab"
+"This class has grown too large because of bad implementation","Phab"
+"Part after this should have been written inside a function.","Phab"
+"Tabs used instead of spaces.","Phab"
+"All import should be at the start of the code and there should be only 1 import in each line.","Phab"
+"All functions should be inside a class.","Phab"
+"With increasing difficulty level only the number of coins increases which is not a difficulty for the player","Phab"
+"Bug: No error handling. So when asks for difficulty level from 1 to 3, even if we press any number other than 1 to 3, the game works.","Phab"
+"jump works only if we give the direction of jump. If we press two jumps consecutively the game quits saying \""enter w/a/s/d only\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"fireball does not move if the player does not move.","Phab"
+"Only 1 life. Player should be given three lives.","Phab"
+"Player can not jump from the platform i.e. you do not move when you reach end of platform.","Phab"
+"modulation and encapsulation lacking.","Phab"
+"Player sometimes does not get out even on colliding with fireball.","Phab"
+"Player can not move left or right while jumping. So it only move straight up on jump.","Phab"
+"init function of parent class not called inside init function of child class","Phab"
+"If we move across the ladder the ladder are no more there","Phab"
+"Bug: If we jump over a fireball, the player eats the fireball.","Phab"
+"Some unnecessary arrays used. Implementation could have been much better for this function.","Phab"
+"function without a class","Phab"
+"function without a class","Phab"
+"should have used b.checkCoin function if you have made that function. Otherwise you should have not made that function","Phab"
+"Bug: When the player reaches the queen, it gives error \""global name crt_level not defined\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"tried to show color text but colored text is still not shown in the game.","Phab"
+"Sometimes fireballs are generated just above the stairs, so we can't move up the stairs. so we can't win the game.","Phab"
+"If we enter difficulty greater than or equal to 7, then the game neither starts nor exits. So poor error handling.","Phab"
+"Bug: When you reach the queen, the game exits without your notice. So there is nothing like victory in this game.","Phab"
+"Even the fireballs eats the stairs if they are shifted by 1 while moving down by the player","Phab"
+"//Bad/Mixed Indentation //(tabs used instead of spaces) in almost all lines.
+//Bad whitespace //(Exactly one space is required after every coma).","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.
+","Phab"
+"Bad whitespace (Exactly one space is required after every coma).","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.","Phab"
+"Missing doc-string of module.","Phab"
+"missing method doc-string","Phab"
+"Good.
+Constants in caps.","Phab"
+"Wildcard should be avoided while importing.
+This leads to various unused instances and methods","Phab"
+"Import function(s) that is/are needed. Wildcard should not be used.","Phab"
+"instance of 'Board' has '__column' member and not '_column'","Phab"
+"Fireballs are fixed.
+And randomly generated.","Phab"
+"This function is already defined in line 17.","Phab"
+"unnecessary comment","Phab"
+"function getPlayerPosition() is not called even once","Phab"
+"Redefining \""game\"" (line 10) from outer-scope","Phab"
+"Too many iterative statements.
+**Code repetition.**","Phab"
+"'pass' not needed
+unnecessary statement","Phab"
+"Compile-time error: IndexError (list index out of range)","Phab"
+"Too many statements in function. Should be within 50 lines.
+Divide it to smaller and meaningful functions.","Phab"
+"Bugs Reported !","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.
+Bad whitespace (Exactly one space is required after every coma).
+First character of class name should be in CAPITAL letters.","Phab"
+"Wildcard should be avoided while importing.
+This leads to various unused instances and methods","Phab"
+"Too many branches(if-else) and too many statements.","Phab"
+"I'm sorry, but its used. :)","Phab"
+"Redefining \""score\"" (line 310) from outer-space","Phab"
+"Following lines are too long","Phab"
+"Repetition of similar statements.
+Use of iterative statements are appreciated.","Phab"
+"BUG: Ladder is automatically created when you go either left/right corner and try to move up (press w).","Phab"
+"Class name's first character should be in Capital letter.","Phab"
+"Wildcard should be avoided while importing.
+This leads to various unused instances and methods","Phab"
+"Recursive import.
+This leads to redefinition of class again and again.","Phab"
+"BUG: Ladder disappears while jumping across it.","Phab"
+"Unused argument 'score'","Phab"
+"Good.
+Constants in caps.","Phab"
+"**Compile Error**","Phab"
+"Too many if-elif-else branches, should be <15","Phab"
+"Undefined variable 'ard'","Phab"
+"Modularization not implemented.","Phab"
+"Argument number differs from overridden method.","Phab"
+"Class doc-string is missing.","Phab"
+"Method could be a function, hence is of no use.","Phab"
+"Argument number differs from over-ridden method.","Phab"
+"Recursive import.
+(e.g. pp imports board, board imports pp)
+This leads to redefinition of class again and again.","Phab"
+"BUG: Player don't move.","Phab"
+"Class doc-string is missing.","Phab"
+"Unused argument 'score'","Phab"
+"constant name should be in CAPITAL letters.","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.
+Bad whitespace (Exactly one space is required after every coma).","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.
+Bad whitespace (Exactly one space is required after every coma).
+First character of class name should be in CAPITAL letters.
+","Phab"
+"Attribute of the class defined outside __init__ function.","Phab"
+"Bug: staircase disappears while jumping across it.","Phab"
+"Bad/Mixed Indentation (tabs used instead of spaces) in almost all lines.
+Bad whitespace (Exactly one space is required after every coma).","Phab"
+"Too big function (250 lines), it should be within 50 lines","Phab"
+"sys is imported multiple times.","Phab"
+"Wildcard should be avoided while importing.
+This leads to various unused instances and methods","Phab"
+"Invalid class-name (first letter should be caps)","Phab"
+"This method can itself be a function","Phab"
+"No Globals are used in Classes module","Phab"
+"Pep-8 standard violation:
+Missing class doc-string","Phab"
+"Sleep imported but not used.
+","Phab"
+"Functionality:
+No display for lives","Phab"
+"Functionality:
+Use Curses was not allowed.","Phab"
+"Code-smell:
+Very large function .Can be simplified","Phab"
+"BUG:
+Use of super on an old style class.deprecated ","Phab"
+"Code-smell:
+Too many branches,Functions is too large can be broken into smaller function","Phab"
+"Functionality:
+No get-set Function used. Direct access of Class-variables is not a good practice   ","Phab"
+"Code-smell:
+Method should be function as there is no use of self.","Phab"
+"Code-smell:
+Too many branches.Can be implemented with set of functions","Phab"
+"Code-smell:
+Too many local variables","Phab"
+"BUG:
+Copying positions of elements of game produces multiple copies of same element(e.g Fireball) again and again.","Phab"
+"Code-smell:
+Function is too large .Can be simplified in more than 1","Phab"
+"PEP-8 standard violation:
+Unnecessary use of parenthesis.","Phab"
+"Bug:
+Instance of 'Person' has no 'jmp' member.Should be defined in init.","Phab"
+"PEP-8 standard violation:
+Exactly one space required after comma","Phab"
+"Functionality:
+No Data-encapsulation.","Phab"
+"PEP-8 standard violation:
+indentation contains mixed spaces and tabs .
+","Phab"
+"Bug:
+Player Moves in air too.","Phab"
+"Pep 8:
+Missing class docstring","Phab"
+"Functinality:
+Donkey and Fireballs move even when player do not on a terminal game without any printing errors(Due to multithreading).#good","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space around assignment operator","Phab"
+"NO MODULARIZATION
+Code is too large must have modules. ","Phab"
+"Pep-8 Standard violation:
+Exactly one space required around comparison.","Phab"
+"Code-smell:
+Method should be function no use of self.","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space around assignment operator","Phab"
+"Bug:
+Multiple copies of the players are formed when it jumps and the copies increases.","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space after comma","Phab"
+"All classes in module Classes are not used.Only Class Board must be only imported here.","Phab"
+"Pep-8 Standard violation:
+Exactly one space required after comma","Phab"
+"Bug:
+Multiple copies are fireballs are formed when player collides with it and moves ","Phab"
+"BUG:
+ Module 'pygame' has no 'quit' member.","Phab"
+"Functionality:
+Fireballs does move if player does not move .Please check in newex.py input has a timeout wrapper","Phab"
+"Pep-8 violation: 
+Missing methods docstring","Phab"
+"This File create static view of game .Variable components are generated in newex.py file ","Phab"
+"Redefining built-in 'list' .Use other name than the container itself.","Phab"
+"Pep-8 Violation:
+Missing Class docstring.","Phab"
+"Pep-8:
+Do not import more than 1 module in 1 line","Phab"
+"Pep-8 standard violation:
+Invalid constant names.They must be capital 
+","Phab"
+"Code-smell:
+ Too many instance attributes.Should be less than 7","Phab"
+"Bug:
+Function called here should be crt_levels() .This produces the error when player wins the game that is meet the queen we get an error","Phab"
+"pep-8:
+blank line must not be used here.","Phab"
+"PEP-8 standard violation:
+indentation contains mixed spaces and tabs .","Phab"
+"PEP8:
+Exactly one space required around assignment.
+","Phab"
+"Pep-8 Standard violation:
+Missing method docstring","Phab"
+"No data encapsulation and  use of private variables","Phab"
+"Pep-8 standard violation:
+Re-import of same module again and again","Phab"
+"Code-smell:
+Method could be a function.No use of self.","Phab"
+"Code do not run on my PC even if I have all the library your code imports.How should I checked for functionality
+Atleast attach a readme file ","Phab"
+"PEP-8 standard violation:
+Trailing whitespace (trailing-whitespace)","Phab"
+"PEP-8 standard violation:
+ Missing methods docstring","Phab"
+"Unnecessary semicolon used","Phab"
+"PEP-8 standard violation:
+Unwanted blank lines.","Phab"
+"Pep-8 violation:
+Missing Class docstring","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space around assignment operator","Phab"
+"Code-smell:
+Too few public methods.must be atleast 2","Phab"
+"Code-smell:
+ Method could be a function.No use of self. ","Phab"
+"Codes-smell:
+Method must be a function (no use of self). ","Phab"
+"BUG:
+Using super with old class-style.Deprecated","Phab"
+"Pep-8 standard violation:
+Each import must be done in a separate line","Phab"
+"pep-8
+Trailing blank lines ","Phab"
+"Pep-8:
+Improper use of blank lines","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space around assignment operator","Phab"
+"BUG:
+we cant dodge the fireball by jumping.","Phab"
+"PEP-8 voilation:
+Missing methods docstring.","Phab"
+"Code-smell:
+Too many branches and statements(must be less than 60).Functions is too large can be broken into smaller function","Phab"
+"Bug:
+Code do not run even after having pygame.No readme file so how to run the code.It is trowing exceptions
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File \""/usr/lib/python2.7/threading.py\"", line 810, in __bootstrap_inner
+    self.run()
+","Phab"
+"Code-smell:
+Too few public methods in a class.","Phab"
+"Code-smell:
+Too many branches used","Phab"
+"Bug:
+global name 'screen' is not defined.
+raceback (most recent call last):
+  File \""Sriharsh  Bhyravajjula_445_assignsubmission_file_DonkeyKongv2_201425019.py\"", line 414, in <module>
+    main()
+  File \""Sriharsh  Bhyravajjula_445_assignsubmission_file_DonkeyKongv2_201425019.py\"", line 386, in main
+    player.ljump(screen)
+
+
+","Phab"
+"Functionality:
+No score display","Phab"
+"Functionality:
+Donkey and fireballs move only when player move.","Phab"
+"Code-smell:
+Method must be a functions as there is  no use of self.","Phab"
+"Spelling error \""ssuper\""$$$$""{\""source\"":\""web\"",\""params\"":{\""ip\"":null}}","Phab"
+"Attributes are defined outside init","Phab"
+"Pep-8:
+Number of argument must be not be greater than 5","Phab"
+"pep-8:
+Class must have a doc-string","Phab"
+"Bug:
+Broken stair-case is not used.","Phab"
+"Functionality:
+No function to  add broken ladder","Phab"
+"Functionality:While fireball falls it moves randomly in air too.","Phab"
+"Functionaliy:
+Players has a three lives only game restarts after you lose .Properly as I commented there should be display for it.(oops, I didn't displayed it,my bad)","Phab"
+"Bug:
+jump not properly implemented.Its not bi-directional","Phab"
+"PEP-8 standard violation:
+Exactly a single blank space around assignment operator","Phab"
+"Pep-8:
+Exactly one space required after comma","Phab"
+"Code is too long can be broken up into file lack modularity","Phab"
+"Bug:
+Playes is born in air sometimes","Phab"
+"Functionality:
+Many Copy of the Fireballs are formed when player gets adjacent to fireball and then moves away from it. ","Phab"
+"Functionality:
+Jump is not bidirectional and  is not smooth . ","Phab"
+"Pep-8 Violation:
+No newline at end of file
+","Phab"
+"Bug:
+Player is not killed  even after collision with fireballs","Phab"
+"Pep-8:
+Unnecessary use of parenthesis.","Phab"
+"there is no checking whether the player has reached the queen or not !!!","Phab"
+"sfs","Phab"
+"PEP-8 standard violation:
+Invalid variable names. As per PEP-8, for variables,Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability
+
+","Phab"
+"the player is able to fall from the end of the platform it should not happen!!!","Phab"
+"expected doc string !!","Phab"
+"PEP-8 standard violation :
+Top-level functions and class definitions should be surrounded with two blank lines.","Phab"
+"PEP-8 guideline:
+All the lines in the screen violate the 80 characters per line rule.
+Should ideally be randomised.","Phab"
+"main classes have not been implemented 
+there is no class for fireball and donkey","Phab"
+"variable is declared but not used in the function!!! declaration of unused variables!!! ","Phab"
+"fireballs should move even when the player doesn't move","Phab"
+"comma separated imports should be avoided!!","Phab"
+"too many conditional statements code smell !!!","Phab"
+"when used inheritance  all the functionality should be inherited but nothing is used 
+Person class was of no use !!!
+declaration of unnecessary class","Phab"
+"fireball is not exited at the bottom left !!!
+it continues its motion in the last row","Phab"
+"donkey class should be inherited from the person class but it is not executed !! ","Phab"
+"encapsulation is not implemented!!!","Phab"
+"Wildcard imports not recommended by PEP 8 standards.","Phab"
+"no use of copy pygame
+According to PEP-8 comma separated imports should be avoided","Phab"
+"only one fireball is implemented !!  ","Phab"
+"only two fireballs have been executed!!! ","Phab"
+"Code Smell:
+Too long main function
+divide this into many function","Phab"
+"PEP-8 standard violation :
+All imports should always be put at the top of the file, just after any module comments and docstrings, and before module globals and constants.","Phab"
+"the size of the board should be 30 * 80 !!!","Phab"
+"#BUG:
+Donkey position changes only when player moves by one position in any direction.Threading is not done","Phab"
+"too long lines According to pep 8 standards!!!","Phab"
+"Wildcard imports not recommended by PEP 8 standards.","Phab"
+"fireballs don't exit from the bottom left corner as said in the guidelines of assignment 1!!  ","Phab"
+"encapsulation is not used!!","Phab"
+"since the name of the modules have been changed it is not able to import i have submitted the correct format !!! ","Phab"
+"Name Error : global name  screen is not defined - compilation error when executing jump","Phab"
+"fireball and fireball collision is not checked !
+one fireball eats the other fireball sometimes !!
+","Phab"
+"PEP-8 standard violation:
+Avoid extraneous whitespace immediately inside parentheses, brackets or braces, that is, no space is allowed after bracket.","Phab"
+"modularity is not implemented  !!!","Phab"
+"most of them doesn't have docstring Missing method docstring ","Phab"
+"constants should be in capitals = implemented!!!
+Pep - 8 standards","Phab"
+"getPosition function is not used as asked in the assignment 1 guidelines!!!","Phab"
+"Code smell:
+comments should enhance the understanding !!
+debugging comments should be deleted!!","Phab"
+"PEP - 8
+
+Very Long Function:
+
+Length of function should be 15 - 25 lines","Phab"
+"donkey doesn't move totally till the end  and continue the motion!!!","Phab"
+"straight jump is not executed!!!","Phab"
+"comma separated imports should be avoided!!","Phab"
+"there is no usage of modularity no modules used!!!
+","Phab"
+"the board should be randomised instead of hardcoding it","Phab"
+"too many conditional statements code smell !!!","Phab"
+"when the player meets the queen  the game exits without redirecting to new level","Phab"
+"Code Smell
+Dead code must be removed","Phab"
+"didn't implement modularity!!! 
+it is very useful for debugging and understanding the code","Phab"
+"the donkey is not moving it should move !!","Phab"
+"Pep-8 guidelines:
+Comma separated arguments should have a space after each comma.","Phab"
+"multiple comments shouldn't be inline to method","Phab"
+"fireball doesn't move when the player doesn't move!!!","Phab"
+"3 lives are not given to player
+the game exits after encountering the fireball once or donkey","Phab"
+"coins should be generated after the player has reached the queen but not after collecting all coins
+","Phab"
+"there is a possibility of getting the same board in different levels! because of rand  ","Phab"
+"There is no space between subsequent if else statement,
+so that readability improve","Phab"
+"Old-style class defined. (old-style-class)","Phab"
+"this function can be imported from getchar module no need to write it separately  !!! 
+did n't use modules properly!!!","Phab"
+"when implemented the backward jump its prints multiple players!!!","Phab"
+"Code smell : Lazy Class!!","Phab"
+"Unnecessary usage of parentheses in return statement!!!","Phab"
+"Old-style class defined. (old-style-class)","Phab"
+"PEP-8 standard violation:
+Require exactly one space after each comma(,).","Phab"
+"Code Smell (Dead Code):
+Unused variable, CYAN. Unused code must be removed.","Phab"
+"when the player meets the fireball nothing is happening to the player lives are not lost or the score is not deducted !!! ","Phab"
+"no similar module have been used one is donkeykong and other is donkkong","Phab"
+"the fireballs doesn't disappear when it came to the end of the board i.e left most corner
+instead they move in the bottom most  floor!!!","Phab"
+"PEP-8 standard violation:
+Require exactly one space after each comma(,).","Phab"
+"Name Error : global name screen is not defined - compilation error when executing jump","Phab"
+"jump left jump right jump not implemented !!","Phab"
+"when the person meets the donkey the screen prints multiple donkeys!!!","Phab"
+"PEP-8 standard violation:
+Invalid function name. As per PEP-8,
+Function names should be lowercase, with words separated by underscores as necessary to improve readability. mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.","Phab"
+"PEP-8
+multiple imports should be declared in different lines
+like
+import tty
+import terminos
+import sys","Phab"
+"Code Smell:
+Conditional Complexity
+long if-else chain.","Phab"
+"if the player reaches the queen then the player gets bonus but it is not given","Phab"
+"all the lines are too long Not in accordance with PEP 8 standards","Phab"
+"board should be randomized !! instead of manual","Phab"
+"code smell : comments should be only for readability of the code debugging statements should be removed
+","Phab"
+"every player should be given three lifes . the game exits only after pressing q ","Phab"
+"If you use python3 it works!","Phab"
+"Lives are not implemented.","Phab"
+"Ladders not implemented, only images present.","Phab"
+"Inheritance of person class does not have much functionality.","Phab"
+"Bad indentation.","Phab"
+"Did not use public/private variables.
+getPosition() function not implemented. 
+","Phab"
+"Very long function. Can be simplified or split into smaller functions.","Phab"
+"Have to create more levels, only the stages and ladders can be changed.
+No. of donkeys, fireballs etc don't change for levels.","Phab"
+"Nested if loops. Can be simplified.","Phab"
+"Too many nested loops. Bad practice.","Phab"
+"Unnecessary Blank Line. ","Phab"
+"Duplicated code, used in player class also. Not much difference.","Phab"
+"Should use capital letters for constants.","Phab"
+"1 line should be left after a function.","Phab"
+"Score does not update.","Phab"
+"No need of this.","Phab"
+"Missing doc-string for classes.","Phab"
+"Some PEP-8 standards not followed.
+There are too many unwanted blank lines.
+Some functions of the player have not been implemented well, like jump, fireball collision etc.
+There are no levels. 
+There is no score display. 
+Lives are not displayed.","Phab"
+"Fireballs get accumulated at the screen.","Phab"
+"2 blank lines should be left after a class.","Phab"
+"When the player is on the ladder, fireball doesn't work on him.
+Except this good game. The UI can be improved.","Phab"
+"Collision with fireball not checked.","Phab"
+"Should use the __all__ mechanism to prevent exporting globals, or use the older convention of prefixing such globals with an underscore according to PEP-8 standards.","Phab"
+"2 lines should be left after a class.
+","Phab"
+"First letter of class name should be capital.","Phab"
+"PEP-8 Standards not followed. ex : - Leaving blank lines between functions and classes, first letter of class name should be capital, capital constant names etc.
+There is no modularity.
+Board Class not implemented.
+Person class not implemented.
+Some compulsory functions not implemented, like getPosition().
+Mixed indentation.
+Private variables not used.
+Code smells include large class, duplicated code, excessive use of literals, cyclomatic complexity, long function.
+Some features not implemented like levels, ladders, princess, only one fireball comes, coins less than 20.
+Only some important collisions are checked.
+The code is redundant, its mostly hard coded.
+ ","Phab"
+"Should use the __all__ mechanism to prevent exporting globals, or use the older convention of prefixing such globals with an underscore according to PEP-8 standards.","Phab"
+"Constants should be in capitals according to PEP-8 standards.","Phab"
+"According to PEP-8 standards, the constants should be in capital for better readability.","Phab"
+"Person Class not implemented. No modularity.
+","Phab"
+"1 line should be left after a function.","Phab"
+"Function has potential for simplification.","Phab"
+"Levels not implemented. Only one level.","Phab"
+"function is too large > 20 lines. It should have been in constructor wall class.","Phab"
+"This class does not have a constructor method","Phab"
+"Line is too long. ( >75 characters)","Phab"
+" first letter should be capital.","Phab"
+"No use of inheritance here, person class doesn't do anything.","Phab"
+"Bad way to write mix of lower and uppercase letters for function name. it should be written in lower case. Words should be separated by underscores.","Phab"
+"PEP-8 Standards not followed, no lines left after functions and classes, first letter of class name is not capital etc.
+Unnecessary inheritance, no functionality.
+Player movement is very bad, moves very slowly (update is slow because of bad game refresh ).
+Levels not implemented.
+Lots of hard coding. ","Phab"
+"Cyclomatic complexity, too many branches/loops ","Phab"
+"Death for the player not implemented.","Phab"
+"Unwanted blank lines.","Phab"
+"Player gets stuck if it hits a fireball and doesn't move.
+","Phab"
+"First letter should be capital for a class name.","Phab"
+"Should use the \""__all__\"" mechanism to prevent exporting globals, or use the older convention of prefixing such globals with an underscore","Phab"
+"Bad screen size implementation. Cannot view the whole game in some resolutions.","Phab"
+"After every class there should be 2 blank lines.","Phab"
+"Long function, too large/long.","Phab"
+"The first letter should be in capital for a class.","Phab"
+"fireball does not come from the donkey, it is generated separately.
+Only one fireball.","Phab"
+"Unnecessary blank line. ","Phab"
+"Large function. Very long function. Can be simplified and split into smaller functions.","Phab"
+"Too redundant. Hard coded.","Phab"
+"Line is too long ( > 80 characters)","Phab"
+"Excessive use of literals","Phab"
+"The constants should be in capitals.","Phab"
+"Leave a blank line after every function.","Phab"
+"collision with player not checked.
+","Phab"
+"Jump not implemented well. Doesn't move when jumping, only jumps on the position.","Phab"
+"return function not working","Phab"
+"only single fireball is present and is not coming from donkey","Phab"
+"pep-8:
+wildcard import should be avoided","Phab"
+"queen class is not implemented
+compulsory functions getCoin, checkWall,getPosition, checkCollision not properly implemented
+score always remains at zero
+game doesnt quit when entered q
+player and donkey class are not inherited from person class
+no implementation of broken stairs
+coins generated are less than required number
+queen is not present at the topmost line inside the cage
+
+","Phab"
+"unnecessarily printing '**'","Phab"
+"Code Smell 
+these comments are unnecessary
+they should be removed","Phab"
+"controls for movement not working for player","Phab"
+"pep-8:
+there should be proper spacing between operators","Phab"
+"pep-8:
+wild card imports should be avoided","Phab"
+"Donkey doesn't move. It is only generated randomly at every iteration.","Phab"
+"movement of the player is not displayed
+intial position of player is given at (0,0) but it should be given after the wall","Phab"
+"when reached the Queen new lavel is not generated. The board is not refreshed. Only intial positions are restored","Phab"
+"unnecessary comments
+dead code must be removed","Phab"
+"walls are not constructed in the game","Phab"
+"code smell:
+long if-else chain","Phab"
+"board and fireball class are not implemented
+there is no next level
+there are no private variables
+same code is repeated many times
+too many blank spaces in between lines violating pep-8 standards
+haven't followed oop principles","Phab"
+"CheckWall function only prints. The condition for checking the wall is not written inside the function","Phab"
+"according to pep-8 there should be proper spacing between operators","Phab"
+"once you climg the staris they get broken
+no condition for not climbing the broken stairs","Phab"
+"according to pep-8 class name should start with capital letter","Phab"
+"according to pep-8 space is required between operators","Phab"
+"required classes queen,donkey , fireballs are not present seperately
+functions that were asked to implement like
+getPosition()
+getCoin()
+checkWall()
+checkCollision()
+are not present 
+player class is not inherited from person class
+
+BUGS:
+donkey not found on board
+queen not found on board
+controls work for left and right keys instead of a and d keys
+can even climb broken stairs
+game doesnt quit on pressing q
+can never reach fire ball level due to broken floor
+score is not displayed continuously
+coins present even on walls
+fire balls not coming from donkey
+too many fireballs on last level, player will definetely die
+hearts even present on walls
+lives are not implemented properly","Phab"
+"pep-8 
+there should be space after commas","Phab"
+"unnecessary global variables","Phab"
+"classes like person,player,queen ,donkey are not implemented
+the game doesnt run
+modularity is not seen
+encapsulation is not seen
+havent followed OOP principles
+queen is not present
+fireballs are not present
+coins are not present
+score variable is not seen
+required functions like checkWall, checkPosition,getPosition, getCoin are not found
+they are no levels
+there is no indication of stairs
+controls for movement of player dont work
+the board is not getting displayed
+pep-8 standards havent been met
+","Phab"
+"pep-8:
+method doc-string is missing","Phab"
+"according to  pep-8 there should be space after commas","Phab"
+"code is too long. can be simplified","Phab"
+"there is no movement in donkey","Phab"
+"game doesnt quit on giving input q","Phab"
+"no need to print this statement","Phab"
+"these values assigned to variables are not used","Phab"
+"pep-8 :
+class name should start with a capital letter","Phab"
